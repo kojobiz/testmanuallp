@@ -4,9 +4,76 @@
 // 下層 - LP１,2
 // ======================================
 
+$lp-beige: #F8F5F2;
+$lp-white:#fff;
+$lp-red:#BC0101;
+$lp-txtred:#A20000;
+$lp-txtorange:#E86B65;
+$lp-txtbeige:#E3D7CB;
+$lp-test:rgb(191, 236, 191);
+
 .testpage {
     color: red;
     .text {
         color: yellow;
     }
 }
+// section
+.l-smlp {
+    margin : 0 auto;
+    width:100%;
+    .l-section {
+        padding-left:1rem;
+        padding-right:1rem;
+        margin: 0 auto;
+        &--tight {
+            max-width:980px;
+            margin:0 auto;
+        }
+        &--wide {
+            max-width:1160px;
+            margin:0 auto;
+        }
+        
+        
+    }
+    .lp-beige {
+        background-color:$lp-beige;
+    }
+    .lp-white {
+        background-color:$lp-white;
+    }
+    .lp-test {
+        background-color:$lp-test;
+    }
+}
+
+    .one {
+        width: 100%;
+        height: 50px;
+        background-color: #a9a7a7;
+    }
+    .two {
+        background-color: #825e5e;
+    }
+    .three {
+        background-color: #d8c46d;
+    }
+    .four{
+        background-color: #a9a7a7;
+    }
+    .five {
+        background-color: #b784a4;
+    }
+    .six {
+        background-color: #85b7ab;
+    }
+    .seven {
+        background-color: #ada4c5;
+    }
+    .eight {
+        background-color: #b784a4;
+    }
+    .nine {
+        background-color: #85b7ab;
+    }

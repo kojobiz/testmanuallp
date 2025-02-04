@@ -3,4 +3,69 @@
 }
 .testpage .text {
   color: yellow;
+}
+
+.l-smlp {
+  margin: 0 auto;
+  width: 100%;
+}
+.l-smlp .l-section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+.l-smlp .l-section--tight {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.l-smlp .l-section--wide {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.l-smlp .lp-beige {
+  background-color: #F8F5F2;
+}
+.l-smlp .lp-white {
+  background-color: #fff;
+}
+.l-smlp .lp-test {
+  background-color: rgb(191, 236, 191);
+}
+
+.one {
+  width: 100%;
+  height: 50px;
+  background-color: #a9a7a7;
+}
+
+.two {
+  background-color: #825e5e;
+}
+
+.three {
+  background-color: #d8c46d;
+}
+
+.four {
+  background-color: #a9a7a7;
+}
+
+.five {
+  background-color: #b784a4;
+}
+
+.six {
+  background-color: #85b7ab;
+}
+
+.seven {
+  background-color: #ada4c5;
+}
+
+.eight {
+  background-color: #b784a4;
+}
+
+.nine {
+  background-color: #85b7ab;
 }/*# sourceMappingURL=smlp.css.map */
