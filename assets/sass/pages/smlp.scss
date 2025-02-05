@@ -193,6 +193,32 @@ main {
             letter-spacing:0.1rem;
             font-size:20px;
         }
+        .p-cta-btn01 {
+            background-color: $lp-red;
+            width: 385px;
+            height: 125px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 37.2px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(0, 50%);
+            p {
+                font-size:19px;
+                font-weight:700;
+                color: $lp-white;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+            span {
+                font-size:29px;
+                font-weight:700;
+                color: $lp-white;
+            }
+        }
     }
     // お悩み
     .l-ask {

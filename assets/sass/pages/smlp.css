@@ -152,6 +152,32 @@ main {
   letter-spacing: 0.1rem;
   font-size: 20px;
 }
+.l-smlp .l-hero .p-cta-btn01 {
+  background-color: #BC0101;
+  width: 385px;
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 37.2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 50%);
+}
+.l-smlp .l-hero .p-cta-btn01 p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.l-smlp .l-hero .p-cta-btn01 span {
+  font-size: 29px;
+  font-weight: 700;
+  color: #fff;
+}
 .l-smlp .l-ask {
   height: 1187px;
   width: 100%;
