@@ -11,6 +11,7 @@ $lp-txtred:#A20000;
 $lp-txtorange:#E86B65;
 $lp-txtbeige:#E3D7CB;
 $lp-test:rgb(191, 236, 191);
+$lp-heightbase:52px;
 
 .testpage {
     color: red;
@@ -49,6 +50,39 @@ $lp-test:rgb(191, 236, 191);
     }
     .lp-test {
         background-color:$lp-test;
+    }
+
+    .l-hero {
+        height:575px;
+    }
+    .l-ask {
+        height:1187px;
+    }
+    .l-solution {
+        height:3143px;
+    }
+    .l-cta {
+        height:512px;
+    }
+    .l-example {
+        height:1814px;
+    }
+    .l-plus {
+        height:1334px;
+    }
+    .l-space-y {
+        &--high4 {
+            height:calc($lp-heightbase * 4);
+        }
+        &--high1 {
+            height:calc($lp-heightbase * 1);
+        }
+        &--high2 {
+            height:calc($lp-heightbase * 2);
+        }
+        &--high3 {
+            height:calc($lp-heightbase * 3);
+        }
     }
 }
 

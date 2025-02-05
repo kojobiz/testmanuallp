@@ -35,6 +35,36 @@
 .l-smlp .lp-test {
   background-color: rgb(191, 236, 191);
 }
+.l-smlp .l-hero {
+  height: 575px;
+}
+.l-smlp .l-ask {
+  height: 1187px;
+}
+.l-smlp .l-solution {
+  height: 3143px;
+}
+.l-smlp .l-cta {
+  height: 512px;
+}
+.l-smlp .l-example {
+  height: 1814px;
+}
+.l-smlp .l-plus {
+  height: 1334px;
+}
+.l-smlp .l-space-y--high4 {
+  height: 208px;
+}
+.l-smlp .l-space-y--high1 {
+  height: 52px;
+}
+.l-smlp .l-space-y--high2 {
+  height: 104px;
+}
+.l-smlp .l-space-y--high3 {
+  height: 156px;
+}
 
 .one {
   width: 100%;
