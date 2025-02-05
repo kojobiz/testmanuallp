@@ -13,6 +13,69 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.l-smlp ul, .l-smlp li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0px !important;
+  padding-left: 10px;
+}
+.l-smlp h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0px !important;
+  font-weight: 600;
+}
+.l-smlp h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0px !important;
+  font-weight: 300;
+}
+.l-smlp .p-maintxt {
+  font-size: 1.09rem;
+}
+.l-smlp .l-listwrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 78.5px;
+  grid-gap: 57px;
+}
+.l-smlp .l-listcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.l-smlp .l-listcenter ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.l-smlp .p-h3--ask {
+  padding-top: 32px;
+  padding-bottom: 17px;
+}
+.l-smlp .p-iconcheck {
+  position: relative;
+}
+.l-smlp .p-iconcheck:before {
+  position: absolute;
+  content: "";
+  background-image: url(../../../images/service/manual/lp/icon_check.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 21px;
+  left: -30px;
+  top: 3px;
+}
+.l-smlp .line-title:after {
+  content: "";
+  display: block;
+  width: calc(100% + 60px);
+  height: 4px;
+  background-color: #A20000;
+  margin-top: 10px;
+  margin-left: -30px;
+}
 .l-smlp .l-section {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -45,6 +108,9 @@
 .l-smlp .l-ask {
   height: 1187px;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 56px;
 }
 .l-smlp .l-solution {
   height: 3143px;

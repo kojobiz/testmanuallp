@@ -4,6 +4,7 @@
 // 下層 - LP１,2
 // ======================================
 
+// カラーや余白
 $lp-beige: #F8F5F2;
 $lp-white:#fff;
 $lp-red:#BC0101;
@@ -13,7 +14,18 @@ $lp-txtbeige:#E3D7CB;
 $lp-test:rgb(148, 215, 148);
 $lp-heightbase:52px;
 $lp-heightbase2:80px;
+$lp-titlelinemore:30px;
 
+// フォントサイズ
+$lp-h2:2.5rem; //40px
+$lp-h3:1.5rem; //25px
+$lp-bold:600;
+$lp-thin:300;
+$lp-maintxt:1.09rem; //18px
+
+
+
+// 設定
 .testpage {
     color: red;
     .text {
@@ -25,6 +37,72 @@ $lp-heightbase2:80px;
     section {
         padding-left: 20px;
         padding-right:20px;
+    }
+    ul, li {
+        text-decoration: none;
+        list-style:none;
+        margin-bottom: 0px!important;
+        padding-left: 10px;
+    }
+    h2 {
+        font-size:$lp-h2;
+        margin-bottom:0px!important;
+        font-weight:$lp-bold;
+    }
+    h3 {
+        font-size:$lp-h3;
+        margin-bottom:0px!important;
+        font-weight:$lp-thin;
+    }
+    .p-maintxt {
+        font-size:$lp-maintxt;
+    }
+    .l-listwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 78.5px;
+        grid-gap: 57px;
+    }
+    .l-listcenter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap:0.4rem;
+        }
+    }
+    .p-h3--ask {
+        padding-top: 32px;
+        padding-bottom:17px;
+    }
+    .p-iconcheck {
+        position: relative;
+    }
+    .p-iconcheck:before {
+        position: absolute;
+        content:"";
+        background-image: url(../../../images/service/manual/lp/icon_check.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 21px;
+        left: -30px;
+        top: 3px;
+
+    }
+    .line-title:after {
+        content: "";
+        display: block;
+        width: calc(100% + $lp-titlelinemore * 2);
+        height: 4px;
+        background-color:$lp-txtred;
+        margin-top: 10px;
+        margin-left:-30px;
+        
+
     }
     margin : 0 auto;
     width:100%;
@@ -60,9 +138,13 @@ $lp-heightbase2:80px;
     .l-hero {
         height:575px;
     }
+    // お悩み
     .l-ask {
         height:1187px;
         width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:56px;
     }
     .l-solution {
         height:3143px;
