@@ -28,7 +28,7 @@ main {
   text-decoration: none;
   list-style: none;
   margin-bottom: 0px !important;
-  padding-left: 0px !important;
+  padding: 0px !important;
 }
 .l-smlp h2 {
   font-size: 2.5rem;
@@ -47,6 +47,8 @@ main {
 }
 .l-smlp .p-maintxt {
   font-size: 1.09rem;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 .l-smlp .l-listwrapper {
   display: grid;
@@ -58,12 +60,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 460px;
 }
 .l-smlp .l-listcenter ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.4rem;
+  width: 100%;
+  padding: 0;
 }
 .l-smlp .p-h3--ask {
   padding-top: 32px;
