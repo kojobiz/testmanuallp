@@ -21,10 +21,14 @@
 .l-smlp .l-section--tight {
   max-width: 980px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .l-smlp .l-section--wide {
   max-width: 1160px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .l-smlp .lp-beige {
   background-color: #F8F5F2;
@@ -33,13 +37,14 @@
   background-color: #fff;
 }
 .l-smlp .lp-test {
-  background-color: rgb(191, 236, 191);
+  background-color: rgb(148, 215, 148);
 }
 .l-smlp .l-hero {
   height: 575px;
 }
 .l-smlp .l-ask {
   height: 1187px;
+  width: 100%;
 }
 .l-smlp .l-solution {
   height: 3143px;
@@ -53,6 +58,15 @@
 .l-smlp .l-plus {
   height: 1334px;
 }
+.l-smlp .l-flow {
+  height: 847px;
+}
+.l-smlp .l-faq {
+  height: 2595px;
+}
+.l-smlp .l-contact {
+  height: 1207px;
+}
 .l-smlp .l-space-y--high4 {
   height: 208px;
 }
@@ -64,6 +78,9 @@
 }
 .l-smlp .l-space-y--high3 {
   height: 156px;
+}
+.l-smlp .l-space-y--highmore {
+  height: 80px;
 }
 
 .one {
