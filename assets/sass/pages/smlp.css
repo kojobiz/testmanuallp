@@ -1,3 +1,10 @@
+main {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .testpage {
   color: red;
 }
@@ -13,6 +20,10 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.l-smlp .section100 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .l-smlp ul, .l-smlp li {
   text-decoration: none;
   list-style: none;
@@ -27,7 +38,7 @@
 .l-smlp h3 {
   font-size: 1.5rem;
   margin-bottom: 0px !important;
-  font-weight: 300;
+  font-weight: 500;
 }
 .l-smlp .p-maintxt {
   font-size: 1.09rem;
@@ -104,6 +115,17 @@
 }
 .l-smlp .l-hero {
   height: 575px;
+  background-image: url(../../../images/service/manual/lp/img_bg_hero01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: -30px;
+  top: 3px;
+}
+.l-smlp .l-hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 71.5px;
 }
 .l-smlp .l-ask {
   height: 1187px;
