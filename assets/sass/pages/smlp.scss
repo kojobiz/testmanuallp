@@ -20,10 +20,13 @@ $lp-titlelinemore:30px;
 
 // フォントサイズ
 $lp-h2:2.5rem; //40px
+$lp-h2big:3.0rem; //48px
 $lp-h3:1.5rem; //25px
 $lp-bold:600;
 $lp-semibold:500;
 $lp-maintxt:1.09rem; //18px
+$lp-p24:24px;
+$lp-p20:20px;
 
 main {
     font-family: 'Noto Sans JP', sans-serif;
@@ -32,6 +35,17 @@ main {
     -moz-osx-font-smoothing: grayscale;  // Firefox用のフォントスムージング
 }
 
+.ai-center {
+    align-items: center;
+}
+.ta-center {
+    text-align: center;
+}
+.flex-row--aicenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 // 設定
 .testpage {
@@ -110,6 +124,10 @@ main {
         padding-top: 32px;
         padding-bottom:17px;
     }
+    .p-h2--solution {
+        padding-top: 23px;
+        padding-bottom: 30px;
+    }
     .p-iconcheck {
         position: relative;
     }
@@ -123,7 +141,6 @@ main {
         height: 21px;
         left: -30px;
         top: 3px;
-
     }
     .line-title:after {
         content: "";
@@ -134,6 +151,12 @@ main {
         margin-top: 10px;
         margin-left:-30px;
         
+
+    }
+    .big-title {
+        font-size:$lp-h2big;
+        line-height:4.2rem;
+        text-align: center;
 
     }
     margin : 0 auto;
@@ -234,9 +257,28 @@ main {
         align-items: center;
         padding-bottom:56px;
     }
+    // 解決
     .l-solution {
         height:3143px;
+        flex-direction: column;
+        align-items: center;
     }
+    .p24 {
+        font-size: $lp-p24;
+    }
+    .p20 {
+        font-size:20px;
+    }
+    .p-icon--diared {
+        padding-top: 15px;
+        padding-right:6px;
+        padding-bottom: 10px;
+    }
+
+
+
+
+
     .l-cta {
         height:512px;
     }
@@ -302,4 +344,13 @@ main {
     }
     .nine {
         background-color: #85b7ab;
+    }
+
+    .l-listwrapper {
+        &--solution {
+            display:flex;
+            flex-direction :column;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     }

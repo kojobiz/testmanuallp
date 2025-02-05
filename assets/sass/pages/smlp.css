@@ -5,6 +5,20 @@ main {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ai-center {
+  align-items: center;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.flex-row--aicenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .testpage {
   color: red;
 }
@@ -75,6 +89,10 @@ main {
   padding-top: 32px;
   padding-bottom: 17px;
 }
+.l-smlp .p-h2--solution {
+  padding-top: 23px;
+  padding-bottom: 30px;
+}
 .l-smlp .p-iconcheck {
   position: relative;
 }
@@ -97,6 +115,11 @@ main {
   background-color: #A20000;
   margin-top: 10px;
   margin-left: -30px;
+}
+.l-smlp .big-title {
+  font-size: 3rem;
+  line-height: 4.2rem;
+  text-align: center;
 }
 .l-smlp .l-section {
   padding-left: 1rem;
@@ -193,6 +216,19 @@ main {
 }
 .l-smlp .l-solution {
   height: 3143px;
+  flex-direction: column;
+  align-items: center;
+}
+.l-smlp .p24 {
+  font-size: 24px;
+}
+.l-smlp .p20 {
+  font-size: 20px;
+}
+.l-smlp .p-icon--diared {
+  padding-top: 15px;
+  padding-right: 6px;
+  padding-bottom: 10px;
 }
 .l-smlp .l-cta {
   height: 512px;
@@ -264,4 +300,11 @@ main {
 
 .nine {
   background-color: #85b7ab;
+}
+
+.l-listwrapper--solution {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=smlp.css.map */
