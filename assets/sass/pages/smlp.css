@@ -28,7 +28,7 @@ main {
   text-decoration: none;
   list-style: none;
   margin-bottom: 0px !important;
-  padding-left: 10px;
+  padding-left: 0px !important;
 }
 .l-smlp h2 {
   font-size: 2.5rem;
@@ -39,6 +39,11 @@ main {
   font-size: 1.5rem;
   margin-bottom: 0px !important;
   font-weight: 500;
+}
+.l-smlp .l-featurewrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
 }
 .l-smlp .p-maintxt {
   font-size: 1.09rem;
@@ -116,16 +121,36 @@ main {
 .l-smlp .l-hero {
   height: 575px;
   background-image: url(../../../images/service/manual/lp/img_bg_hero01.png);
-  background-size: 100%;
   background-repeat: no-repeat;
-  left: -30px;
-  top: 3px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0;
+  bottom: 0;
+  position: relative;
 }
 .l-smlp .l-hero-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 71.5px;
+}
+.l-smlp .l-hero-wrapper--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.l-smlp .l-hero .p-hero-cap {
+  padding-top: 23px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px !important;
+  letter-spacing: 0.1rem;
+  font-size: 20px;
 }
 .l-smlp .l-ask {
   height: 1187px;

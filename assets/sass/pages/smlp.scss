@@ -57,7 +57,7 @@ main {
         text-decoration: none;
         list-style:none;
         margin-bottom: 0px!important;
-        padding-left: 10px;
+        padding-left: 0px!important;
     }
     h2 {
         font-size:$lp-h2;
@@ -69,9 +69,20 @@ main {
         margin-bottom:0px!important;
         font-weight:$lp-semibold;
     }
+
+
+    // hero
+    .l-featurewrapper {
+        display: flex;
+        flex-direction: row;
+        gap:37px;
+    }
+
     .p-maintxt {
         font-size:$lp-maintxt;
     }
+
+
     .l-listwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -153,17 +164,35 @@ main {
     .l-hero {
         height:575px;
         background-image: url(../../../images/service/manual/lp/img_bg_hero01.png);
-        background-size: 100%;
         background-repeat: no-repeat;
-        left: -30px;
-        top: 3px;
+        object-fit: cover;
+        left: 0;
+        bottom: 0;
+        position: relative;
         &-wrapper {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-top:71.5px;
+            &--center {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            padding-top: 71.5px;
         }
-        
+        .p-hero-cap {
+            padding-top:23px;
+            padding-bottom:30px;
+            color: $lp-white;
+            font-weight: 500;
+            margin-bottom: 0px!important;
+            letter-spacing:0.1rem;
+            font-size:20px;
+        }
     }
     // お悩み
     .l-ask {
