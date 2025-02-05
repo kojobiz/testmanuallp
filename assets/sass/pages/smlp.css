@@ -9,6 +9,10 @@
   margin: 0 auto;
   width: 100%;
 }
+.l-smlp section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .l-smlp .l-section {
   padding-left: 1rem;
   padding-right: 1rem;
