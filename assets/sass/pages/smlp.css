@@ -19,6 +19,18 @@ main {
   align-items: center;
 }
 
+.flex-row--aiend {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.flex-col--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .testpage {
   color: red;
 }
@@ -219,16 +231,37 @@ main {
   flex-direction: column;
   align-items: center;
 }
+.l-smlp .line-title-solution--itemtitle {
+  padding-bottom: 28px;
+  border-bottom: 4px solid #BC0101;
+}
+.l-smlp .p23 {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+.l-smlp .p55 {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
 .l-smlp .p24 {
   font-size: 24px;
 }
 .l-smlp .p20 {
   font-size: 20px;
 }
+.l-smlp .p18 {
+  font-size: 18px;
+}
+.l-smlp .p36 {
+  font-size: 36px;
+}
 .l-smlp .p-icon--diared {
   padding-top: 15px;
   padding-right: 6px;
   padding-bottom: 10px;
+}
+.l-smlp .mt--15 {
+  margin-top: -15px;
 }
 .l-smlp .l-cta {
   height: 512px;

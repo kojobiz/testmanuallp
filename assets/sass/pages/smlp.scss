@@ -25,8 +25,12 @@ $lp-h3:1.5rem; //25px
 $lp-bold:600;
 $lp-semibold:500;
 $lp-maintxt:1.09rem; //18px
+$lp-p23:23px;
 $lp-p24:24px;
 $lp-p20:20px;
+$lp-p55:55px;
+$lp-p18:18px;
+$lp-p36:36px;
 
 main {
     font-family: 'Noto Sans JP', sans-serif;
@@ -44,6 +48,16 @@ main {
 .flex-row--aicenter {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.flex-row--aiend {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.flex-col--center {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -263,16 +277,37 @@ main {
         flex-direction: column;
         align-items: center;
     }
+    .line-title-solution--itemtitle {
+        padding-bottom:28px;
+        border-bottom: 4px solid $lp-red;
+    }
+    .p23 {
+        font-size: $lp-p23;
+        margin-bottom: 0px;
+    }
+    .p55 {
+        font-size:$lp-p55;
+        margin-bottom: 0px;
+    }
     .p24 {
         font-size: $lp-p24;
     }
     .p20 {
-        font-size:20px;
+        font-size:$lp-p20;
+    }
+    .p18 {
+        font-size:$lp-p18;
+    }
+    .p36 {
+        font-size:$lp-p36;
     }
     .p-icon--diared {
         padding-top: 15px;
         padding-right:6px;
         padding-bottom: 10px;
+    }
+    .mt--15 {
+        margin-top:-15px;
     }
 
 
