@@ -363,7 +363,7 @@ main {
 
     // 事例２
     .l-case {
-        height:1187px;
+        height:auto;
         width: 100%;
         box-sizing: border-box;
         flex-direction: column;
@@ -378,11 +378,7 @@ main {
             text-align: center;
             margin-bottom: 28px;
         }
-        // .l-listwrapper--example {
-        //     padding-top: 0px;
-        //     padding-bottom: lp-heightbase;
-        //     width: 100%;
-        // }
+        
         .l-listwrapper--want {
             margin-top:$lp-heightbase;
             margin-bottom:$lp-heightbase;

@@ -315,7 +315,7 @@ main {
   font-weight: 500;
 }
 .l-smlp .l-case {
-  height: 1187px;
+  height: auto;
   width: 100%;
   box-sizing: border-box;
   flex-direction: column;
