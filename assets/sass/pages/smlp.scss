@@ -250,6 +250,11 @@ main {
         background-color:$lp-test;
     }
 
+    // .img-hero-center {
+    //     max-width: 100%!important;
+    //     aspect-ratio: 438 / 212;
+    //     max-height: 212px;
+    // }
     .l-hero {
         height:575px;
         background-image: url(../../../images/service/manual/lp/img_bg_hero01.png);
@@ -663,4 +668,9 @@ main {
         background-color: $lp-red;
         justify-content: space-evenly;
         
+    }
+    .img-hero-center {
+        max-width: 100%!important;
+        aspect-ratio: 438 / 212;
+        max-height: 212px;
     }
