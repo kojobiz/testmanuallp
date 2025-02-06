@@ -10,6 +10,7 @@
 $lp-beige: #F8F5F2;
 $lp-white:#fff;
 $lp-red:#BC0101;
+$lp-orange:#E86B65;;
 $lp-txtred:#A20000;
 $lp-txtorange:#E86B65;
 $lp-txtbeige:#E3D7CB;
@@ -388,6 +389,18 @@ main {
             display:grid;
             grid-template-columns:1fr 0.38fr;
             width: 100%;
+            .l-wantleft--one {
+               width:100%;
+               background-color:rgb(168, 127, 127);
+            }
+            .l-wantleft--two {
+               width:100%;
+               background-color:$lp-orange;
+               text-align: end;
+               margin-top: 40px;
+               height: 143px;
+               width: 76%;
+            }
         }
         .item-want {
             max-width: 80%;
@@ -412,7 +425,7 @@ main {
             border-bottom: 4px solid $lp-red;
             display: flex;
             flex-direction: row;
-            align-items: center;
+            align-items: center; 
             padding-bottom: 17px;
         }
         .p-maintxt--case {
@@ -420,6 +433,13 @@ main {
             line-height: 21px;
             margin-top: 10px;
             margin-bottom: 0px!important;
+            &-solution {
+                color: $lp-white;
+                font-size: $lp-p20;
+                line-height: 29px;
+                padding: 24px 50px;
+                text-align: start;
+            }
         }
         .img-ballon {
             position: absolute;

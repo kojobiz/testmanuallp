@@ -338,6 +338,18 @@ main {
   grid-template-columns: 1fr 0.38fr;
   width: 100%;
 }
+.l-smlp .l-case .l-listwrapper--want .l-wantleft--one {
+  width: 100%;
+  background-color: rgb(168, 127, 127);
+}
+.l-smlp .l-case .l-listwrapper--want .l-wantleft--two {
+  width: 100%;
+  background-color: #E86B65;
+  text-align: end;
+  margin-top: 40px;
+  height: 143px;
+  width: 76%;
+}
 .l-smlp .l-case .item-want {
   max-width: 80%;
   background-color: #F8F5F2;
@@ -369,6 +381,13 @@ main {
   line-height: 21px;
   margin-top: 10px;
   margin-bottom: 0px !important;
+}
+.l-smlp .l-case .p-maintxt--case-solution {
+  color: #fff;
+  font-size: 20px;
+  line-height: 29px;
+  padding: 24px 50px;
+  text-align: start;
 }
 .l-smlp .l-case .img-ballon {
   position: absolute;
