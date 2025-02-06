@@ -28,9 +28,42 @@ $lp-maintxt:1.09rem; //18px
 $lp-p23:23px;
 $lp-p24:24px;
 $lp-p20:20px;
+$lp-p30:30px;
 $lp-p55:55px;
 $lp-p18:18px;
 $lp-p36:36px;
+
+.p23 {
+    font-size: $lp-p23;
+    margin-bottom: 0px;
+}
+.p55 {
+    font-size:$lp-p55;
+    margin-bottom: 0px;
+}
+.p24 {
+    font-size: $lp-p24;
+}
+.p20 {
+    font-size:$lp-p20;
+}
+.p18 {
+    font-size:$lp-p18;
+}
+.p30 {
+    font-size:$lp-p30;
+}
+.p36 {
+    font-size:$lp-p36;
+}
+.p-icon--diared {
+    padding-top: 15px;
+    padding-right:6px;
+    padding-bottom: 10px;
+}
+.mt--15 {
+    margin-top:-15px;
+}
 
 main {
     font-family: 'Noto Sans JP', sans-serif;
@@ -59,6 +92,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 // 設定
@@ -281,41 +315,33 @@ main {
         padding-bottom:28px;
         border-bottom: 4px solid $lp-red;
     }
-    .p23 {
-        font-size: $lp-p23;
-        margin-bottom: 0px;
-    }
-    .p55 {
-        font-size:$lp-p55;
-        margin-bottom: 0px;
-    }
-    .p24 {
-        font-size: $lp-p24;
-    }
-    .p20 {
-        font-size:$lp-p20;
-    }
-    .p18 {
-        font-size:$lp-p18;
-    }
-    .p36 {
-        font-size:$lp-p36;
-    }
-    .p-icon--diared {
-        padding-top: 15px;
-        padding-right:6px;
-        padding-bottom: 10px;
-    }
-    .mt--15 {
-        margin-top:-15px;
-    }
-
-
-
-
-
+    
+    // CTA
     .l-cta {
         height:512px;
+        .cta-inner {
+            height: 408px;
+            width: 100%;
+            border-top: 4px solid $lp-red;
+            border-bottom: 4px solid $lp-red;
+            .dialine-txt {
+                margin-bottom:0px!important;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+            .cta-txt {
+                color: $lp-white;
+                margin-bottom: 0px!important;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+
     }
     .l-example {
         height:1814px;
@@ -393,4 +419,12 @@ main {
                 padding-bottom: 30px!important;
             }
         }
+    }
+    .p-cta-btn02 {
+        max-width: 618px;
+        width: 100%;
+        min-height: 85px;
+        background-color: $lp-red;
+        justify-content: space-evenly;
+        
     }

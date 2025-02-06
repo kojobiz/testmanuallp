@@ -1,3 +1,43 @@
+.p23 {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+
+.p55 {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.p24 {
+  font-size: 24px;
+}
+
+.p20 {
+  font-size: 20px;
+}
+
+.p18 {
+  font-size: 18px;
+}
+
+.p30 {
+  font-size: 30px;
+}
+
+.p36 {
+  font-size: 36px;
+}
+
+.p-icon--diared {
+  padding-top: 15px;
+  padding-right: 6px;
+  padding-bottom: 10px;
+}
+
+.mt--15 {
+  margin-top: -15px;
+}
+
 main {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
@@ -29,6 +69,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .testpage {
@@ -235,36 +276,30 @@ main {
   padding-bottom: 28px;
   border-bottom: 4px solid #BC0101;
 }
-.l-smlp .p23 {
-  font-size: 23px;
-  margin-bottom: 0px;
-}
-.l-smlp .p55 {
-  font-size: 55px;
-  margin-bottom: 0px;
-}
-.l-smlp .p24 {
-  font-size: 24px;
-}
-.l-smlp .p20 {
-  font-size: 20px;
-}
-.l-smlp .p18 {
-  font-size: 18px;
-}
-.l-smlp .p36 {
-  font-size: 36px;
-}
-.l-smlp .p-icon--diared {
-  padding-top: 15px;
-  padding-right: 6px;
-  padding-bottom: 10px;
-}
-.l-smlp .mt--15 {
-  margin-top: -15px;
-}
 .l-smlp .l-cta {
   height: 512px;
+}
+.l-smlp .l-cta .cta-inner {
+  height: 408px;
+  width: 100%;
+  border-top: 4px solid #BC0101;
+  border-bottom: 4px solid #BC0101;
+}
+.l-smlp .l-cta .cta-inner .dialine-txt {
+  margin-bottom: 0px !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.l-smlp .l-cta .cta-inner .cta-txt {
+  color: #fff;
+  margin-bottom: 0px !important;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .l-smlp .l-example {
   height: 1814px;
@@ -345,4 +380,12 @@ main {
 .l-listwrapper--solution .l-list-item {
   padding-top: 30px !important;
   padding-bottom: 30px !important;
+}
+
+.p-cta-btn02 {
+  max-width: 618px;
+  width: 100%;
+  min-height: 85px;
+  background-color: #BC0101;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=smlp.css.map */
