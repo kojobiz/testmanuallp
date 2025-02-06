@@ -319,11 +319,15 @@ main {
     // CTA
     .l-cta {
         height:512px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
         .cta-inner {
             height: 408px;
             width: 100%;
             border-top: 4px solid $lp-red;
             border-bottom: 4px solid $lp-red;
+            
             .dialine-txt {
                 margin-bottom:0px!important;
                 padding-left: 16px;

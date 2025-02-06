@@ -278,6 +278,9 @@ main {
 }
 .l-smlp .l-cta {
   height: 512px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .l-smlp .l-cta .cta-inner {
   height: 408px;
