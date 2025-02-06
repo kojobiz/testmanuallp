@@ -321,6 +321,7 @@ main {
     .l-example {
         height:1187px;
         width: 100%;
+        box-sizing: border-box;
         flex-direction: column;
         align-items: center;
         padding-bottom:56px;
@@ -331,7 +332,43 @@ main {
             font-size: $lp-p20;
             line-height:1.75em;
             text-align: center;
+            margin-bottom: 28px;
         }
+        .l-listwrapper--example {
+            padding-top: 0px;
+            padding-bottom: lp-heightbase;
+            width: 100%;
+        }
+        .tag-company {
+            color: $lp-white;
+            font-size: $lp-p20;
+            background-color:$lp-txtorange;
+            margin-bottom: 0px;
+            padding: 3.5px;
+            width: 98px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .l-listcenter {
+            width: 100%; // 追加：親要素いっぱいに広げる
+            
+            > div { // 追加：画像を含む div の調整
+                width: 100% !important; // インラインスタイルを上書き
+                max-width: 724px; // 最大幅を設定
+                display: flex; // 追加
+            flex-direction: column; // 追加
+            align-items: flex-start; // 追加：左寄せ
+            }
+        }
+        &--want {
+            background-color: $lp-red;
+            padding: 23px 33px;
+            width: 600px;
+            box-sizing: border-box;
+            align-self: flex-start;
+        }
+            
     }
 
 
