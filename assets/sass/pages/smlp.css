@@ -166,7 +166,7 @@ main {
   width: calc(100% + 60px);
   height: 4px;
   background-color: #A20000;
-  margin-top: 10px;
+  margin-top: 26px;
   margin-left: -30px;
 }
 .l-smlp .big-title {
@@ -303,6 +303,41 @@ main {
   font-weight: 500;
   padding-left: 25px;
   padding-right: 25px;
+}
+.l-smlp .l-flow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.l-smlp .l-faq .accordion {
+  width: 100%;
+}
+.l-smlp .l-faq .accordion button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000 !important;
+}
+.l-smlp .l-faq .accordion strong {
+  color: #BC0101;
+  font-size: 23px;
+  line-height: 30px !important;
+  font-weight: 500 !important;
+}
+.l-smlp .l-faq .accordion .accordion-body {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500 !important;
+  padding-left: 55px;
+}
+.l-smlp .l-faq .accordion p {
+  margin-top: 8px;
+}
+.l-smlp .l-faq .accordion .accordion-item {
+  background-color: #F8F5F2;
+}
+.l-smlp .l-faq .accordion-button:not(.collapsed) {
+  background-color: #F8F5F2;
 }
 .l-smlp .l-example {
   height: 1814px;

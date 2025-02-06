@@ -196,7 +196,7 @@ main {
         width: calc(100% + $lp-titlelinemore * 2);
         height: 4px;
         background-color:$lp-txtred;
-        margin-top: 10px;
+        margin-top: 26px;
         margin-left:-30px;
         
 
@@ -347,6 +347,52 @@ main {
         }
 
     }
+
+    // フロー
+    .l-flow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // faq
+    .l-faq {
+        .accordion {
+            width:100%;
+            button {
+                font-size: $lp-p18;
+                font-weight: 500;
+                color: #000!important;
+            }
+            strong {
+                color: $lp-red;
+                font-size: 23px;
+                line-height:30px!important;
+                font-weight: 500!important;
+            }
+            .accordion-body {
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 500!important;
+                padding-left:55px;
+                
+            }
+            p {
+                margin-top: 8px;
+            }
+            .accordion-item {
+                background-color: $lp-beige;
+            }
+        }
+        .accordion-button:not(.collapsed) { 
+            background-color:$lp-beige;
+        }
+        
+    }
+
+
+
     .l-example {
         height:1814px;
     }
