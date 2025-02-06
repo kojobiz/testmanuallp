@@ -184,6 +184,10 @@ main {
         padding-top: 23px;
         padding-bottom: 30px;
     }
+    .p-h2--plus {
+        padding-left:19px;
+        padding-right: 19px;
+    }
     .p-iconcheck {
         position: relative;
     }
@@ -456,7 +460,6 @@ main {
             bottom: 16px;
             right: -38px;
         }
-
     }
 
 
@@ -491,6 +494,10 @@ main {
         }
 
     }
+
+ 
+    
+
 
     // フロー
     .l-flow {
@@ -566,9 +573,18 @@ main {
     .l-example {
         height:1814px;
     }
+
+    // プラスお助け
     .l-plus {
         height:1334px;
+        flex-direction: column;
+        align-items: center;
     }
+
+
+
+
+
     .l-flow {
         height:847px;
     }
