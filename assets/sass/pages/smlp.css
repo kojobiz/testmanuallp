@@ -340,4 +340,9 @@ main {
   flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
+  gap: 162px;
+}
+.l-listwrapper--solution .l-list-item {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
 }/*# sourceMappingURL=smlp.css.map */
