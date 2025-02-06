@@ -326,6 +326,38 @@ main {
   box-sizing: border-box;
   align-self: flex-start;
 }
+.l-smlp .l-case {
+  height: 1187px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 56px;
+}
+.l-smlp .l-case .line-title {
+  padding-bottom: 82px;
+}
+.l-smlp .l-case .title-introduction {
+  font-size: 20px;
+  line-height: 1.75em;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.l-smlp .l-case .l-listwrapper--example {
+  padding-top: 0px;
+  padding-bottom: lp-heightbase;
+  width: 100%;
+}
+.l-smlp .l-case .tag-company {
+  color: #fff;
+  font-size: 20px;
+  background-color: #E86B65;
+  margin-bottom: 0px;
+  padding: 3.5px;
+  width: 98px;
+  text-align: center;
+  font-weight: 500;
+}
 .l-smlp .l-cta {
   height: 512px;
   justify-content: center;
