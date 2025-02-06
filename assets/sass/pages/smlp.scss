@@ -394,15 +394,13 @@ main {
                background-color:rgb(168, 127, 127);
             }
             .l-wantleft--two {
-               width:100%;
                background-color:$lp-orange;
-               text-align: end;
                margin-top: 40px;
                height: 143px;
-               width: 76%;
-               margin-left: 24%;
-               text-align: center;
+               width: 80%;
+               margin-left: 20%;
                align-content: center;
+               position: relative;
             }
         }
         .item-want {
@@ -440,16 +438,27 @@ main {
                 color: $lp-white;
                 font-size: $lp-p20;
                 line-height: 29px;
-                padding: 24px 50px;
+                padding: 24px 64px;
                 text-align: start;
                 font-weight: 500;
                 margin-bottom: 0px!important;
+               align-content: center;
             }
         }
         .img-ballon {
             position: absolute;
             bottom: -42px;
             left: -17px;
+        }
+        .img-solution {
+            position: absolute;
+            top: -20px;
+            left: -70px;
+        }
+        .img-show {
+            position: absolute;
+            bottom: 16px;
+            right: -38px;
         }
 
     }
