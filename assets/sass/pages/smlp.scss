@@ -31,6 +31,7 @@ $lp-p20:20px;
 $lp-p30:30px;
 $lp-p55:55px;
 $lp-p18:18px;
+$lp-p15:15px;
 $lp-p36:36px;
 
 .p23 {
@@ -172,6 +173,11 @@ main {
     .p-h3--ask {
         padding-top: 32px;
         padding-bottom:17px;
+    }
+    .p-h3--case {
+        padding-bottom:17px;
+        padding-bottom: 0px!important;
+        padding-left: 18px;
     }
     .p-h2--solution {
         padding-top: 23px;
@@ -371,10 +377,26 @@ main {
             text-align: center;
             margin-bottom: 28px;
         }
-        .l-listwrapper--example {
-            padding-top: 0px;
-            padding-bottom: lp-heightbase;
+        // .l-listwrapper--example {
+        //     padding-top: 0px;
+        //     padding-bottom: lp-heightbase;
+        //     width: 100%;
+        // }
+        .l-listwrapper--want {
+            margin-top:$lp-heightbase;
+            margin-bottom:$lp-heightbase;
+            display:grid;
+            grid-template-columns:1fr 0.38fr;
             width: 100%;
+        }
+        .item-want {
+            max-width: 80%;
+            background-color:$lp-beige;
+            height: 152px;
+            padding: 22px 33px;
+            border-radius:20px;
+            margin-left: 17px;
+            position: relative;
         }
         .tag-company {
             color: $lp-white;
@@ -385,6 +407,24 @@ main {
             width: 98px;
             text-align: center;
             font-weight: 500;
+        }
+        .line-title-case--itemtitle {
+            border-bottom: 4px solid $lp-red;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 17px;
+        }
+        .p-maintxt--case {
+            font-size:$lp-p15;
+            line-height: 21px;
+            margin-top: 10px;
+            margin-bottom: 0px!important;
+        }
+        .img-ballon {
+            position: absolute;
+            bottom: -42px;
+            left: -17px;
         }
 
     }

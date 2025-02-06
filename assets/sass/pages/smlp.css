@@ -143,6 +143,11 @@ main {
   padding-top: 32px;
   padding-bottom: 17px;
 }
+.l-smlp .p-h3--case {
+  padding-bottom: 17px;
+  padding-bottom: 0px !important;
+  padding-left: 18px;
+}
 .l-smlp .p-h2--solution {
   padding-top: 23px;
   padding-bottom: 30px;
@@ -326,10 +331,21 @@ main {
   text-align: center;
   margin-bottom: 28px;
 }
-.l-smlp .l-case .l-listwrapper--example {
-  padding-top: 0px;
-  padding-bottom: lp-heightbase;
+.l-smlp .l-case .l-listwrapper--want {
+  margin-top: 52px;
+  margin-bottom: 52px;
+  display: grid;
+  grid-template-columns: 1fr 0.38fr;
   width: 100%;
+}
+.l-smlp .l-case .item-want {
+  max-width: 80%;
+  background-color: #F8F5F2;
+  height: 152px;
+  padding: 22px 33px;
+  border-radius: 20px;
+  margin-left: 17px;
+  position: relative;
 }
 .l-smlp .l-case .tag-company {
   color: #fff;
@@ -340,6 +356,24 @@ main {
   width: 98px;
   text-align: center;
   font-weight: 500;
+}
+.l-smlp .l-case .line-title-case--itemtitle {
+  border-bottom: 4px solid #BC0101;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 17px;
+}
+.l-smlp .l-case .p-maintxt--case {
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+.l-smlp .l-case .img-ballon {
+  position: absolute;
+  bottom: -42px;
+  left: -17px;
 }
 .l-smlp .l-cta {
   height: 512px;
