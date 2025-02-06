@@ -339,6 +339,31 @@ main {
 .l-smlp .l-faq .accordion-button:not(.collapsed) {
   background-color: #F8F5F2;
 }
+.l-smlp .l-contact {
+  display: flex;
+  flex-direction: column;
+}
+.l-smlp .submit {
+  width: 323px;
+  height: 66px;
+  background-color: #BC0101;
+  color: #fff;
+  border: none;
+  font-size: 23px;
+  font-weight: 700;
+}
+.l-smlp .must {
+  border: 2px solid #BC0101;
+  width: 77px;
+  height: 42px;
+  color: #BC0101;
+  text-align: center;
+  align-content: center;
+  font-size: 18px;
+}
+.l-smlp .label {
+  font-size: 18px;
+}
 .l-smlp .l-example {
   height: 1814px;
 }

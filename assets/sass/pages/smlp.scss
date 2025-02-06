@@ -391,6 +391,32 @@ main {
         
     }
 
+    // コンタクト
+    .l-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 323px;
+        height: 66px;
+        background-color:$lp-red;
+        color: $lp-white;
+        border: none;
+        font-size: $lp-p23;
+        font-weight: 700;
+    }
+    .must {
+       border: 2px solid $lp-red;
+       width: 77px;
+       height: 42px;
+       color: $lp-red;
+       text-align: center;
+       align-content: center;
+       font-size: 18px;
+    }
+    .label {
+        font-size: 18px;
+    }
 
 
     .l-example {
