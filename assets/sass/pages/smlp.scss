@@ -524,6 +524,7 @@ main {
                 font-size: $lp-p18;
                 font-weight: 500;
                 color: #000!important;
+                line-height: 1.9rem!important;
             }
             strong {
                 color: $lp-red;
@@ -565,6 +566,8 @@ main {
     .l-contact {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .submit {
         width: 323px;

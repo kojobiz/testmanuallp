@@ -459,6 +459,7 @@ main {
   font-size: 18px;
   font-weight: 500;
   color: #000 !important;
+  line-height: 1.9rem !important;
 }
 .l-smlp .l-faq .accordion strong {
   color: #BC0101;
@@ -489,6 +490,8 @@ main {
 .l-smlp .l-contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .l-smlp .submit {
   width: 323px;
