@@ -514,6 +514,9 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        // height:847px;
+        padding-top: calc($lp-heightbase * 1.5);
+        padding-bottom: calc($lp-heightbase * 1.5);
     }
 
     // faq
@@ -611,11 +614,9 @@ main {
 
 
 
-    .l-flow {
-        height:847px;
-    }
+    
     .l-faq {
-        height:2595px;
+        // height:2595px;
     }
     .l-contact {
         height:1207px;

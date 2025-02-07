@@ -449,6 +449,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 78px;
+  padding-bottom: 78px;
 }
 .l-smlp .l-faq {
   display: flex;
@@ -525,12 +527,6 @@ main {
   height: 1334px;
   flex-direction: column;
   align-items: center;
-}
-.l-smlp .l-flow {
-  height: 847px;
-}
-.l-smlp .l-faq {
-  height: 2595px;
 }
 .l-smlp .l-contact {
   height: 1207px;
