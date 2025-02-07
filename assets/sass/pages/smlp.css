@@ -478,6 +478,9 @@ main {
   --bs-accordion-border-width: 0;
   width: 100%;
 }
+.l-smlp .l-faq .accordion .accordion-button {
+  background-color: #F8F5F2;
+}
 .l-smlp .l-faq .accordion .accordion-button::after {
   background-image: url(../../../images/service/manual/lp/icon_open_red.png);
   width: 20px;
@@ -488,7 +491,7 @@ main {
   transform: rotate(180deg);
 }
 .l-smlp .l-faq .accordion button {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 500;
   color: #000 !important;
   line-height: 1.9rem !important;
@@ -518,8 +521,16 @@ main {
   line-height: 1.5;
 }
 .l-smlp .l-faq .accordion .accordion-item {
-  border-bottom: 1px dashed #dc3545;
   background-color: #F8F5F2;
+  border-bottom: 0;
+  background-image: linear-gradient(to right, #A20000 10px, transparent 5px);
+  background-size: 15px 1px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 1px;
+}
+.l-smlp .l-faq .accordion .accordion-item:last-child {
+  background-image: none;
 }
 .l-smlp .l-faq .accordion-button:not(.collapsed) {
   background-color: #F8F5F2;

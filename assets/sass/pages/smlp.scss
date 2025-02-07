@@ -555,9 +555,10 @@ main {
                     background-image: url(../../../images/service/manual/lp/icon_close_red.png); 
                     transform: rotate(180deg);
                 }
+                background-color:$lp-beige;
             }
             button {
-                font-size: $lp-p18;
+                font-size: $lp-p23;
                 font-weight: 500;
                 color: #000!important;
                 line-height: 1.9rem!important;
@@ -593,8 +594,16 @@ main {
                 line-height: 1.5;
             }
             .accordion-item {
-                border-bottom: 1px dashed #dc3545;
                 background-color: $lp-beige;
+                border-bottom: 0; // 通常ボーダー
+                background-image: linear-gradient(to right, $lp-txtred 10px, transparent 5px);
+                background-size: 15px 1px; // 全長（線10px+間隔5px=15px）
+                background-position: bottom;
+                background-repeat: repeat-x;
+                padding-bottom: 1px; 
+                &:last-child {
+                    background-image: none; 
+                }
             }
         }
         .accordion-button:not(.collapsed) { 
