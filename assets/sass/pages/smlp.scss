@@ -409,10 +409,10 @@ main {
             }
         }
         .item-want {
-            max-width: 80%;
+            max-width: 86%;
             background-color:$lp-beige;
             height: 152px;
-            padding: 22px 33px;
+            padding: 18px 25px;
             border-radius:20px;
             margin-left: 17px;
             position: relative;
@@ -514,6 +514,10 @@ main {
 
     // faq
     .l-faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         .accordion {
             width:100%;
             button {
