@@ -432,10 +432,12 @@ main {
   right: -38px;
 }
 .l-smlp .l-cta {
-  height: 512px;
+  height: auto !important;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 .l-smlp .l-cta .cta-inner {
   height: 408px;
@@ -458,6 +460,14 @@ main {
   font-weight: 500;
   padding-left: 25px;
   padding-right: 25px;
+}
+.l-smlp .l-plus {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 .l-smlp .l-flow {
   display: flex;
@@ -638,15 +648,6 @@ main {
   max-width: 618px;
   width: 100%;
   min-height: 85px;
-  background-color: #BC0101;
+  background-color: rgb(148, 215, 148);
   justify-content: space-evenly;
-}
-
-.l-plus {
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 52px !important;
-  margin-bottom: 52px;
-  padding-top: 52px;
-  margin-top: 52px;
 }/*# sourceMappingURL=smlp.css.map */
