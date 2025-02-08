@@ -1,3 +1,7 @@
+.img_mw100 {
+  max-width: 100%;
+}
+
 .p23 {
   font-size: 23px;
   margin-bottom: 0px;
@@ -70,6 +74,22 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.border-accent {
+  position: relative;
+  z-index: 1;
+}
+.border-accent::after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  background-color: #E86B65;
+  z-index: -1;
+  opacity: 0.8;
 }
 
 .testpage {
@@ -212,7 +232,7 @@ main {
 }
 .l-smlp .l-hero {
   height: 575px;
-  background-image: url(../../../images/service/manual/lp/img_bg_hero01.png);
+  background-image: url(../../../images/service/manual/lp/img_hero_bg01.png);
   background-repeat: no-repeat;
   object-fit: cover;
   left: 0;
@@ -355,10 +375,10 @@ main {
   position: relative;
 }
 .l-smlp .l-case .item-want {
-  max-width: 80%;
+  max-width: 86%;
   background-color: #F8F5F2;
   height: 152px;
-  padding: 22px 33px;
+  padding: 18px 25px;
   border-radius: 20px;
   margin-left: 17px;
   position: relative;
@@ -444,14 +464,37 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+.l-smlp .l-faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .l-smlp .l-faq .accordion {
+  --bs-accordion-border-width: 0;
   width: 100%;
 }
+.l-smlp .l-faq .accordion .accordion-button {
+  background-color: #F8F5F2;
+}
+.l-smlp .l-faq .accordion .accordion-button::after {
+  background-image: url(../../../images/service/manual/lp/icon_open_red.png);
+  width: 20px;
+  height: 20px;
+}
+.l-smlp .l-faq .accordion .accordion-button:not(.collapsed)::after {
+  background-image: url(../../../images/service/manual/lp/icon_close_red.png);
+  transform: rotate(180deg);
+}
 .l-smlp .l-faq .accordion button {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 500;
   color: #000 !important;
+  line-height: 1.9rem !important;
+  padding-top: 35px;
 }
 .l-smlp .l-faq .accordion strong {
   color: #BC0101;
@@ -459,24 +502,44 @@ main {
   line-height: 30px !important;
   font-weight: 500 !important;
 }
+.l-smlp .l-faq .accordion strong:before {
+  content: "A. ";
+  padding-right: 8px;
+}
 .l-smlp .l-faq .accordion .accordion-body {
   font-size: 18px;
   line-height: 26px;
   font-weight: 500 !important;
-  padding-left: 55px;
+  padding-left: 95px;
+  padding-top: 0px;
 }
 .l-smlp .l-faq .accordion p {
   margin-top: 8px;
+  padding-left: 35px;
+  padding-bottom: 0 !important;
+  line-height: 1.5;
 }
 .l-smlp .l-faq .accordion .accordion-item {
   background-color: #F8F5F2;
+  border-bottom: 0;
+  background-image: linear-gradient(to right, #A20000 10px, transparent 5px);
+  background-size: 15px 1px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 1px;
+}
+.l-smlp .l-faq .accordion .accordion-item:last-child {
+  background-image: none;
 }
 .l-smlp .l-faq .accordion-button:not(.collapsed) {
   background-color: #F8F5F2;
+  box-shadow: none !important;
 }
 .l-smlp .l-contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .l-smlp .submit {
   width: 323px;
@@ -501,17 +564,6 @@ main {
 }
 .l-smlp .l-example {
   height: 1814px;
-}
-.l-smlp .l-plus {
-  height: 1334px;
-  flex-direction: column;
-  align-items: center;
-}
-.l-smlp .l-flow {
-  height: 847px;
-}
-.l-smlp .l-faq {
-  height: 2595px;
 }
 .l-smlp .l-contact {
   height: 1207px;
@@ -588,4 +640,13 @@ main {
   min-height: 85px;
   background-color: #BC0101;
   justify-content: space-evenly;
+}
+
+.l-plus {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 52px !important;
+  margin-bottom: 52px;
+  padding-top: 52px;
+  margin-top: 52px;
 }/*# sourceMappingURL=smlp.css.map */

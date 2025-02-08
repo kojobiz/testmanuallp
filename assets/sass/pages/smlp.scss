@@ -647,21 +647,15 @@ main {
         height:1814px;
     }
 
-    // プラスお助け
-    .l-plus {
-        height:1334px;
-        flex-direction: column;
-        align-items: center;
-    }
-
+    
 
 
 
 
     
-    .l-faq {
-        // height:2595px;
-    }
+    // .l-faq {
+    //     height:2595px;
+    // }
     .l-contact {
         height:1207px;
     }
@@ -735,4 +729,13 @@ main {
         justify-content: space-evenly;
         
     }
-    
+    // プラスお助け
+    .l-plus {
+        // height:1334px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: $lp-heightbase!important;
+        margin-bottom: $lp-heightbase;
+        padding-top: $lp-heightbase;
+        margin-top: $lp-heightbase;
+    }
