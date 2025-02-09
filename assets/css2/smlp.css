@@ -473,6 +473,9 @@ main {
     line-height: 29px !important;
     padding: 24px 64px !important;
   }
+  .l-smlp .l-case .container {
+    max-width: 980px;
+  }
 }
 .l-smlp .l-cta {
   height: auto !important;
