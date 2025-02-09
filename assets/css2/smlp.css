@@ -660,10 +660,15 @@ main {
   text-align: center;
 }
 .l-smlp .l-contact p {
-  padding-top: 52px;
-  padding-bottom: 52px;
   margin-bottom: 0px !important;
   text-align: center;
+}
+.l-smlp .l-contact .l-contact-form {
+  width: 100%;
+}
+.l-smlp .l-contact .l-contact-form .l-contact-wrapper {
+  display: grid;
+  grid-template-columns: 0.4fr 0.25fr 1.2fr;
 }
 .l-smlp .submit {
   width: 323px;

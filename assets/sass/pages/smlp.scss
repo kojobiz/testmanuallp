@@ -889,10 +889,15 @@ main {
             text-align: center;
         } 
         p {
-            padding-top: $lp-heightbase;
-            padding-bottom: $lp-heightbase;
             margin-bottom: 0px!important;
             text-align: center;
+        }
+        .l-contact-form {
+            width: 100%;
+            .l-contact-wrapper {
+                display: grid;
+                grid-template-columns: 0.4fr 0.25fr 1.2fr;
+            }
         }
     }
     .submit {
