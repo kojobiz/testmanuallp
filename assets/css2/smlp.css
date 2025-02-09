@@ -341,6 +341,13 @@ main {
   .l-smlp .l-solution .recommend-wrapper li:first-child {
     padding-top: 12px !important;
   }
+  .l-smlp .l-solution .d-contents {
+    display: contents;
+  }
+  .l-smlp .l-solution .d-contents li {
+    padding-left: 21px !important;
+    padding-top: 7px !important;
+  }
 }
 .l-smlp .line-title-solution--itemtitle {
   padding-bottom: 28px;
