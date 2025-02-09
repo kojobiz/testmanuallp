@@ -360,10 +360,23 @@ main {
     }
     // 解決
     .l-solution {
-        height:3143px;
+        // height:3143px;
+        height: auto;
         flex-direction: column;
         align-items: center;
+        .l-listwrapper--solution {
+            width: 100%;
+        }
+        // mdサイズ以下
+        @media (max-width: 768px) {  
+
+            .sp-none-wrapper {
+                display: contents!important;
+            }
+            
+        }
     }
+
     .line-title-solution--itemtitle {
         padding-bottom:28px;
         border-bottom: 4px solid $lp-red;

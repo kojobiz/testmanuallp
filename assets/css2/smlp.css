@@ -304,9 +304,17 @@ main {
   padding-bottom: 56px;
 }
 .l-smlp .l-solution {
-  height: 3143px;
+  height: auto;
   flex-direction: column;
   align-items: center;
+}
+.l-smlp .l-solution .l-listwrapper--solution {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .l-smlp .l-solution .sp-none-wrapper {
+    display: contents !important;
+  }
 }
 .l-smlp .line-title-solution--itemtitle {
   padding-bottom: 28px;
