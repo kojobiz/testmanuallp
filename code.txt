@@ -1,0 +1,218 @@
+## 事例
+<!--事例-->html
+<section style="background-color:#232323;" ><!--事例-->
+    <div class="l-section--tight lp-test l-case">
+        <h2 class="line-title">お客さまのお悩み解決事例</h2>
+        <p class="title-introduction">トリセツまるごとサポートでは、シャープさまのAQUOSテレビをはじめ、<br>
+            さまざまな取扱説明書を担当させていただきました。
+            <br>
+            お客さまのお悩み解決事例をご紹介します。
+        </p>
+        <ul>
+            <!-- 会社A -->
+            <li class="l-listwrapper--want">
+                <div style="background-color: rgb(137, 218, 148); width: 100%;">
+                    <div class="l-wantleft--one">
+                        <div class="item-want">
+                            <div class="line-title-case--itemtitle">
+                                <p class="tag-company">A社さま</p><h3 class="p-h3--case">もっと見やすく改善したい</h3> 
+                            </div>
+                            <p class="p-maintxt--case">以前からユーザーにとって読みにくいことは認識していたのですが、どこをどう改善すれば良いのかわかりませんでした。</p>
+                            <img src="./images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                        </div>
+                    </div>
+                    <div  class="l-wantleft--two">
+                        <div class="item-solution">
+                            <p class="p-maintxt--case-solution">全体的なレイアウトだけでなく、挿絵イラストもすべて改善していただき、とても読みやすくなりました！</p>
+                            <img src="./images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                            <img src="./images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show">
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: rgb(182, 147, 103); width: 100%;">
+                    <img src="./images/service/manual/lp/10.svg" alt="" height="335" width="auto">
+                </div>
+            </li>
+            <!-- 会社B -->
+            <li class="l-listwrapper--want">
+                <div style="background-color: rgb(137, 218, 148); width: 100%;">
+                    <div class="l-wantleft--one">
+                        <div class="item-want">
+                            <div class="line-title-case--itemtitle">
+                                <p class="tag-company">B社さま</p><h3 class="p-h3--case">日本で海外製品を販売したい</h3> 
+                            </div>
+                            <p class="p-maintxt--case">中国製品を日本で販売したいのですが、日本の法律に合っているのかどうかわかりません。翻訳だけでなく、リーガルチェックもしてほしいです。</p>
+                            <img src="./images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                        </div>
+                    </div>
+                    <div  class="l-wantleft--two">
+                        <div class="item-solution">
+                            <p class="p-maintxt--case-solution">専門の弁護士さんのお墨付きをいただき、さらにテクニカルライターさんによる日本語チェックまでしてくださり、大変満足しています。</p>
+                            <img src="./images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                            <img src="./images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show">
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: rgb(182, 147, 103); width: 100%;">
+                    <img src="./images/service/manual/lp/11.svg" alt="" height="335" width="auto">
+                </div>
+            </li>
+            <!-- 会社C -->
+            <li class="l-listwrapper--want">
+                <div style="background-color: rgb(137, 218, 148); width: 100%;">
+                    <div class="l-wantleft--one">
+                        <div class="item-want">
+                            <div class="line-title-case--itemtitle">
+                                <p class="tag-company">C社さま</p><h3 class="p-h3--case">紙の印刷を減らしたい</h3> 
+                            </div>
+                            <p class="p-maintxt--case">印刷手配に費用や時間、在庫管理コストがかかるので、Webに切り替えたいです。さらに、Webでも見やすいようにレイアウトを調整してほしいです。</p>
+                            <img src="./images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                        </div>
+                    </div>
+                    <div  class="l-wantleft--two">
+                        <div class="item-solution">
+                            <p class="p-maintxt--case-solution">社内のコスト削減につながり、またWebで見やすくなったのでお客さまにもたいへん喜んでいただけました。</p>
+                            <img src="./images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                            <img src="./images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show">
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: rgb(182, 147, 103); width: 100%;">
+                    <img src="./images/service/manual/lp/12.svg" alt="" height="335" width="auto">
+                </div>
+            </li>
+        
+        </ul>
+    </div>
+    </section>
+<!--事例-->css
+// 事例２
+    // .l-case {
+    //     height:auto;
+    //     width: 100%;
+    //     box-sizing: border-box;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     padding-bottom:56px;
+    //     #l-case-test {
+    //         .container {
+    //             margin-left: 0!important;
+    //             margin-right: 0!important;
+    //         }
+    //         .row {
+    //             margin-top: 0px!important;
+    //             margin-right: 0px!important;
+    //             margin-left: 0px!important;
+    //             padding-right: 0px!important;
+    //             padding-left: 0px!important;
+    //             max-width: 100%!important;
+    //         }
+    //         .col-md-9 {
+                
+    //         }
+    //         .col-md-3 {
+    //             padding: 0;
+    //             margin-top: auto;
+                
+    //         }
+            
+    //     }
+        
+
+
+
+
+    //     .line-title {
+    //         padding-bottom: 82px;
+    //     }
+    //     .title-introduction {
+    //         font-size: $lp-p20;
+    //         line-height:1.75em;
+    //         text-align: center;
+    //         margin-bottom: 28px;
+    //     }
+        
+    //     .l-listwrapper--want {
+    //         margin-top:$lp-heightbase;
+    //         margin-bottom:$lp-heightbase;
+    //         display:grid;
+    //         grid-template-columns:1fr 0.38fr;
+    //         width: 100%;
+    //         .l-wantleft--one {
+    //            width:100%;
+    //            background-color:rgb(168, 127, 127);
+    //            margin-bottom: 50px;
+    //         }
+    //         .l-wantleft--two {
+    //            background-color:$lp-orange;
+    //            margin-top: 40px;
+               // height: 143px;
+        //        height: auto;
+        //        width: 80%;
+        //        margin-left: 20%;
+        //        align-content: center;
+        //        position: relative;
+        //     }
+        // }
+        // .item-want {
+        //     max-width: 86%;
+        //     background-color:$lp-beige;
+            // height: 152px;
+        //     height: auto;
+        //     padding: 18px 25px;
+        //     border-radius:20px;
+        //     margin-left: 17px;
+        //     position: relative;
+        // }
+        // .tag-company {
+        //     color: $lp-white;
+            // font-size: $lp-p20;
+    //         font-size: $clamp-15-2-20;
+    //         background-color:$lp-txtorange;
+    //         margin-bottom: 0px;
+    //         padding: 3.5px;
+    //         width: 98px;
+    //         text-align: center;
+    //         font-weight: 500;
+    //     }
+    //     .line-title-case--itemtitle {
+    //         border-bottom: 4px solid $lp-red;
+    //         display: flex;
+    //         flex-direction: row;
+    //         align-items: center; 
+    //         padding-bottom: 17px;
+    //     }
+    //     .p-maintxt--case {
+    //         font-size:$lp-p15;
+    //         line-height: 21px;
+    //         margin-top: 10px;
+    //         margin-bottom: 0px!important;
+    //         &-solution {
+    //             color: $lp-white;
+    //             font-size: $lp-p20;
+    //             line-height: 29px;
+    //             padding: 24px 64px;
+    //             text-align: start;
+    //             font-weight: 500;
+    //             margin-bottom: 0px!important;
+    //            align-content: center;
+    //         }
+    //     }
+    //     .img-ballon {
+    //         position: absolute;
+    //         bottom: -42px;
+    //         left: -17px;
+    //     }
+    //     .img-solution {
+    //         position: absolute;
+    //         top: -20px;
+    //         left: -70px;
+    //     }
+    //     .img-show {
+    //         position: absolute;
+    //         bottom: 16px;
+    //         right: -38px;
+    //     }
+    // }
+
+

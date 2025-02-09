@@ -167,6 +167,7 @@ main {
   padding-bottom: 17px;
   padding-bottom: 0px !important;
   padding-left: 18px;
+  font-size: clamp(20px, 2vw, 24px) !important;
 }
 .l-smlp .p-h2--solution {
   padding-top: 23px;
@@ -345,6 +346,22 @@ main {
   align-items: center;
   padding-bottom: 56px;
 }
+.l-smlp .l-case #l-case-test .container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.l-smlp .l-case #l-case-test .row {
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  max-width: 100% !important;
+}
+.l-smlp .l-case #l-case-test .col-md-3 {
+  padding: 0;
+  margin-top: auto;
+}
 .l-smlp .l-case .line-title {
   padding-bottom: 82px;
 }
@@ -364,11 +381,12 @@ main {
 .l-smlp .l-case .l-listwrapper--want .l-wantleft--one {
   width: 100%;
   background-color: rgb(168, 127, 127);
+  margin-bottom: 50px;
 }
 .l-smlp .l-case .l-listwrapper--want .l-wantleft--two {
   background-color: #E86B65;
   margin-top: 40px;
-  height: 143px;
+  height: auto;
   width: 80%;
   margin-left: 20%;
   align-content: center;
@@ -377,7 +395,7 @@ main {
 .l-smlp .l-case .item-want {
   max-width: 86%;
   background-color: #F8F5F2;
-  height: 152px;
+  height: auto;
   padding: 18px 25px;
   border-radius: 20px;
   margin-left: 17px;
@@ -385,7 +403,7 @@ main {
 }
 .l-smlp .l-case .tag-company {
   color: #fff;
-  font-size: 20px;
+  font-size: clamp(15px, 2vw, 20px);
   background-color: #E86B65;
   margin-bottom: 0px;
   padding: 3.5px;
