@@ -445,6 +445,11 @@ main {
   bottom: 16px;
   right: -38px;
 }
+.l-smlp .l-case .img-show-sp {
+  position: absolute;
+  bottom: -38px;
+  right: 45%;
+}
 .l-smlp .l-cta {
   height: auto !important;
   justify-content: center;
