@@ -352,6 +352,7 @@ main {
 .l-smlp .line-title-solution--itemtitle {
   padding-bottom: 28px;
   border-bottom: 4px solid #BC0101;
+  align-items: flex-start !important;
 }
 .l-smlp .l-example {
   height: 1187px;
