@@ -367,11 +367,38 @@ main {
         .l-listwrapper--solution {
             width: 100%;
         }
+        .item-order-one {
+            width:480px;
+            margin-right:22px;
+            min-width: 50%;
+        }
+        .recommend-wrapper {
+            gap: 26px;
+            padding-left:21px!important;
+        }
         // mdサイズ以下
         @media (max-width: 768px) {  
 
             .sp-none-wrapper {
                 display: contents!important;
+            }
+            .item-order-one {
+                width: 100%;
+            }
+            .item-order-three {
+                width: 100%;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .recommend-wrapper {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 7px;
+                li:first-child {
+                    padding-top: 12px!important;
+                }
+                
             }
             
         }
