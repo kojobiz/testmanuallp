@@ -38,7 +38,10 @@ $lp-p36:36px;
 // clamp
 $clamp-15-2-20:clamp(15px, 2vw, 20px);
 $clamp-18-2-20:clamp(18px, 2vw, 20px);
+$clamp-23-2-30:clamp(23px, 2vw, 30px);
+$clamp-14-65-30:clamp(14px, 6.5vw, 30px);
 $clamp-20-2-24:clamp(20px, 2vw, 24px);
+$clamp-20-75-40:clamp(20px, 7.5vw, 40px);
 
 .img_mw100 {
     max-width: 100%;
@@ -206,6 +209,12 @@ main {
         padding-bottom: 0px!important;
         padding-left: 18px;
         font-size: $clamp-20-2-24!important;
+    }
+    .p-h3--plus {
+        padding-top:27px;
+        padding-bottom: 27px;
+        font-size: $clamp-14-65-30;
+        letter-spacing: -0.02rem;
     }
     .p-h2--solution {
         padding-top: 23px;
@@ -698,6 +707,12 @@ main {
             width: 100%;
             border-top: 4px solid $lp-red;
             border-bottom: 4px solid $lp-red;
+            h2 {
+                font-size: $clamp-20-75-40;
+                margin-bottom: 0px;
+                font-weight: $lp-bold;
+                text-align: center;
+            }
             
             .dialine-txt {
                 margin-bottom:0px!important;
@@ -727,6 +742,53 @@ main {
         margin-bottom:30px;
         padding-top:30px;
         margin-top: 30px;
+        .l-plus-item {
+            width: 100%;
+            background-color:#F8F5F2;
+            display: flex; 
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            // height: 470px;
+            height: auto;
+            img {
+                max-height: 159px;
+                height: auto;
+                max-width:184px;
+            }
+            .item-wrapper {
+                width: 96%;
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                letter-spacing: -0.02em;
+                .p-txt--plus {
+                    text-align: start;
+                    width: 78%;
+                    margin: 0 auto;
+                    letter-spacing: 0.003rem;
+                }
+
+            }
+        }
+        // mdサイズ以上
+        @media (min-width: 768px) {
+            .l-plus-item {
+                img {
+                    max-width: 100%;
+                }
+                .item-wrapper {
+                    width: 85%;
+                }
+                .p-txt--plus {
+                    width: 85%!important;
+                    letter-spacing: 0rem!important;
+                }
+                .p-h3--plus {
+                    font-size: $clamp-23-2-30;
+                }
+            } 
+        }  
     }
 
     // フロー
@@ -813,10 +875,25 @@ main {
 
     // コンタクト
     .l-contact {
+        // height:1207px;
+        padding-top: $lp-heightbase2;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        h2 {
+            font-size: $clamp-20-75-40;
+            margin-bottom: 0px;
+            font-weight: $lp-bold;
+            text-align: center;
+        } 
+        p {
+            padding-top: $lp-heightbase;
+            padding-bottom: $lp-heightbase;
+            margin-bottom: 0px!important;
+            text-align: center;
+        }
     }
     .submit {
         width: 323px;
@@ -849,9 +926,7 @@ main {
 
 
 
-    .l-contact {
-        height:1207px;
-    }
+   
     .l-space-y {
         &--high4 {
             height:calc($lp-heightbase * 4);
