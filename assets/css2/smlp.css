@@ -346,6 +346,9 @@ main {
   align-items: center;
   padding-bottom: 56px;
 }
+.l-smlp .l-case #l-case-test {
+  margin-top: 52px;
+}
 .l-smlp .l-case #l-case-test .container {
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -362,6 +365,20 @@ main {
   padding: 0;
   margin-top: auto;
 }
+.l-smlp .l-case #l-case-test .l-wantleft--one {
+  width: 100%;
+  background-color: rgb(168, 127, 127);
+  margin-bottom: 50px;
+}
+.l-smlp .l-case #l-case-test .l-wantleft--two {
+  background-color: #E86B65;
+  margin-top: 40px;
+  height: auto;
+  width: 80%;
+  margin-left: 20%;
+  align-content: center;
+  position: relative;
+}
 .l-smlp .l-case .line-title {
   padding-bottom: 82px;
 }
@@ -370,27 +387,6 @@ main {
   line-height: 1.75em;
   text-align: center;
   margin-bottom: 28px;
-}
-.l-smlp .l-case .l-listwrapper--want {
-  margin-top: 52px;
-  margin-bottom: 52px;
-  display: grid;
-  grid-template-columns: 1fr 0.38fr;
-  width: 100%;
-}
-.l-smlp .l-case .l-listwrapper--want .l-wantleft--one {
-  width: 100%;
-  background-color: rgb(168, 127, 127);
-  margin-bottom: 50px;
-}
-.l-smlp .l-case .l-listwrapper--want .l-wantleft--two {
-  background-color: #E86B65;
-  margin-top: 40px;
-  height: auto;
-  width: 80%;
-  margin-left: 20%;
-  align-content: center;
-  position: relative;
 }
 .l-smlp .l-case .item-want {
   max-width: 86%;

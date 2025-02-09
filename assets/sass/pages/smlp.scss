@@ -405,6 +405,7 @@ main {
         align-items: center;
         padding-bottom:56px;
         #l-case-test {
+            margin-top: $lp-heightbase;
             .container {
                 margin-left: 0!important;
                 margin-right: 0!important;
@@ -417,14 +418,26 @@ main {
                 padding-left: 0px!important;
                 max-width: 100%!important;
             }
-            .col-md-9 {
-                
-            }
             .col-md-3 {
                 padding: 0;
                 margin-top: auto;
                 
             }
+            .l-wantleft--one {
+                width:100%;
+                background-color:rgb(168, 127, 127);
+                margin-bottom: 50px;
+             }
+             .l-wantleft--two {
+                background-color:$lp-orange;
+                margin-top: 40px;
+                // height: 143px;
+                height: auto;
+                width: 80%;
+                margin-left: 20%;
+                align-content: center;
+                position: relative;
+             }
             
         }
         
@@ -442,28 +455,7 @@ main {
             margin-bottom: 28px;
         }
         
-        .l-listwrapper--want {
-            margin-top:$lp-heightbase;
-            margin-bottom:$lp-heightbase;
-            display:grid;
-            grid-template-columns:1fr 0.38fr;
-            width: 100%;
-            .l-wantleft--one {
-               width:100%;
-               background-color:rgb(168, 127, 127);
-               margin-bottom: 50px;
-            }
-            .l-wantleft--two {
-               background-color:$lp-orange;
-               margin-top: 40px;
-               // height: 143px;
-               height: auto;
-               width: 80%;
-               margin-left: 20%;
-               align-content: center;
-               position: relative;
-            }
-        }
+        
         .item-want {
             max-width: 86%;
             background-color:$lp-beige;
