@@ -42,10 +42,12 @@ $clamp-18-2-20:clamp(18px, 2vw, 20px);
 $clamp-23-2-30:clamp(23px, 2vw, 30px);
 $clamp-14-65-30:clamp(14px, 6.5vw, 30px);
 $clamp-20-2-24:clamp(20px, 2vw, 24px);
+$clamp-16-4-23:clamp(16px, 4vw, 23px);
 $clamp-20-6-25:clamp(20px, 6vw, 25px);
 $clamp-20-75-40:clamp(20px, 7.5vw, 40px);
 $clamp-32-5-42:clamp(32px, 5vw, 42px);
-$clamp-26-5-36:clamp(26px, 5vw, 36px);
+$clamp-26-4-36:clamp(26px, 4vw, 36px);
+$clamp-39-5-55:clamp(39px, 5vw, 55px);
 
 .img_mw100 {
     max-width: 100%;
@@ -75,9 +77,11 @@ $clamp-26-5-36:clamp(26px, 5vw, 36px);
     font-size:$lp-p36;
 }
 .p-icon--diared {
-    padding-top: 15px;
-    padding-right:6px;
-    padding-bottom: 10px;
+    // padding-top: 15px;
+    margin-right:6px;
+    // padding-bottom: 10px;
+    width: fit-content;
+    max-width: 17px;
 }
 .mt--15 {
     margin-top:-15px;
@@ -235,7 +239,7 @@ main {
     .p-h3--solution {
         padding-left:30px;
         padding-top: 31px;
-        font-size:$clamp-26-5-36;
+        font-size:$clamp-26-4-36;
     }
     .p-h2--plus {
         padding-left:19px;
@@ -395,7 +399,7 @@ main {
         }
         .recommend-wrapper {
             gap: 26px;
-            padding-left:21px!important;
+            padding-left:27px!important;
         }
         .ttl-solution {
             font-size: $clamp-32-5-42;
@@ -404,6 +408,10 @@ main {
             font-weight: bold;
             line-height: 1em;
             margin-top: 0px;
+            font-size: $clamp-39-5-55;
+        }
+        .point-solution {
+            font-size: $clamp-16-4-23;
         }
         // カスタム680サイズ以下
         @media (max-width: 680px) { 

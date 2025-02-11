@@ -33,9 +33,9 @@
 }
 
 .p-icon--diared {
-  padding-top: 15px;
-  padding-right: 6px;
-  padding-bottom: 10px;
+  margin-right: 6px;
+  width: fit-content;
+  max-width: 17px;
 }
 
 .mt--15 {
@@ -190,7 +190,7 @@ main {
 .l-smlp .p-h3--solution {
   padding-left: 30px;
   padding-top: 31px;
-  font-size: clamp(26px, 5vw, 36px);
+  font-size: clamp(26px, 4vw, 36px);
 }
 .l-smlp .p-h2--plus {
   padding-left: 19px;
@@ -335,7 +335,7 @@ main {
 }
 .l-smlp .l-solution .recommend-wrapper {
   gap: 26px;
-  padding-left: 21px !important;
+  padding-left: 27px !important;
 }
 .l-smlp .l-solution .ttl-solution {
   font-size: clamp(32px, 5vw, 42px);
@@ -344,6 +344,10 @@ main {
   font-weight: bold;
   line-height: 1em;
   margin-top: 0px;
+  font-size: clamp(39px, 5vw, 55px);
+}
+.l-smlp .l-solution .point-solution {
+  font-size: clamp(16px, 4vw, 23px);
 }
 @media (max-width: 680px) {
   .l-smlp .l-solution .none680 {
