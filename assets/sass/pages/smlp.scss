@@ -42,6 +42,7 @@ $clamp-18-2-20:clamp(18px, 2vw, 20px);
 $clamp-23-2-30:clamp(23px, 2vw, 30px);
 $clamp-14-65-30:clamp(14px, 6.5vw, 30px);
 $clamp-20-2-24:clamp(20px, 2vw, 24px);
+$clamp-21-55-24:clamp(21px, 5.5vw, 24px);
 $clamp-16-4-23:clamp(16px, 4vw, 23px);
 $clamp-20-6-25:clamp(20px, 6vw, 25px);
 $clamp-20-75-40:clamp(20px, 7.5vw, 40px);
@@ -241,6 +242,11 @@ main {
         padding-top: 31px;
         font-size:$clamp-26-4-36;
     }
+    @media (max-width: 768px) { 
+        .p-h3--solution {
+            padding-left:16px;
+        } 
+    }
     .p-h2--plus {
         padding-left:19px;
         padding-right: 19px;
@@ -397,9 +403,17 @@ main {
             margin-right:22px;
             min-width: 50%;
         }
+        .solution-recommend-ttl {
+            font-weight:$lp-semibold;
+            font-size: $clamp-21-55-24;
+        }
         .recommend-wrapper {
             gap: 26px;
             padding-left:27px!important;
+            li {
+                line-height: 1.1;
+                font-weight: $lp-semibold;
+            }
         }
         .ttl-solution {
             font-size: $clamp-32-5-42;
@@ -430,6 +444,10 @@ main {
         }
         // mdサイズ以下
         @media (max-width: 768px) {  
+            .img-solution--sp {
+                max-height: 323px;
+                height: auto;
+            }
             .sp-none-wrapper {
                 display: contents!important;
             }
@@ -438,7 +456,7 @@ main {
             }
             .item-order-three {
                 width: 100%;
-                margin-top: 15px;
+                margin-top: 32px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -453,7 +471,7 @@ main {
             .d-contents {
                 display: contents;
                 li {
-                    padding-left: 21px!important;
+                    padding-left: 27px!important;
                     padding-top: 7px!important;
                 }
             }
@@ -1094,10 +1112,17 @@ main {
             flex-direction :column;
             padding-top: 30px;
             padding-bottom: 30px;
-            gap:162px;
+            gap:66px;
+            // mdサイズ以上
+            
             .l-list-item {
                 padding-top: 30px!important;
                 padding-bottom: 30px!important;
+            }
+        }
+        @media (min-width: 768px) {
+            &--solution {
+                gap: 102px;
             }
         }
     }
