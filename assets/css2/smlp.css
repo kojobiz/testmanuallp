@@ -138,11 +138,10 @@ main {
   box-sizing: border-box;
 }
 .l-smlp .l-listwrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding-top: 78.5px;
   grid-gap: 57px;
   margin-top: 78.5px;
+  justify-content: center;
 }
 .l-smlp .l-listcenter {
   display: flex;
@@ -156,8 +155,9 @@ main {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.4rem;
-  width: 100%;
+  width: calc(100% - 30px);
   padding: 0;
+  margin-left: 30px;
 }
 .l-smlp .p-h3--ask {
   padding-top: 32px;
@@ -297,19 +297,19 @@ main {
   color: #fff;
 }
 .l-smlp .l-ask {
-  height: 1187px;
+  height: auto;
   width: 100%;
   flex-direction: column;
   align-items: center;
   padding-bottom: 56px;
 }
+.l-smlp .l-ask img {
+  max-width: 100%;
+}
 .l-smlp .l-solution {
   height: auto;
   flex-direction: column;
   align-items: center;
-}
-.l-smlp .l-solution .l-listwrapper--solution {
-  width: 100%;
 }
 .l-smlp .l-solution .item-order-one {
   width: 480px;
@@ -791,6 +791,7 @@ main {
 }
 
 .l-listwrapper--solution {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
