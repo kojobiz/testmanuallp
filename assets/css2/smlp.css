@@ -458,6 +458,10 @@ main {
   align-items: center;
   padding-bottom: 56px;
 }
+.l-smlp .l-case .p-h2--case {
+  font-size: clamp(20px, 7.5vw, 40px) !important;
+  text-align: center;
+}
 .l-smlp .l-case #l-case-test {
   margin-top: 52px;
 }
@@ -492,13 +496,13 @@ main {
   position: relative;
 }
 .l-smlp .l-case .line-title {
-  padding-bottom: 82px;
+  padding-bottom: 52px;
 }
 .l-smlp .l-case .title-introduction {
-  font-size: 20px;
+  font-size: clamp(18px, 2vw, 20px);
   line-height: 1.75em;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 0px;
 }
 .l-smlp .l-case .item-want {
   max-width: 86%;
@@ -587,6 +591,12 @@ main {
   }
   .l-smlp .l-case .container {
     max-width: 980px;
+  }
+  .l-smlp .l-case .title-introduction {
+    margin-bottom: 28px;
+  }
+  .l-smlp .l-case .line-title {
+    padding-bottom: 82px;
   }
 }
 .l-smlp .l-cta {
@@ -907,5 +917,20 @@ main {
     width: 22px;
     height: auto;
     padding-top: 6px;
+  }
+  .line-title:after {
+    margin-top: 10px !important;
+  }
+  .l-smlp .l-cta .cta-inner {
+    height: 382px;
+  }
+  .line-title-solution--itemtitle {
+    padding-bottom: 13px !important;
+  }
+  .item-txt-introduction {
+    padding-top: 13px !important;
+  }
+  .l-smlp .l-case #l-case-test {
+    margin-top: 40px !important;
   }
 }/*# sourceMappingURL=smlp.css.map */
