@@ -862,7 +862,7 @@ main {
   flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
-  gap: 66px;
+  gap: 6px;
 }
 .l-listwrapper--solution .l-list-item {
   padding-top: 30px !important;
