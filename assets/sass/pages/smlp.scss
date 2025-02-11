@@ -240,6 +240,12 @@ main {
         padding-top: 23px;
         padding-bottom: 30px;
     }
+    .p-h2--flow {
+        font-size: clamp(20px, 7.5vw, 40px);
+    }
+    .p-h2--faq {
+        font-size: clamp(20px, 7.5vw, 40px);
+    }
     .p-h3--solution {
         padding-left:30px;
         padding-top: 31px;
@@ -251,6 +257,8 @@ main {
         } 
     }
     .p-h2--plus {
+        font-size: clamp(20px, 7.5vw, 40px) !important;
+        text-align: center;
         padding-left:19px;
         padding-right: 19px;
     }
@@ -533,9 +541,16 @@ main {
         flex-direction: column;
         align-items: center;
         padding-bottom:56px;
+
         .p-h2--case {
             font-size: clamp(20px, 7.5vw, 40px)!important;
             text-align: center;
+        }
+        &-lists {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 72px;
         }
         #l-case-test {
             margin-top: $lp-heightbase;
@@ -938,6 +953,14 @@ main {
         // height:847px;
         padding-top: calc($lp-heightbase * 1.5);
         padding-bottom: calc($lp-heightbase * 1.5);
+        &-img {
+            margin-top: 46px;
+        }
+        @media (min-width: 768px) {
+            &-img {
+                margin-top: 130px;
+            }
+        }
     }
 
     // faq
@@ -950,7 +973,16 @@ main {
         .accordion {
             --bs-accordion-border-width: 0;
             width:100%;
+            margin-top: 89px;
             .accordion-button {
+                padding-left: 0px!important;
+                padding-right: 0px!important;
+                align-items: flex-start;
+                &::before {
+                    content: "Q. ";
+                    margin-top: -2px;
+                    padding-right: 7px;
+                }
                 &::after {
                     background-image: url(../../../images/service/manual/lp/icon_open_red.png);
                     width: 20px; 
@@ -959,6 +991,8 @@ main {
                 &:not(.collapsed)::after {
                     background-image: url(../../../images/service/manual/lp/icon_close_red.png); 
                     transform: rotate(180deg);
+                    margin-top: -3px;
+                    margin-left: 19px;
                 }
                 background-color:$lp-beige;
             }
@@ -1182,8 +1216,14 @@ main {
         .item-txt-introduction {
             padding-top:13px!important;
         }
-        .l-smlp .l-case #l-case-test {
+        #l-case-test {
             margin-top: 40px!important;
+        }
+        .l-case-lists {
+            gap: 34px!important;
+        }
+        .accordion {
+            margin-top: 17px!important;
         }
     }  
   

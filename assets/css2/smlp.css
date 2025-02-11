@@ -191,6 +191,12 @@ main {
   padding-top: 23px;
   padding-bottom: 30px;
 }
+.l-smlp .p-h2--flow {
+  font-size: clamp(20px, 7.5vw, 40px);
+}
+.l-smlp .p-h2--faq {
+  font-size: clamp(20px, 7.5vw, 40px);
+}
 .l-smlp .p-h3--solution {
   padding-left: 30px;
   padding-top: 31px;
@@ -202,6 +208,8 @@ main {
   }
 }
 .l-smlp .p-h2--plus {
+  font-size: clamp(20px, 7.5vw, 40px) !important;
+  text-align: center;
   padding-left: 19px;
   padding-right: 19px;
 }
@@ -462,6 +470,12 @@ main {
   font-size: clamp(20px, 7.5vw, 40px) !important;
   text-align: center;
 }
+.l-smlp .l-case-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
 .l-smlp .l-case #l-case-test {
   margin-top: 52px;
 }
@@ -700,6 +714,14 @@ main {
   padding-top: 78px;
   padding-bottom: 78px;
 }
+.l-smlp .l-flow-img {
+  margin-top: 46px;
+}
+@media (min-width: 768px) {
+  .l-smlp .l-flow-img {
+    margin-top: 130px;
+  }
+}
 .l-smlp .l-faq {
   display: flex;
   flex-direction: column;
@@ -709,9 +731,18 @@ main {
 .l-smlp .l-faq .accordion {
   --bs-accordion-border-width: 0;
   width: 100%;
+  margin-top: 89px;
 }
 .l-smlp .l-faq .accordion .accordion-button {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  align-items: flex-start;
   background-color: #F8F5F2;
+}
+.l-smlp .l-faq .accordion .accordion-button::before {
+  content: "Q. ";
+  margin-top: -2px;
+  padding-right: 7px;
 }
 .l-smlp .l-faq .accordion .accordion-button::after {
   background-image: url(../../../images/service/manual/lp/icon_open_red.png);
@@ -721,6 +752,8 @@ main {
 .l-smlp .l-faq .accordion .accordion-button:not(.collapsed)::after {
   background-image: url(../../../images/service/manual/lp/icon_close_red.png);
   transform: rotate(180deg);
+  margin-top: -3px;
+  margin-left: 19px;
 }
 .l-smlp .l-faq .accordion button {
   font-size: 23px;
@@ -930,7 +963,13 @@ main {
   .item-txt-introduction {
     padding-top: 13px !important;
   }
-  .l-smlp .l-case #l-case-test {
+  #l-case-test {
     margin-top: 40px !important;
+  }
+  .l-case-lists {
+    gap: 34px !important;
+  }
+  .accordion {
+    margin-top: 17px !important;
   }
 }/*# sourceMappingURL=smlp.css.map */
