@@ -4,7 +4,9 @@
 // 下層 - LP１,2
 // ======================================
 
-
+html {
+	scroll-behavior: smooth!important;
+}
 
 // カラーや余白
 $lp-beige: #F8F5F2;
@@ -828,6 +830,13 @@ main {
                 margin-bottom: 0px;
                 font-weight: $lp-bold;
                 text-align: center;
+            }
+            a {
+                text-decoration: none;
+                width: 618px;
+                max-width: 100%;
+                display: inline-flex;
+                justify-content: center;
             }
             
             .dialine-txt {

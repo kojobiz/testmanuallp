@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 .img_mw100 {
   max-width: 100%;
 }
@@ -604,6 +608,13 @@ main {
   margin-bottom: 0px;
   font-weight: 600;
   text-align: center;
+}
+.l-smlp .l-cta .cta-inner a {
+  text-decoration: none;
+  width: 618px;
+  max-width: 100%;
+  display: inline-flex;
+  justify-content: center;
 }
 .l-smlp .l-cta .cta-inner .dialine-txt {
   margin-bottom: 0px !important;
