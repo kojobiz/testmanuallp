@@ -821,6 +821,8 @@ main {
 .l-smlp .l-contact p {
   margin-bottom: 0px !important;
   text-align: center;
+}
+.l-smlp .l-contact .p-contact-introduction {
   padding-top: 45px;
   padding-bottom: 45px;
 }
@@ -830,6 +832,7 @@ main {
 .l-smlp .l-contact .l-contact-form .l-contact-wrapper {
   display: grid;
   grid-template-columns: 0.4fr 0.25fr 1.2fr;
+  height: 61px;
 }
 .l-smlp .submit {
   width: 323px;
