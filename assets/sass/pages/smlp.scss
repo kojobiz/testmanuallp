@@ -1070,12 +1070,23 @@ main {
             padding-bottom: 45px;
         }
         .l-contact-form {
+            label {
+                margin-top: 10px;
+            }
             width: 100%;
             .l-contact-wrapper {
                 display: grid;
                 grid-template-columns: 0.4fr 0.25fr 1.2fr;
+                align-items: start;
                 height: 61px;
+                &--textarea {
+                    display: grid;
+                    grid-template-columns: 0.4fr 0.25fr 1.2fr;
+                    align-items: start;
+                    height: auto;
+                }
             }
+            
         }
     }
     .submit {

@@ -829,10 +829,20 @@ main {
 .l-smlp .l-contact .l-contact-form {
   width: 100%;
 }
+.l-smlp .l-contact .l-contact-form label {
+  margin-top: 10px;
+}
 .l-smlp .l-contact .l-contact-form .l-contact-wrapper {
   display: grid;
   grid-template-columns: 0.4fr 0.25fr 1.2fr;
+  align-items: start;
   height: 61px;
+}
+.l-smlp .l-contact .l-contact-form .l-contact-wrapper--textarea {
+  display: grid;
+  grid-template-columns: 0.4fr 0.25fr 1.2fr;
+  align-items: start;
+  height: auto;
 }
 .l-smlp .submit {
   width: 323px;
