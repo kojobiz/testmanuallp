@@ -821,6 +821,8 @@ main {
 .l-smlp .l-contact p {
   margin-bottom: 0px !important;
   text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .l-smlp .l-contact .l-contact-form {
   width: 100%;
