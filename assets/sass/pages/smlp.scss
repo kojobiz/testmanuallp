@@ -7,8 +7,8 @@
 html {
 	scroll-behavior: smooth!important;
     // overflow-x: hidden;
-    background-color: #85b7ab;
-}
+//     background-color: #85b7ab;
+// }
 
 // カラーや余白
 $lp-beige: #F8F5F2;
@@ -574,7 +574,7 @@ main {
             }
             .l-wantleft--one {
                 width:100%;
-                background-color:rgb(168, 127, 127);
+                background-color:rgb(255, 255, 255);
                 margin-bottom: 50px;
              }
              .l-wantleft--two {
@@ -1076,9 +1076,6 @@ main {
             padding-bottom: 45px;
         }
         .l-contact-form {
-            label {
-                margin-top: 7px;
-            }
             width: 100%;
             .l-contact-wrapper {
                 display: grid;
@@ -1093,6 +1090,33 @@ main {
                 }
             }
             
+        }
+        .p-policy {
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 40px;
+            padding-bottom: 19px;
+        }
+        .submitcheck-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            button {
+                margin-top: 68px;
+                margin-bottom: 142px;
+            }
+            .form-check {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+            .form-check-label {
+                font-size: 18px;
+                font-weight: 500;
+
+            }
         }
     }
     .submit {
@@ -1257,3 +1281,4 @@ main {
   
 }  
     
+}
