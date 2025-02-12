@@ -779,7 +779,7 @@ main {
   font-size: 18px;
   line-height: 26px;
   font-weight: 500 !important;
-  padding-left: 25px;
+  padding-left: 95px;
   padding-top: 0px;
 }
 .l-smlp .l-faq .accordion p {
@@ -873,8 +873,10 @@ main {
     height: 60px;
     width: auto;
   }
+}
+@media (max-width: 768px) {
   .l-smlp .accordion-body {
-    padding-left: 95px !important;
+    padding-left: 25px !important;
   }
 }
 .l-smlp .one {
