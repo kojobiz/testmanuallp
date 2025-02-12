@@ -1055,6 +1055,12 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .form-control {
+            border: var(--bs-border-width) solid #E3D7CB;
+        }
+        .form-control::placeholder {
+            color: #E3D7CB;
+        }
         h2 {
             font-size: $clamp-20-75-40;
             margin-bottom: 0px;
@@ -1071,7 +1077,7 @@ main {
         }
         .l-contact-form {
             label {
-                margin-top: 10px;
+                margin-top: 7px;
             }
             width: 100%;
             .l-contact-wrapper {
@@ -1101,7 +1107,8 @@ main {
     .must {
        border: 2px solid $lp-red;
        width: 77px;
-       height: 42px;
+       padding-top: 3px;
+       padding-bottom: 3px;
        color: $lp-red;
        text-align: center;
        align-content: center;

@@ -812,6 +812,15 @@ main {
   justify-content: center;
   align-items: center;
 }
+.l-smlp .l-contact .form-control {
+  border: var(--bs-border-width) solid #E3D7CB;
+}
+.l-smlp .l-contact .form-control::-moz-placeholder {
+  color: #E3D7CB;
+}
+.l-smlp .l-contact .form-control::placeholder {
+  color: #E3D7CB;
+}
 .l-smlp .l-contact h2 {
   font-size: clamp(20px, 7.5vw, 40px);
   margin-bottom: 0px;
@@ -830,7 +839,7 @@ main {
   width: 100%;
 }
 .l-smlp .l-contact .l-contact-form label {
-  margin-top: 10px;
+  margin-top: 7px;
 }
 .l-smlp .l-contact .l-contact-form .l-contact-wrapper {
   display: grid;
@@ -856,7 +865,8 @@ main {
 .l-smlp .must {
   border: 2px solid #BC0101;
   width: 77px;
-  height: 42px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   color: #BC0101;
   text-align: center;
   align-content: center;
