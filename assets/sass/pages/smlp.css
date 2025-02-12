@@ -779,7 +779,7 @@ main {
   font-size: 18px;
   line-height: 26px;
   font-weight: 500 !important;
-  padding-left: 95px;
+  padding-left: 25px;
   padding-top: 0px;
 }
 .l-smlp .l-faq .accordion p {
@@ -873,47 +873,40 @@ main {
     height: 60px;
     width: auto;
   }
+  .l-smlp .accordion-body {
+    padding-left: 95px !important;
+  }
 }
-
-.one {
+.l-smlp .one {
   width: 100%;
   height: 50px;
   background-color: #a9a7a7;
 }
-
-.two {
+.l-smlp .two {
   background-color: #825e5e;
 }
-
-.three {
+.l-smlp .three {
   background-color: #d8c46d;
 }
-
-.four {
+.l-smlp .four {
   background-color: #a9a7a7;
 }
-
-.five {
+.l-smlp .five {
   background-color: #b784a4;
 }
-
-.six {
+.l-smlp .six {
   background-color: #85b7ab;
 }
-
-.seven {
+.l-smlp .seven {
   background-color: #ada4c5;
 }
-
-.eight {
+.l-smlp .eight {
   background-color: #b784a4;
 }
-
-.nine {
+.l-smlp .nine {
   background-color: #85b7ab;
 }
-
-.l-listwrapper--solution {
+.l-smlp .l-listwrapper--solution {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -921,58 +914,56 @@ main {
   padding-bottom: 30px;
   gap: 6px;
 }
-.l-listwrapper--solution .l-list-item {
+.l-smlp .l-listwrapper--solution .l-list-item {
   padding-top: 30px !important;
   padding-bottom: 30px !important;
 }
 @media (min-width: 768px) {
-  .l-listwrapper--solution {
+  .l-smlp .l-listwrapper--solution {
     gap: 102px;
   }
 }
-
-.p-cta-btn02 {
+.l-smlp .p-cta-btn02 {
   max-width: 618px;
   width: 100%;
   min-height: 85px;
   background-color: #BC0101;
   justify-content: space-evenly;
 }
-
 @media (max-width: 768px) {
-  .cta-txt {
+  .l-smlp .cta-txt {
     font-size: 18px;
     font-weight: 600;
     flex-direction: column;
   }
-  .p-cta-btn02 {
+  .l-smlp .p-cta-btn02 {
     flex-direction: column;
     padding: 12px;
   }
-  .p-cta-btn02 img {
+  .l-smlp .p-cta-btn02 img {
     width: 22px;
     height: auto;
     padding-top: 6px;
   }
-  .line-title:after {
+  .l-smlp .line-title:after {
     margin-top: 10px !important;
   }
-  .l-smlp .l-cta .cta-inner {
+  .l-smlp .l-smlp .l-cta .cta-inner {
     height: 382px;
   }
-  .line-title-solution--itemtitle {
+  .l-smlp .line-title-solution--itemtitle {
     padding-bottom: 13px !important;
   }
-  .item-txt-introduction {
+  .l-smlp .item-txt-introduction {
     padding-top: 13px !important;
   }
-  #l-case-test {
+  .l-smlp #l-case-test {
     margin-top: 40px !important;
   }
-  .l-case-lists {
+  .l-smlp .l-case-lists {
     gap: 34px !important;
   }
-  .accordion {
+  .l-smlp .accordion {
     margin-top: 17px !important;
   }
 }/*# sourceMappingURL=smlp.css.map */

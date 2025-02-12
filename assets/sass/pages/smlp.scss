@@ -1018,7 +1018,7 @@ main {
                 font-size: 18px;
                 line-height: 26px;
                 font-weight: 500!important;
-                padding-left:95px;
+                padding-left:25px;
                 padding-top: 0px;   
             }
             p {
@@ -1129,8 +1129,10 @@ main {
             height: 60px;
             width: auto;
         }
+        .accordion-body { 
+            padding-left: 95px!important;
     }
-}
+    }
 
     .one {
         width: 100%;
@@ -1228,5 +1230,5 @@ main {
         }
     }  
   
-    
+}  
     
