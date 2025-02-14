@@ -4,6 +4,9 @@ html {
 html .img_mw100 {
   max-width: 100%;
 }
+html .p15 {
+  font-size: 15px;
+}
 html .p23 {
   font-size: 23px;
   margin-bottom: 0px;

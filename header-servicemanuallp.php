@@ -61,8 +61,7 @@
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -86,31 +85,28 @@ if (is_home() && is_front_page()) {
 	<header id="header" class="site-header wh">
 		<div class="header-inner">
 			<h1 class="header-title">
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2">
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1">
 					<figure class="logo lp-logosize">
 						<img src="<?php echo get_template_directory_uri() ?>/images/common/logo.svg" width="216" height="46" alt="株式会社一向社" class="logo01 lp-logosize">
-						<img src="<?php echo get_template_directory_uri() ?>/images/common/logo_100th.svg" width="70" height="auto" alt="100th ANNIVERSARY" class="logo02 lp-logosize">
 					</figure>
 				</a>
 			</h1>
 
 			<nav class="header-navi">
 				<div class="navi-phone">
-					<a href="tel:0120150585" class="txt-serif"><span>0120-150-<span class="lastnum-tel">585</span></span></a>
-					<span class="label">受付時間 / 平日 9:00～18:00</span>
 				</div>
-				<ul class="navi-menu txt-serif lp-navi-menu-ul">
+				<ul class="navi-menu lp-navi-menu-ul p15">
 					<!-- navi -->
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#last-achvm-intro">実績紹介</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-flow">サービス詳細</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-comparison">他社サービスとの比較</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-faq">よくあるご質問</a></li>
+					<!-- <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">サービス紹介</a></li> -->
+					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a></li>
+					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a></li>
+					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a></li>
+					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#flow">制作の流れ</a></li>
+					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#faq">よくあるご質問</a></li>
 					<li class="btn-contact" data-color="white">
-						<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#contact">
-							<figure class="icon">
-								<img src="<?php echo get_template_directory_uri() ?>/images/common/icon_mail.png" width="31" height="24" alt="MAIL">
-								<figcaption>お問い合わせ</figcaption>
-							</figure>
+						<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
+							<p>お見積り・制作について</p>
+							<p>無料相談する</p>
 						</a>
 					</li>
 				</ul>
