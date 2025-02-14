@@ -1304,6 +1304,13 @@ footer {
         grid-template-columns: 0.3fr 1fr;
     }
     .l-footer {
+        max-width: 1190px;
+        width: 85%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
         font-family: "Noto Sans JP", serif;
         font-size: 12px;
         table {
@@ -1320,5 +1327,8 @@ footer {
                 margin-left: 6px;
             }
         } 
+        .l-copy {
+            margin-bottom: 0px!important;
+        }
     }
 }
