@@ -1316,7 +1316,7 @@ footer {
         table {
             margin-top: 9px;
             th, td {
-                font-weight: 200!important; 
+                font-weight: 200; 
             }
             th {
                 letter-spacing: 0.13em;
@@ -1329,6 +1329,28 @@ footer {
         } 
         .l-copy {
             margin-bottom: 0px!important;
+            font-weight: 200;
+            font-size: 14px;
         }
+    }
+}
+@media (max-width: 768px) {
+    .sp-divnone {
+        display: contents;
+    }
+    .l-footer {
+        flex-direction: column!important;
+        align-items: center!important;
+        width: 95%;
+    }
+    th, td {
+        font-weight: 300!important; 
+    }
+    .l-copy {
+        margin-top: 25px;
+    }
+    footer {
+        padding-top: 36px;
+        padding-bottom: 12px;
     }
 }
