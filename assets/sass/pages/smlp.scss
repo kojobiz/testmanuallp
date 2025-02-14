@@ -8,7 +8,7 @@ html {
 	scroll-behavior: smooth!important;
     // overflow-x: hidden;
 //     background-color: #85b7ab;
-// }
+}
 
 // カラーや余白
 $lp-beige: #F8F5F2;
@@ -1290,5 +1290,35 @@ main {
     }  
   
 }  
-    
+
+footer {
+    padding-top: 28px;
+    padding-bottom: 24px;
+    // height: 195px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $lp-white;
+    background-color: $lp-txtred;
+    .company-wrapper {
+        display: grid;
+        grid-template-columns: 0.3fr 1fr;
+    }
+    .l-footer {
+        font-family: "Noto Sans JP", serif;
+        font-size: 12px;
+        table {
+            margin-top: 9px;
+            th, td {
+                font-weight: 200!important; 
+            }
+            th {
+                letter-spacing: 0.13em;
+            }
+            td:before {
+                content: ":";
+                margin-right: 8px;
+                margin-left: 6px;
+            }
+        } 
+    }
 }
