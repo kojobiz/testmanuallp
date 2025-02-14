@@ -85,11 +85,9 @@ if (is_home() && is_front_page()) {
 	<header id="header" class="site-header wh">
 		<div class="header-inner">
 			<h1 class="header-title">
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1">
-					<figure class="logo lp-logosize">
-						<img src="<?php echo get_template_directory_uri() ?>/images/common/logo.svg" width="216" height="46" alt="株式会社一向社" class="logo01 lp-logosize">
-					</figure>
-				</a>
+				<figure class="logo lp-logosize">
+					<img src="<?php echo get_template_directory_uri() ?>/images/common/logo.svg" width="216" height="46" alt="株式会社一向社" class="logo01 lp-logosize">
+				</figure>
 			</h1>
 
 			<nav class="header-navi">
@@ -97,7 +95,6 @@ if (is_home() && is_front_page()) {
 				</div>
 				<ul class="navi-menu lp-navi-menu-ul p15">
 					<!-- navi -->
-					<!-- <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">サービス紹介</a></li> -->
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a></li>
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a></li>
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a></li>
@@ -123,31 +120,27 @@ if (is_home() && is_front_page()) {
 	</header>
 
 	<div id="spNavi" class="tabOnly">
-		<ul class="navi-menu txt-serif">
+		<ul class="navi-menu">
 			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2">ホーム</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a>
 			</li>
 			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#last-achvm-intro">実績紹介</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a>
 			</li>
 			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-flow">サービス詳細</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a>
 			</li>
 			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-comparison">他社サービスとの比較</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#flow">制作の流れ</a>
 			</li>
 			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#service-faq">よくあるご質問</a>
-			</li>
-			<li>
-				<a href="<?php echo esc_url(home_url('/privacy-policy-lp2')); ?>">プライバシーポリシー</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#faq">よくあるご質問</a>
 			</li>
 			<li class="navi-contact">
-				<div class="navi-phone">
-					<a href="tel:0120150585" class="txt-serif"><span>0120-150-<span class="lastnum-tel">585</span></span></a>
-					<span class="label">受付時間 / 平日 9:00～18:00</span>
-				</div>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/exhibition_support/lp2#contact" class="btn">お問い合わせ</a>
+				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
+					<p>お見積り・制作について</p>
+					<p>無料相談する</p>
+				</a>
 			</li>
 		</ul>
 	</div>

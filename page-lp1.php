@@ -143,7 +143,7 @@ get_header('servicemanuallp');
             </section>
 
             <!-- 解決 -->
-            <section style="background-color:#ffffff;" ><!-- 解決 -->
+            <section style="background-color:#ffffff;" id="solution"><!-- 解決 -->
                 <div class="l-section--tight lp-white l-solution">
                     <h2 class="big-title ttl-solution">
                         <span class="border-accent txt-strong none680">トリセツまるごとサポート</span>
@@ -378,7 +378,7 @@ get_header('servicemanuallp');
             </section>
 
             <!--事例-->
-            <section style="background-color:#ffffff;" ><!--事例-->
+            <section style="background-color:#ffffff;" id="case" ><!--事例-->
                 <div class="l-section--tight lp-white l-case">
                     <h2 class="line-title p-h2--case">お客さまの<br class="d-block d-md-none">お悩み解決事例</h2>
                     <p class="title-introduction">トリセツまるごとサポートでは、<br class="d-block d-md-none">シャープさまのAQUOSテレビをはじめ、<br>
@@ -485,7 +485,7 @@ get_header('servicemanuallp');
 
 
             <!-- プラスお助け -->
-            <section style="background-color:#ffffff;" >
+            <section style="background-color:#ffffff;" id="support" >
                 <div class="l-section--tight lp-white l-plus">
                     <div class="flex-row--aicenter" style="padding-bottom: 88px;">
                         <img src="./images/service/manual/lp/icon_line_dialeft2_red.png" alt="" height="51" width="auto">
@@ -566,7 +566,7 @@ get_header('servicemanuallp');
             </section>
 
             <!-- フロー -->
-            <section style="background-color:#F8F5F2;" >
+            <section style="background-color:#F8F5F2;" id="flow" >
                 <div class="l-section lp-beige l-flow">
                     <h2 class="line-title p-h2--flow">制作の流れ</h2>
                 <div class="l-flow-img">
@@ -580,7 +580,7 @@ get_header('servicemanuallp');
 
 
             <!-- FAQ -->
-            <section style="background-color:#F8F5F2; padding-top:62px;" > 
+            <section style="background-color:#F8F5F2; padding-top:62px;" id="faq" > 
                 <div class="l-section--tight lp-beige l-faq">
                     <h2 class="line-title p-h2--faq">よくあるご質問</h2>
                     <div class="accordion" id="accordionExample">
@@ -754,7 +754,8 @@ get_header('servicemanuallp');
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
-                                    プライバシーポリシーに同意する
+                                    <a href="https://ikkosha.co.jp/privacy-policy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+                                    に同意する
                                 </label>
                             </div>
                             <button class="submit">
@@ -769,10 +770,9 @@ get_header('servicemanuallp');
 
         </div>  
     </main>
-    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
  </body>
  </html>
 <?php
-get_footer();
+get_footer('servicemanuallp');
 ?>

@@ -853,6 +853,14 @@ html .l-smlp .l-contact .submitcheck-wrapper .form-check-label {
   font-weight: 500;
   padding-left: 6px;
 }
+html .l-smlp .l-contact .submitcheck-wrapper .form-check-label a {
+  text-decoration: none;
+  color: #212529;
+  text-decoration-line: underline;
+}
+html .l-smlp .l-contact .submitcheck-wrapper .form-check-label a:hover {
+  color: #686868;
+}
 html .l-smlp .submit {
   width: 323px;
   height: 66px;
