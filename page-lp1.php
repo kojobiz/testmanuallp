@@ -14,7 +14,7 @@ get_header('servicemanuallp');
             <section class="lp-white section100">
                 <div class="l-hero">
                     <div class="l-hero-wrapper">
-                        <div><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="" width="343" style="max-width: 100%;"></div>
+                        <div class="img-left"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="" width="343" style="max-width: 100%;"></div>
                         <div></div>
                         <div class="img-right"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="" height="445" style="max-width: 100%;"></div>
                         <!-- <div><img src="./images/service/manual/lp/mv2.svg" alt="" height="530" style="margin-top: -26.5px;"></div> -->

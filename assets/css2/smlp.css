@@ -345,6 +345,27 @@ header {
   font-weight: 700;
   color: #fff;
 }
+@media (max-width: 594px) {
+  .l-smlp .l-hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: flex-end;
+    padding-top: 40%;
+    height: 100%;
+  }
+  .l-smlp .l-hero-wrapper--center {
+    transform: translate(-50%, 0%);
+    top: 6%;
+  }
+  .l-smlp .l-hero-wrapper .img-left {
+    width: 180px;
+  }
+  .l-smlp .l-hero-wrapper .img-right {
+    width: 180px;
+  }
+}
 .l-smlp .l-ask {
   height: auto;
   width: 100%;

@@ -398,6 +398,30 @@ header {
             }
         }
     }
+    // サイズ以下
+    @media (max-width: 594px) { 
+        .l-hero-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            align-items: flex-end;
+            padding-top: 40%;
+            height: 100%;
+            &--center {
+                transform:translate(-50%, 0%);
+                top: 6%;
+            }
+            .img-left {
+                width: 180px;
+            }
+            .img-right {
+                width: 180px;
+            }
+        }
+    }
+
+
     // お悩み
     .l-ask {
         // height:1187px;
