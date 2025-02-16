@@ -776,6 +776,7 @@ header {
 }
 .l-smlp .l-faq .accordion {
   --bs-accordion-border-width: 0;
+  --bs-accordion-btn-focus-box-shadow: none!important;
   width: 100%;
   margin-top: 89px;
 }
@@ -792,14 +793,13 @@ header {
 }
 .l-smlp .l-faq .accordion .accordion-button::after {
   background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_open_red.png);
-  width: 20px;
-  height: 20px;
+  height: 33px;
 }
 .l-smlp .l-faq .accordion .accordion-button:not(.collapsed)::after {
   background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_close_red.png);
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
   margin-top: -3px;
-  margin-left: 19px;
+  margin-left: auto;
 }
 .l-smlp .l-faq .accordion button {
   font-size: 23px;
