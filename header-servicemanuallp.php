@@ -19,45 +19,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<style>
-		:root {
-			--base-font-color: #333;
-			--bg-color: #fff;
-			--main-width: 120.0rem;
-			--primary-color: #f0353c;
-			/* Swiper Setting */
-			--swiper-pagination-bullet-height: 1.2rem;
-			--swiper-pagination-bullet-horizontal-gap: .6rem;
-			--swiper-pagination-bullet-width: 1.2rem;
-			--swiper-pagination-color: #f0353c;
-			--swiper-theme-color: #f0353c;
-		}
-
-		[data-color="black"] {
-			--txt-color: #000;
-		}
-
-		[data-color="red"] {
-			--txt-color: #d6000f;
-		}
-
-		[data-color="white"] {
-			--txt-color: #fff;
-		}
-
-		.lp-logosize {
-			max-width: 75%;
-		}
-
-		.lp-navi-menu-ul li {
-			text-wrap: nowrap !important;
-		}
-
-		/* .lp-navi-menu-ul li:not(:last-child) {
-		margin-right: 15px!important;
-	} */
-	</style>
-
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

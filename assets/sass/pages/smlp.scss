@@ -4,11 +4,6 @@
 // 下層 - LP１,2
 // ======================================
 
-html {
-	scroll-behavior: smooth!important;
-    // overflow-x: hidden;
-//     background-color: #85b7ab;
-}
 
 // カラーや余白
 $lp-beige: #F8F5F2;
@@ -98,9 +93,16 @@ $clamp-39-5-55:clamp(39px, 5vw, 55px);
 }
 main {
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 400; // デフォルトのフォントウェイト
+    font-weight: 400;
     -webkit-font-smoothing: antialiased; // フォントのレンダリングを滑らかに
     -moz-osx-font-smoothing: grayscale;  // Firefox用のフォントスムージング
+}
+header {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; // フォントのレンダリングを滑らかに
+    -moz-osx-font-smoothing: grayscale;  // Firefox用のフォントスムージング
+    text-wrap: nowrap!important;
 }
 
 .ai-center {
