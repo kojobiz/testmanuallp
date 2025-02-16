@@ -273,7 +273,7 @@ header {
     .p-iconcheck:before {
         position: absolute;
         content:"";
-        background-image: url(../../../images/service/manual/lp/icon_check.png);
+        background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_check.png);
         background-size: 100%;
         background-repeat: no-repeat;
         width: 25px;
@@ -333,7 +333,7 @@ header {
     // }
     .l-hero {
         height:575px;
-        background-image: url(../../../images/service/manual/lp/img_hero_bg01.png);
+        background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png);
         background-repeat: no-repeat;
         object-fit: cover;
         left: 0;
@@ -989,12 +989,12 @@ header {
                     padding-right: 7px;
                 }
                 &::after {
-                    background-image: url(../../../images/service/manual/lp/icon_open_red.png);
+                    background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_open_red.png);
                     width: 20px; 
                     height: 20px; 
                 }
                 &:not(.collapsed)::after {
-                    background-image: url(../../../images/service/manual/lp/icon_close_red.png); 
+                    background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_close_red.png); 
                     transform: rotate(180deg);
                     margin-top: -3px;
                     margin-left: 19px;
