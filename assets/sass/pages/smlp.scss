@@ -294,7 +294,7 @@ header {
     }
     .big-title {
         font-size:$lp-h2big;
-        line-height:4.2rem;
+        line-height:70px;
         text-align: center;
 
     }
@@ -436,11 +436,26 @@ header {
             font-size: $clamp-21-55-24;
         }
         .recommend-wrapper {
-            gap: 26px;
-            padding-left:27px!important;
+            gap: 45px; //beforeなし26px
+            padding-left:51px!important;
             li {
                 line-height: 1.1;
                 font-weight: $lp-semibold;
+            }
+            .recommend-item {
+                position: relative;
+            }
+
+            .recommend-item:before {
+                content: "";
+                background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png);
+                height: 19px;
+                width: 22px;
+                display: flex;
+                background-size: 78%;
+                top: 4px;
+                position: absolute;
+                left: -24px;
             }
             img {
                 padding-bottom:3px;

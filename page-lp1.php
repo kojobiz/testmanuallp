@@ -146,9 +146,9 @@ get_header('servicemanuallp');
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="solution-recommend-ttl">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">とりあえず丸投げしたい</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">取説をゼロベースからつくりたい</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">どこを改善して良いかわからない</li>
+                                    <li class="p20 recommend-item">とりあえず丸投げしたい</li>
+                                    <li class="p20 recommend-item">取説をゼロベースからつくりたい</li>
+                                    <li class="p20 recommend-item">どこを改善して良いかわからない</li>
                                 </ul>
                             </div>
                             <div>
@@ -185,9 +185,9 @@ get_header('servicemanuallp');
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">文字が多くごちゃごちゃしている</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">ページ数を減らしたい</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">見やすいデザインにしたい</li>
+                                    <li class="p20 recommend-item">文字が多くごちゃごちゃしている</li>
+                                    <li class="p20 recommend-item">ページ数を減らしたい</li>
+                                    <li class="p20 recommend-item">見やすいデザインにしたい</li>
                                 </ul>
                             </div>
                             <div>
@@ -222,9 +222,9 @@ get_header('servicemanuallp');
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">イラスト作成に時間をかけたくない</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">イラストがわかりにくい</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">イラストが更新されていない</li>
+                                    <li class="p20 recommend-item">イラスト作成に時間をかけたくない</li>
+                                    <li class="p20 recommend-item">イラストがわかりにくい</li>
+                                    <li class="p20 recommend-item">イラストが更新されていない</li>
                                 </ul>
                             </div> 
                             <div>
@@ -257,11 +257,11 @@ get_header('servicemanuallp');
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">日本語から多言語対応したい</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">海外の取扱説明書を日本語に翻訳したい</li>
+                                    <li class="p20 recommend-item">日本語から多言語対応したい</li>
+                                    <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
                                 </ul>
                                 <ul style="padding-left: 21px!important;" class="d-contents recommend-wrapper">
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">翻訳が正しいかをネイティブチェックしたい</li>
+                                    <li class="p20 recommend-item">翻訳が正しいかをネイティブチェックしたい</li>
                                 </ul>
                             </div> 
                             <div>
@@ -295,9 +295,9 @@ get_header('servicemanuallp');
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper" >
-                                    <li class="p20" ><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">法律に触れていないか不安</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">確認すべき法律がわからない</li>
-                                    <li class="p20"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png" alt="" height="19" width="auto">確認する時間がない</li>
+                                    <li class="p20 recommend-item">法律に触れていないか不安</li>
+                                    <li class="p20 recommend-item">確認すべき法律がわからない</li>
+                                    <li class="p20 recommend-item">確認する時間がない</li>
                                 </ul>
                             </div>
                             <div>

@@ -249,7 +249,7 @@ header {
 }
 .l-smlp .big-title {
   font-size: 3rem;
-  line-height: 4.2rem;
+  line-height: 70px;
   text-align: center;
 }
 .l-smlp .l-section {
@@ -379,12 +379,26 @@ header {
   font-size: clamp(21px, 5.5vw, 24px);
 }
 .l-smlp .l-solution .recommend-wrapper {
-  gap: 26px;
-  padding-left: 27px !important;
+  gap: 45px;
+  padding-left: 51px !important;
 }
 .l-smlp .l-solution .recommend-wrapper li {
   line-height: 1.1;
   font-weight: 500;
+}
+.l-smlp .l-solution .recommend-wrapper .recommend-item {
+  position: relative;
+}
+.l-smlp .l-solution .recommend-wrapper .recommend-item:before {
+  content: "";
+  background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_check_black.png);
+  height: 19px;
+  width: 22px;
+  display: flex;
+  background-size: 78%;
+  top: 4px;
+  position: absolute;
+  left: -24px;
 }
 .l-smlp .l-solution .recommend-wrapper img {
   padding-bottom: 3px;
