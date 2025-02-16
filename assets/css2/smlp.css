@@ -1,3 +1,7 @@
+p:not(:last-of-type) {
+  margin-bottom: 0px !important;
+}
+
 .img_mw100 {
   max-width: 100%;
 }
@@ -149,7 +153,7 @@ header {
   gap: 37px;
 }
 .l-smlp .p-maintxt {
-  font-size: 1.09rem;
+  font-size: 18px;
   padding-left: 30px;
   box-sizing: border-box;
 }
@@ -233,7 +237,7 @@ header {
   width: 25px;
   height: 21px;
   left: -30px;
-  top: 3px;
+  top: 6px;
 }
 .l-smlp .line-title:after {
   content: "";
@@ -274,6 +278,10 @@ header {
 .l-smlp .lp-test {
   background-color: rgb(148, 215, 148);
 }
+.l-smlp .iconarrowbeige {
+  height: 32px;
+  width: auto;
+}
 .l-smlp .l-hero {
   height: 575px;
   background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png);
@@ -300,6 +308,8 @@ header {
   flex-direction: column;
   align-items: center;
   position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -375,6 +385,12 @@ header {
 .l-smlp .l-solution .recommend-wrapper li {
   line-height: 1.1;
   font-weight: 500;
+}
+.l-smlp .l-solution .recommend-wrapper img {
+  padding-bottom: 3px;
+  padding-right: 6px;
+  height: 19px;
+  width: auto;
 }
 .l-smlp .l-solution .ttl-solution {
   font-size: clamp(32px, 5vw, 42px);
