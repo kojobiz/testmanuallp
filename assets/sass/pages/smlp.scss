@@ -340,9 +340,15 @@ header {
         bottom: 0;
         position: relative;
         &-wrapper {
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 0.5fr;
             justify-content: space-between;
+            .img-right {
+                text-align: end;
+            }
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-between;
             &--center {
                 display: flex;
                 flex-direction: column;

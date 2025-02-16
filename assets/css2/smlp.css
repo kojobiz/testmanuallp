@@ -284,10 +284,13 @@ header {
   position: relative;
 }
 .l-smlp .l-hero-wrapper {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
   justify-content: space-between;
   padding-top: 71.5px;
+}
+.l-smlp .l-hero-wrapper .img-right {
+  text-align: end;
 }
 .l-smlp .l-hero-wrapper--center {
   display: flex;
