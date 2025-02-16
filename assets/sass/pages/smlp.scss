@@ -887,6 +887,7 @@ header {
             width:100%;
             margin-top: 89px;
             .accordion-button {
+                letter-spacing: 0;
                 padding-left: 0px!important;
                 padding-right: 0px!important;
                 align-items: flex-start;
@@ -897,14 +898,18 @@ header {
                 }
                 &::after {
                     background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_open_red.png);
-                    // width: 20px; 
-                    height: 33px;
+                    width: 32px; 
+                    height: 32px;
+                    background-size: 100%;
                 }
                 &:not(.collapsed)::after {
                     background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_close_red.png); 
                     transform: rotate(-180deg);
                     margin-top: -3px;
                     margin-left: auto;
+                    background-size: 100%;
+                    width: 32px;
+                    height: 32px;
                 }
                 background-color:$lp-beige;
             }
@@ -912,29 +917,34 @@ header {
                 font-size: $lp-p23;
                 font-weight: 500;
                 color: #000!important;
-                line-height: 1.9rem!important;
+                line-height: 34px!important;
                 padding-top: 35px;
             }
             strong {
                 color: $lp-red;
                 font-size: 23px;
                 line-height:30px!important;
-                font-weight: 500!important;   
+                font-weight: 500!important;
+                position: relative;
+                letter-spacing: 0;
             }
             strong:before {
                 content:"A. ";
                 padding-right: 8px;
+                position: absolute;
+                top: 3px;
+                left: -30px;
             }  
             .accordion-body {
                 font-size: 18px;
                 line-height: 26px;
                 font-weight: 500!important;
-                padding-left:95px;
+                padding-left:123px;
                 padding-top: 0px;   
             }
             p {
                 margin-top: 8px;
-                padding-left: 35px;
+                padding-left: 2px;
                 padding-bottom: 0!important;
                 line-height: 1.5;
             }
@@ -1098,7 +1108,7 @@ header {
     }
     @media (max-width: 768px) {
         .accordion-body { 
-            padding-left: 25px!important;
+            padding-left: 54px!important;
         }
     }
 
