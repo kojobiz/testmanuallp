@@ -13,7 +13,6 @@ $lp-orange:#E86B65;;
 $lp-txtred:#A20000;
 $lp-txtorange:#E86B65;
 $lp-txtbeige:#E3D7CB;
-$lp-test:rgb(148, 215, 148);
 $lp-heightbase:52px;
 $lp-heightbase2:80px;
 $lp-titlelinemore:30px;
@@ -45,6 +44,7 @@ $clamp-21-55-24:clamp(21px, 5.5vw, 24px);
 $clamp-16-4-23:clamp(16px, 4vw, 23px);
 $clamp-20-6-25:clamp(20px, 6vw, 25px);
 $clamp-20-75-40:clamp(20px, 7.5vw, 40px);
+$clamp-32-5-48:clamp(32px, 5vw, 48px);
 $clamp-32-5-42:clamp(32px, 5vw, 42px);
 $clamp-26-4-36:clamp(26px, 4vw, 36px);
 $clamp-39-5-55:clamp(39px, 5vw, 55px);
@@ -175,7 +175,6 @@ header {
         padding: 0px!important;
     }
     h2 {
-        font-size:$lp-h2;
         margin-bottom:0px!important;
         font-weight:$lp-bold;
     }
@@ -325,9 +324,6 @@ header {
     .lp-white {
         background-color:$lp-white;
     }
-    .lp-test {
-        background-color:$lp-test;
-    }
     .iconarrowbeige {
         height: 32px;
         width: auto;
@@ -413,6 +409,9 @@ header {
         img {
             max-width: 100%;
         }
+        .line-title {
+            font-size: clamp(29px, 4vw, 40px);
+        }
         // mdサイズ以下
         @media (max-width: 768px) { 
             img {
@@ -465,7 +464,7 @@ header {
             }
         }
         .ttl-solution {
-            font-size: $clamp-32-5-42;
+            font-size: $clamp-32-5-48;
         }
         .number-solution {
             font-weight: bold;
@@ -513,14 +512,17 @@ header {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 7px;
-                li:first-child {
-                    padding-top: 12px!important;
-                } 
+                &--two {
+                    margin-top: 7px;
+                }
+            }
+            .recommend-attention {
+                padding-bottom: 12px!important;
             }
             .d-contents {
                 display: contents;
                 li {
-                    padding-left: 27px!important;
+                    padding-left: 51px!important;
                     padding-top: 7px!important;
                 }
             }

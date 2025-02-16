@@ -11,7 +11,7 @@ get_header('servicemanuallp');
           <main>
         <div class="l-smlp">
             <!-- ヒーロー -->
-            <section class="lp-test section100">
+            <section class="lp-white section100">
                 <div class="l-hero">
                     <div class="l-hero-wrapper">
                         <div><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="" width="343" style="max-width: 100%;"></div>
@@ -48,7 +48,7 @@ get_header('servicemanuallp');
         
             <section style="background-color:#F8F5F2;" >
                 <div class="l-section--tight lp-beige l-ask">
-                    <h2 class="line-title">こんなお悩みはありませんか？</h2>
+                    <h2 class="line-title">こんなお悩みは<br class="d-md-none">ありませんか？</h2>
                     <div class="container">
                         <ul class="l-listwrapper row">
                             <li class="l-listcenter col-md">
@@ -142,7 +142,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 3 sp 2 -->
                             <div class="item-order">
-                                <div class="flex-row--aicenter">
+                                <div class="flex-row--aicenter recommend-attention">
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="solution-recommend-ttl">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
@@ -181,7 +181,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 3 sp 2 -->
                             <div>
-                                <div class="flex-row--aicenter">
+                                <div class="flex-row--aicenter recommend-attention">
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
@@ -218,7 +218,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 3 sp 2 -->
                             <div>
-                                <div class="flex-row--aicenter">
+                                <div class="flex-row--aicenter recommend-attention">
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
@@ -253,14 +253,14 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 3 sp 2 -->
                             <div>
-                                <div class="flex-row--aicenter">
+                                <div class="flex-row--aicenter recommend-attention">
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper">
                                     <li class="p20 recommend-item">日本語から多言語対応したい</li>
                                     <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
                                 </ul>
-                                <ul style="padding-left: 21px!important;" class="d-contents recommend-wrapper">
+                                <ul class="recommend-wrapper recommend-wrapper--two">
                                     <li class="p20 recommend-item">翻訳が正しいかをネイティブチェックしたい</li>
                                 </ul>
                             </div> 
@@ -291,7 +291,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 3 sp 2 -->
                             <div>
-                                <div class="flex-row--aicenter">
+                                <div class="flex-row--aicenter recommend-attention">
                                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                                 </div>
                                 <ul class="flex-row--aicenter recommend-wrapper" >
