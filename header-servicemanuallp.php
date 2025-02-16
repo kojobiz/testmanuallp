@@ -11,6 +11,7 @@
  */
 
 ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 
@@ -41,9 +42,10 @@ if (is_home() && is_front_page()) {
 ?>
 
 <body <?php body_class($custom_body_class); ?>>
+	
 
 	<?php wp_body_open(); ?>
-
+	
 	<header id="header" class="site-header wh">
 		<div class="header-inner">
 			<h1 class="header-title">
@@ -57,6 +59,7 @@ if (is_home() && is_front_page()) {
 				</div>
 				<ul class="navi-menu lp-navi-menu-ul p15">
 					<!-- navi -->
+					<li><a href="<?php echo esc_url(home_url('/cms/wp-content/themes/ikkosha_theme')); ?>/images/service/manual/lp/img_hero_manual.png">画像アクセス</a></li>
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a></li>
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a></li>
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a></li>
