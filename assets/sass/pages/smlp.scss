@@ -49,6 +49,27 @@ $clamp-32-5-42:clamp(32px, 5vw, 42px);
 $clamp-26-4-36:clamp(26px, 4vw, 36px);
 $clamp-39-5-55:clamp(39px, 5vw, 55px);
 
+#hamburgerMenu {
+    background-color:$lp-red!important;
+    width: 77px!important;
+    height: 100%!important;
+}
+#hamburgerMenu > div {
+    width: 37px!important;
+    height: 22px!important;
+    margin: auto!important;
+    top: 50%!important;
+    transform: translateY(-50%)!important;
+}
+#hamburgerMenu span {
+    background:$lp-white!important;
+}
+#hamburgerMenu.is-open span:nth-child(3) {
+    top: 50%!important;
+}
+#hamburgerMenu.is-open span:nth-child(1) {
+    top: 50%!important;
+}
 .site-header {
     height: 64px!important;
 }
@@ -1409,7 +1430,7 @@ footer {
         height: 50px!important;
     }
     .site-container {
-        height: 50px!important;
+        margin-top: 50px!important;
     }
     .sp-divnone {
         display: contents;
