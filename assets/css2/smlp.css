@@ -280,7 +280,7 @@ header {
 }
 .l-smlp .l-hero {
   height: 575px;
-  background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png);
+  background-image: url("https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png");
   background-repeat: no-repeat;
   object-fit: cover;
   left: 0;
@@ -626,6 +626,8 @@ header {
   font-weight: 500;
   margin-bottom: 0px !important;
   align-content: center;
+  z-index: 1;
+  position: sticky;
 }
 .l-smlp .l-case .img-ballon {
   position: absolute;
@@ -648,6 +650,8 @@ header {
   position: absolute;
   bottom: -38px;
   right: 45%;
+  height: 66px;
+  z-index: -1;
 }
 @media (min-width: 768px) {
   .l-smlp .l-case .img-solution {
