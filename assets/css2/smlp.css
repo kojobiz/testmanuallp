@@ -1,3 +1,11 @@
+.site-header {
+  height: 64px !important;
+}
+
+.site-container {
+  margin-top: 64px !important;
+}
+
 p:not(:last-of-type) {
   margin-bottom: 0px !important;
 }
@@ -52,6 +60,14 @@ p:not(:last-of-type) {
 
 .boldmore {
   font-weight: 700;
+}
+
+.page-top {
+  width: 60px !important;
+  height: 60px;
+  border-radius: 60px;
+  border: 0.3px solid #f8f5f2;
+  box-sizing: border-box;
 }
 
 main {
@@ -978,6 +994,9 @@ header {
   align-items: start;
   height: 61px;
 }
+.l-smlp .l-contact .l-contact-form .l-contact-wrapper .d-md-contents {
+  display: contents;
+}
 .l-smlp .l-contact .l-contact-form .l-contact-wrapper .form-label {
   margin-top: 17px;
   font-size: 18px;
@@ -991,6 +1010,9 @@ header {
   grid-template-columns: 0.4fr 0.25fr 1.2fr;
   align-items: start;
   height: auto;
+}
+.l-smlp .l-contact .l-contact-form .l-contact-wrapper--textarea .d-md-contents {
+  display: contents;
 }
 .l-smlp .l-contact .l-contact-form .l-contact-wrapper--textarea .form-label {
   margin-top: 17px;
@@ -1036,6 +1058,30 @@ header {
 }
 .l-smlp .l-contact .submitcheck-wrapper .form-check-label a:hover {
   color: #686868;
+}
+@media (max-width: 768px) {
+  .l-smlp .l-contact .l-contact-wrapper, .l-smlp .l-contact .l-contact-wrapper--textarea {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+  }
+  .l-smlp .l-contact .l-contact-wrapper .d-md-contents, .l-smlp .l-contact .l-contact-wrapper--textarea .d-md-contents {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  .l-smlp .l-contact .l-contact-wrapper .d-md-contents .form-label, .l-smlp .l-contact .l-contact-wrapper--textarea .d-md-contents .form-label {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 13px;
+  }
+  .l-smlp .l-contact .l-contact-wrapper .d-md-contents p, .l-smlp .l-contact .l-contact-wrapper--textarea .d-md-contents p {
+    margin-top: 0px;
+  }
+  .l-smlp .l-contact .l-contact-wrapper {
+    margin-bottom: 31px !important;
+  }
 }
 .l-smlp .submit {
   width: 323px;
@@ -1223,6 +1269,12 @@ footer .l-footer .l-copy {
 }
 
 @media (max-width: 768px) {
+  .site-header {
+    height: 50px !important;
+  }
+  .site-container {
+    height: 50px !important;
+  }
   .sp-divnone {
     display: contents;
   }

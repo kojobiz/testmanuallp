@@ -686,24 +686,32 @@ get_header('servicemanuallp');
                         </span>「入力内容を確認する」を<span><br class="d-md-none">クリックしてご送信ください。</span></p>
                     <div class="l-contact-form">
                         <div class="mb-3 l-contact-wrapper">
-                            <label for="exampleFormControlInput1" class="form-label">会社名</label>
-                            <p class="must">必須</p>
+                            <div class="d-md-contents">
+                                <label for="exampleFormControlInput1" class="form-label">会社名</label>
+                                <p class="must">必須</p>
+                            </div>
                             
                             <input type="comapny" class="form-control" id="exampleFormControlInput1" placeholder="例）株式会社一向社">
                         </div>
                         <div class="mb-3 l-contact-wrapper">
-                            <label for="exampleFormControlInput2" class="form-label">お名前</label>
-                            <p class="must">必須</p>
+                            <div class="d-md-contents">
+                                <label for="exampleFormControlInput2" class="form-label">お名前</label>
+                                <p class="must">必須</p>
+                            </div>
                             <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="例）鈴木 太郎">
                         </div>
                         <div class="mb-3 l-contact-wrapper">
-                            <label for="exampleFormControlInput3" class="form-label">メールアドレス</label>
-                            <p class="must">必須</p>
+                            <div class="d-md-contents">
+                                <label for="exampleFormControlInput3" class="form-label">メールアドレス</label>
+                                <p class="must">必須</p>
+                            </div>
                             <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="例）info@ikkosha.co.jp">
                         </div>
                         <div class="mb-3 l-contact-wrapper--textarea">
-                            <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容</label>
-                            <p class="must">必須</p>
+                            <div class="d-md-contents">
+                                <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容</label>
+                                <p class="must">必須</p>
+                            </div>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"  placeholder="ご予算、納期、取扱説明書、マニュアル、課題感など"></textarea>
                         </div>  
                         <p class="ta-center p-policy">当社のプライバシーポリシーに同意の上、送信してください。</p>
