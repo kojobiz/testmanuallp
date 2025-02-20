@@ -710,7 +710,9 @@ header {
                 text-align: start;
                 font-weight: 500;
                 margin-bottom: 0px!important;
-               align-content: center;
+                align-content: center;
+                z-index: 1;
+                position: sticky;
             }
         }
         .img-ballon {
@@ -734,6 +736,8 @@ header {
             position: absolute;
             bottom: -38px;
             right: 45%;
+            height: 66px;
+            z-index: -1;
         }
         
         // mdサイズ以上
