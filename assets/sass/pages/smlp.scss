@@ -49,6 +49,9 @@ $clamp-32-5-42:clamp(32px, 5vw, 42px);
 $clamp-26-4-36:clamp(26px, 4vw, 36px);
 $clamp-39-5-55:clamp(39px, 5vw, 55px);
 
+.logo {
+    max-width: 78%!important;
+}
 #hamburgerMenu {
     background-color:$lp-red!important;
     width: 77px!important;

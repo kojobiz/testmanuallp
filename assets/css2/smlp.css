@@ -1,3 +1,7 @@
+.logo {
+  max-width: 78% !important;
+}
+
 #hamburgerMenu {
   background-color: #BC0101 !important;
   width: 77px !important;
