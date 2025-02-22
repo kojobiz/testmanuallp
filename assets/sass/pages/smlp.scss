@@ -9,10 +9,12 @@
 $lp-beige: #F8F5F2;
 $lp-white:#fff;
 $lp-red:#BC0101;
+$lp-red2:#BC0000;
 $lp-orange:#E86B65;;
 $lp-txtred:#A20000;
 $lp-txtorange:#E86B65;
 $lp-txtbeige:#E3D7CB;
+$lp-navy:#0F2347;
 $lp-heightbase:52px;
 $lp-heightbase2:80px;
 $lp-titlelinemore:30px;
@@ -48,9 +50,57 @@ $clamp-32-5-48:clamp(32px, 5vw, 48px);
 $clamp-32-5-42:clamp(32px, 5vw, 42px);
 $clamp-26-4-36:clamp(26px, 4vw, 36px);
 $clamp-39-5-55:clamp(39px, 5vw, 55px);
-
-.logo {
-    max-width: 78%!important;
+.header-navi {
+    padding-top: 19px!important;
+    .navi-menu > li:not(.btn-contact) > a::after {
+        background-color: $lp-red!important;
+        height: 0.2rem!important;
+        top: calc(100% + 3px)!important;
+    }
+    padding-right: calc(15% + 2rem)!important;
+    ul {
+        margin-bottom: 0px!important;
+        li:not(:last-child) {
+            margin-right: clamp(12px, 2vw, 30px)!important;
+        }
+        li:nth-last-child(2) {
+            margin-right: 0px!important;
+        }
+        li a {
+            font-size: clamp(12px, 1.4vw, 15px)!important;
+        }
+        .btn-contact {
+            width: 15%!important;
+            background-color: $lp-red;
+            a {
+                color: $lp-white!important;
+                flex-direction: column!important;
+                p {
+                    margin-bottom: 0px!important;
+                    color: $lp-white!important;
+                    font-size: 18px;
+                    font-weight: $lp-boldmore;
+                    line-height: 1;
+                    padding-bottom: 9px;
+                }
+                p:not(:last-of-type) {
+                    font-size: clamp(10px, 1.1vw, 12px)!important;
+                    line-height: 1;
+                    padding-top: 9px!important;
+                    padding-bottom: 7px!important;
+                    font-weight: $lp-boldmore;
+                }
+            }
+        }
+    }
+    
+}
+.header-title {
+    margin-bottom: 0px!important;
+}
+.logo01 {
+    width: 145px!important;
+    max-width: 145px!important;
 }
 #hamburgerMenu {
     background-color:$lp-red!important;
@@ -72,6 +122,21 @@ $clamp-39-5-55:clamp(39px, 5vw, 55px);
 }
 #hamburgerMenu.is-open span:nth-child(1) {
     top: 50%!important;
+}
+#spNavi{
+    ul li a {
+        font-size: 23px;
+        color: $lp-navy!important;
+        line-height: 34px;
+        vertical-align: bottom!important;
+    }
+    ul li {
+        padding: 0!important;
+        border-top: 4px solid $lp-red2!important;
+        height: 64px;
+        align-content: end!important;
+    }
+    
 }
 .site-header {
     height: 64px!important;

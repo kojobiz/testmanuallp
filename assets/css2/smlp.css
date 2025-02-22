@@ -1,5 +1,55 @@
-.logo {
-  max-width: 78% !important;
+.header-navi {
+  padding-top: 19px !important;
+  padding-right: calc(15% + 2rem) !important;
+}
+.header-navi .navi-menu > li:not(.btn-contact) > a::after {
+  background-color: #BC0101 !important;
+  height: 0.2rem !important;
+  top: calc(100% + 3px) !important;
+}
+.header-navi ul {
+  margin-bottom: 0px !important;
+}
+.header-navi ul li:not(:last-child) {
+  margin-right: clamp(12px, 2vw, 30px) !important;
+}
+.header-navi ul li:nth-last-child(2) {
+  margin-right: 0px !important;
+}
+.header-navi ul li a {
+  font-size: clamp(12px, 1.4vw, 15px) !important;
+}
+.header-navi ul .btn-contact {
+  width: 15% !important;
+  background-color: #BC0101;
+}
+.header-navi ul .btn-contact a {
+  color: #fff !important;
+  flex-direction: column !important;
+}
+.header-navi ul .btn-contact a p {
+  margin-bottom: 0px !important;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  padding-bottom: 9px;
+}
+.header-navi ul .btn-contact a p:not(:last-of-type) {
+  font-size: clamp(10px, 1.1vw, 12px) !important;
+  line-height: 1;
+  padding-top: 9px !important;
+  padding-bottom: 7px !important;
+  font-weight: 700;
+}
+
+.header-title {
+  margin-bottom: 0px !important;
+}
+
+.logo01 {
+  width: 145px !important;
+  max-width: 145px !important;
 }
 
 #hamburgerMenu {
@@ -26,6 +76,19 @@
 
 #hamburgerMenu.is-open span:nth-child(1) {
   top: 50% !important;
+}
+
+#spNavi ul li a {
+  font-size: 23px;
+  color: #0F2347 !important;
+  line-height: 34px;
+  vertical-align: bottom !important;
+}
+#spNavi ul li {
+  padding: 0 !important;
+  border-top: 4px solid #BC0000 !important;
+  height: 64px;
+  align-content: end !important;
 }
 
 .site-header {

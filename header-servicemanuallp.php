@@ -55,8 +55,6 @@ if (is_home() && is_front_page()) {
 			</h1>
 
 			<nav class="header-navi">
-				<div class="navi-phone">
-				</div>
 				<ul class="navi-menu lp-navi-menu-ul p15">
 					<!-- navi -->
 					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a></li>
