@@ -736,45 +736,8 @@ get_header('servicemanuallp');
         </div>  
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const headings = [
-            { id: 'heading01', duration: 2000, easing: 'ease' },
-            { id: 'heading02', duration: 2500, easing: 'ease' },
-            { id: 'heading03', duration: 3000, easing: 'ease' },
-            { id: 'heading04', duration: 1500, easing: 'ease-in' }, 
-            { id: 'heading05', duration: 1500, easing: 'ease-in' }, 
-        ];
+    <script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
 
-        headings.forEach(({ id, duration, easing }) => {
-            const heading = document.querySelector(`#${id}`);
-            let keyframes;
-            if (id === 'heading04') {
-                keyframes = {
-                    opacity: [0, 1],
-                    translate: ['100px', '0'], // 右からシュッと現れる
-                };
-            } else if (id === 'heading05') {
-                keyframes = {
-                    opacity: [0, 1],
-                    translate: ['-100px', '0'], // 左からシュッと現れる
-                };
-            } else {
-                keyframes = {
-                    opacity: [0, 1],
-                    translate: ['0 80px', 0],
-                };
-            }
-            const options = {
-                duration: duration,
-                easing: easing,
-            };
-            heading.animate(keyframes, options);
-        });
-    });
-</script>
-</body>
- </html>
 <?php
 get_footer('servicemanuallp');
 ?>
