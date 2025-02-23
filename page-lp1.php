@@ -523,10 +523,20 @@ get_header('servicemanuallp');
             </section>
 
             <!-- フロー -->
-            <section style="background-color:#F8F5F2;" id="flow" >
+            <!-- <section style="background-color:#F8F5F2;" id="flow" >
                 <div class="l-section lp-beige l-flow">
                     <h2 class="line-title p-h2--flow">制作の流れ</h2>
                 <div class="l-flow-img">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="" width="1186" height="auto" class="img_mw100 d-none d-md-block">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="" width="302" height="auto" class="img_mw100 d-md-none">
+                </div>
+                </div>
+            </section> -->
+
+            <section style="background-color:#F8F5F2;" id="flow" >
+                <div class="l-section lp-beige l-flow">
+                    <h2 class="line-title p-h2--flow">制作の流れ</h2>
+                <div class="l-flow-img img-wrap">
                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="" width="1186" height="auto" class="img_mw100 d-none d-md-block">
                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="" width="302" height="auto" class="img_mw100 d-md-none">
                 </div>
@@ -737,7 +747,6 @@ get_header('servicemanuallp');
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
-
 <?php
 get_footer('servicemanuallp');
 ?>

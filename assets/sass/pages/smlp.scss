@@ -1058,6 +1058,10 @@ header {
             }
         }
     }
+    
+
+
+
 
     // faq
     .l-faq {
@@ -1518,4 +1522,37 @@ footer {
         padding-top: 36px;
         padding-bottom: 12px;
     }
+}
+
+// opacity
+.img-wrap {
+    opacity: 0;
+}
+
+.img-animation {
+    animation: img-opacity 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-animation::before {
+    animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    background:#F8F5F2;;
+content: '';
+inset: 0;
+pointer-events: none;
+position: absolute;
+z-index: 1;
+}
+
+@keyframes img-opacity {
+100% {
+    opacity: 1;
+}
+}
+
+@keyframes img-animation {
+100% {
+    transform: translateX(100%);
+}
 }
