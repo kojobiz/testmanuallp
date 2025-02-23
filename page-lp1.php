@@ -522,17 +522,6 @@ get_header('servicemanuallp');
                 <div class="l-section--tight lp-white l-space-y--high3"></div>
             </section>
 
-            <!-- フロー -->
-            <!-- <section style="background-color:#F8F5F2;" id="flow" >
-                <div class="l-section lp-beige l-flow">
-                    <h2 class="line-title p-h2--flow">制作の流れ</h2>
-                <div class="l-flow-img">
-                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="" width="1186" height="auto" class="img_mw100 d-none d-md-block">
-                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="" width="302" height="auto" class="img_mw100 d-md-none">
-                </div>
-                </div>
-            </section> -->
-
             <section style="background-color:#F8F5F2;" id="flow" >
                 <div class="l-section lp-beige l-flow">
                     <h2 class="line-title p-h2--flow">制作の流れ</h2>
