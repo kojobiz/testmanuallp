@@ -14,18 +14,17 @@ get_header('servicemanuallp');
             <section class="lp-white section100">
                 <div class="l-hero">
                     <div class="l-hero-wrapper">
-                        <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="" width="343" style="max-width: 100%;"></div>
+                        <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="紙の説明書が表示されている" width="343" style="max-width: 100%;"></div>
                         <div></div>
-                        <div class="img-right" id="heading04"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="" height="445" style="max-width: 100%;"></div>
-                        <!-- <div><img src="./images/service/manual/lp/mv2.svg" alt="" height="530" style="margin-top: -26.5px;"></div> -->
+                        <div class="img-right" id="heading04"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="パソコンの画面の中にweb説明書が表示されている" height="445" style="max-width: 100%;"></div>
                     </div>
                     <div class="l-hero-wrapper--center">
-                        <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="" style="max-width: 100%; max-height: 212px;"></h1>
+                        <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
                         <p class="p-hero-cap">制作の進行管理からリーガルチェックまでプロにご相談ください</p>
                         <ul class="l-featurewrapper">
-                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero01.png" alt="" width="158" style="max-width: 100%;" id="heading01"></li>
-                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero02.png" alt="" width="158" style="max-width: 100%;" id="heading02"></li>
-                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero03.png" alt="" width="158" style="max-width: 100%;" id="heading03"></li>
+                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero01.png" alt="アピール1、創業100年以上の信頼" width="158" style="max-width: 100%;" id="heading01"></li>
+                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero02.png" alt="アピール2、新製品PRのトータルサポート" width="158" style="max-width: 100%;" id="heading02"></li>
+                            <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero03.png" alt="アピール3、大手家電メーカーと50年以上の取引実績" width="158" style="max-width: 100%;" id="heading03"></li>
                         </ul>
                     </div>
                     <a href="./#contact">
@@ -52,7 +51,7 @@ get_header('servicemanuallp');
                     <div class="container">
                         <ul class="l-listwrapper row">
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="" class="img-ask">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人" class="img-ask">
                                 <h3 class="p-h3--ask">社内の人手が足りていない</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck">プロにすべて丸投げしたい</li>
@@ -61,7 +60,7 @@ get_header('servicemanuallp');
                                 </ul>
                             </li>
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人">
                                 <h3 class="p-h3--ask">文章・デザインがイマイチ</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck"><span>今の取扱説明書がユーザーにとってわかりにくい気がする</span></li>
@@ -71,7 +70,7 @@ get_header('servicemanuallp');
                         </ul>
                         <ul class="l-listwrapper row">
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="情報の取り扱いが不明なイメージ">
                                 <h3 class="p-h3--ask">翻訳が正しいかわからない</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck">日本語、英語、中国語だけでなく、多言語展開したい
@@ -81,7 +80,7 @@ get_header('servicemanuallp');
                                 </ul>
                             </li>
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="情報と向き合い不安な様子の人">
                                 <h3 class="p-h3--ask">法律に引っかからないか不安</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck">海外製品を輸入して国内展開するので、法律に問題ないかどうかをチェックしたい</li>
@@ -137,7 +136,7 @@ get_header('servicemanuallp');
                                 </div>
                                 <!-- 2 sp 3 -->
                                 <div style="width: 100%;">
-                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="" width="auto" height="323" class=" item-order d-none d-md-block" style="max-width: 100%;">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="図解や注意事項の改善を促している人" width="auto" height="323" class=" item-order d-none d-md-block" style="max-width: 100%;">
                                 </div>  
                             </div>
                             <!-- 3 sp 2 -->
@@ -152,7 +151,7 @@ get_header('servicemanuallp');
                                 </ul>
                             </div>
                             <div>
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="" width="auto" height="323" class=" item-order-three d-block d-md-none img-solution--sp"> 
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="図解や注意表記の改善を提案している人" width="auto" height="323" class=" item-order-three d-block d-md-none img-solution--sp"> 
                             </div>
                         </li>
 
@@ -176,7 +175,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 2 sp 3 -->
                             <div style="width: 100%;">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/6.svg" alt="" width="auto" height="323" class="d-none d-md-block" style="max-width:100%";>
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/6.svg" alt="レイアウトのビフォアアフターを提案している人" width="auto" height="323" class="d-none d-md-block" style="max-width:100%";>
                             </div>
                             </div>
                             <!-- 3 sp 2 -->
@@ -213,7 +212,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 2 sp 3 -->
                             <div style="width: 100%;">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/7.svg" alt="" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/7.svg" alt="ビフォアアフターのイラストを提案している人" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
                             </div>
                             </div>
                             <!-- 3 sp 2 -->
@@ -248,7 +247,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 2 sp 3 -->
                             <div style="width: 100%;">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/8.svg" alt="" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/8.svg" alt="翻訳のビフォアアフターを提案している人とその資料" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
                             </div>
                             </div>
                             <!-- 3 sp 2 -->
@@ -286,7 +285,7 @@ get_header('servicemanuallp');
                             </div>
                             <!-- 2 sp 3 -->
                             <div style="width: 100%;">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/9.svg" alt="" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/9.svg" alt="LP法、家庭用品品質表示法、薬機法、景品表示法などをチェクしている人" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
                             </div>
                             </div>
                             <!-- 3 sp 2 -->
@@ -368,8 +367,8 @@ get_header('servicemanuallp');
                                 </div>
                                 <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
                                     <div style="background-color: rgb(255, 255, 255); width: 100%;">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/10.svg" alt="" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/26.svg" alt="" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/10.svg" alt="紙面取説資料と喜んでいる人" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/26.svg" alt="紙面取説資料と喜んでいる人" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
                                     </div>
                                 </div>
                             </div>
@@ -399,8 +398,8 @@ get_header('servicemanuallp');
                                 </div>
                                 <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
                                     <div style="background-color: rgb(255, 255, 255); width: 100%;">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/11.svg" alt="" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/27.svg" alt="" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/11.svg" alt="資料をチェックしている人" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/27.svg" alt="資料をチェックしている人" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
                                     </div>
                                 </div>
                             </div>
@@ -430,8 +429,8 @@ get_header('servicemanuallp');
                                 </div>
                                 <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
                                     <div style="background-color: rgb(255, 255, 255); width: 100%;">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/12.svg" alt="" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
-                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/28.svg" alt="" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/12.svg" alt="紙面取説からWebで確認できる取説へと変更したイメージ、パソコンのイメージ" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/28.svg" alt="紙面取説からWebで確認できる取説へと変更したイメージ、パソコンのイメージ" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +452,7 @@ get_header('servicemanuallp');
                         <ul class="row" style="gap:76px;"> 
                             <li class="col-md l-plus-item">
                                 <div class="item-wrapper">
-                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_pc.png" alt="">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_pc.png" alt="パソコンと実装のイメージ">
                                     <h3 class="p-h3--plus">製品紹介LP制作</h3>
                                     <p class="p-txt--plus">取扱説明書だけでなく、製品紹介のLP（ランディングページ）もあわせて制作いたします！
                                         プロモーションもまるごとおまかせいただくことで、発注の手間を一元化でき、制作コストも削減できます。</p>
@@ -462,7 +461,7 @@ get_header('servicemanuallp');
                          
                             <li class="col-md l-plus-item">
                                 <div class="item-wrapper">
-                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_support.png">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_support.png" alt="前に立って活動している人">
                                     <h3 class="p-h3--plus">展示会まるごとサポート</h3>
                                     <p class="p-txt--plus">新製品をリリースする場合は、展示会出展でのPRも効果的です。弊社の「展示会まるごとサポート」では、製品を最大限に魅せるためのブース作りからスタッフの手配、チラシやパンフレット制作も対応いたします。</p>
                                 </div>
@@ -473,7 +472,7 @@ get_header('servicemanuallp');
                            
                             <li class="col-md l-plus-item">
                                 <div class="item-wrapper">
-                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_movie.png">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_movie.png" alt="動画のイメージ">
                                     <h3 class="p-h3--plus">動画マニュアル制作</h3>
                                     <p class="p-txt--plus">ユーザーの世代によっては文章よりも動画で説明した方がわかりやすい場合があり、どちらも用意することで満足度も上がります。
                                         実際に撮影したり、イラストを使用した動画も制作可能です。</p>
@@ -483,7 +482,7 @@ get_header('servicemanuallp');
                             
                             <li class="col-md l-plus-item">
                                 <div class="item-wrapper">
-                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_graphic.png" alt="">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_graphic.png" alt="イラストやパレットのイメージ">
                                     <h3 class="p-h3--plus">イメージキャラクター作成</h3>
                                     <p class="p-txt--plus">オリジナルキャラクターや、内容を解説している人物イラストなども作成できます。
                                         文章が多く印象に残りにくい説明も、キャラクターを活用することで読んでもらいやすくなります。</p>
@@ -527,8 +526,8 @@ get_header('servicemanuallp');
                 <div class="l-section lp-beige l-flow">
                     <h2 class="line-title p-h2--flow">制作の流れ</h2>
                 <div class="l-flow-img img-wrap">
-                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="" width="1186" height="auto" class="img_mw100 d-none d-md-block">
-                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="" width="302" height="auto" class="img_mw100 d-md-none">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="1打ち合わせ、2お見積り、3企画・構成・表現設計、4原稿作成・編集、5イラスト作成、6デザイン、7実制作、8納品・アフターフォロー" width="1186" height="auto" class="img_mw100 d-none d-md-block">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="1打ち合わせ、2お見積り、3企画・構成・表現設計、4原稿作成・編集、5イラスト作成、6デザイン、7実制作、8納品・アフターフォロー" width="302" height="auto" class="img_mw100 d-md-none">
                 </div>
                 </div>
             </section>

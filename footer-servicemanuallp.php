@@ -87,11 +87,11 @@
 </style>
 
 </main>
-<a href="#" id="pageTop" class="page-top"></a>
+<a href="#" id="pageTop" class="page-top" alt="トップに戻るボタン"></a>
 <footer>
         <div class="l-footer">
             <div class="sp-divnone">
-                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/logo_footer.png" alt="" height="38" width="auto" class="logo-footer">
+                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/logo_footer.png" alt="株式会社一向社のロゴsince1922" height="38" width="auto" class="logo-footer">
                 <table>
                     <tbody>
                     <tr>

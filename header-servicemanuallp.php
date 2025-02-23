@@ -50,7 +50,7 @@ if (is_home() && is_front_page()) {
 		<div class="header-inner">
 			<h1 class="header-title">
 				<figure class="logo lp-logosize">
-					<img src="<?php echo get_template_directory_uri() ?>/images/common/logo.svg" width="216" height="46" alt="株式会社一向社" class="logo01 lp-logosize">
+					<img src="<?php echo get_template_directory_uri() ?>/images/common/logo.svg" width="216" height="46" alt="株式会社一向社のロゴsince1922" class="logo01 lp-logosize">
 				</figure>
 			</h1>
 
