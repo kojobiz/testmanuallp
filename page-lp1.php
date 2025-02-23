@@ -522,6 +522,7 @@ get_header('servicemanuallp');
                 <div class="l-section--tight lp-white l-space-y--high3"></div>
             </section>
 
+            <!-- flow -->
             <section style="background-color:#F8F5F2;" id="flow" >
                 <div class="l-section lp-beige l-flow">
                     <h2 class="line-title p-h2--flow">制作の流れ</h2>
