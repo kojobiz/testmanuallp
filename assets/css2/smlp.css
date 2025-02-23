@@ -1398,12 +1398,15 @@ footer .l-footer .l-copy {
 }
 
 .img-animation::before {
-  animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  background: #F8F5F2;
   content: "";
-  inset: 0;
-  pointer-events: none;
+  background: #F8F5F2;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  pointer-events: none;
   z-index: 1;
 }
 
@@ -1415,5 +1418,16 @@ footer .l-footer .l-copy {
 @keyframes img-animation {
   100% {
     transform: translateX(100%);
+  }
+}
+@media (max-width: 768px) {
+  .img-animation::before {
+    animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    background: #F8F5F2;
+  }
+  @keyframes img-animation {
+    100% {
+      transform: translateY(100%);
+    }
   }
 }/*# sourceMappingURL=smlp.css.map */

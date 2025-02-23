@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 ////////////////
-//  制作の流れ
+//  制作の流れ(表示：右→左)
 ////////////////
 const images = document.querySelectorAll('.img-wrap');
 const animationClassName = 'img-animation';

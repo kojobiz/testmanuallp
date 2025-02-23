@@ -26,7 +26,7 @@ $lp-h3:1.5rem; //25px
 $lp-bold:600;
 $lp-boldmore:700;
 $lp-semibold:500;
-$lp-maintxt:18px; //18px
+$lp-maintxt:18px;
 $lp-p23:23px;
 $lp-p24:24px;
 $lp-p20:20px;
@@ -1525,6 +1525,54 @@ footer {
 }
 
 // opacity
+// .img-wrap {
+//     opacity: 0;
+// }
+
+// .img-animation {
+//     animation: img-opacity 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+//     overflow: hidden;
+//     position: relative;
+// }
+
+// .img-animation::before {
+//     animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+//     background:#F8F5F2;;
+// content: '';
+// inset: 0;
+// pointer-events: none;
+// position: absolute;
+// z-index: 1;
+// }
+
+// @keyframes img-opacity {
+// 100% {
+//     opacity: 1;
+// }
+// }
+
+// @keyframes img-animation {
+// 100% {
+//     transform: translateX(100%);
+// }
+// }
+
+// @media (max-width: 768px) {
+//     .img-animation::before {
+//         animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+//         background:#f8e1ca;;
+//     content: '';
+//     inset: 0;
+//     pointer-events: none;
+//     position: absolute;
+//     z-index: 1;
+//     }
+//     @keyframes img-animation {
+//         100% {
+//             transform: translateY(100%);
+//         }
+//         }
+// }
 .img-wrap {
     opacity: 0;
 }
@@ -1536,23 +1584,39 @@ footer {
 }
 
 .img-animation::before {
-    animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-    background:#F8F5F2;;
-content: '';
-inset: 0;
-pointer-events: none;
-position: absolute;
-z-index: 1;
+    content: '';
+    background: $lp-beige; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards; // アニメーション
+    pointer-events: none;
+    z-index: 1;
 }
 
 @keyframes img-opacity {
-100% {
-    opacity: 1;
-}
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes img-animation {
-100% {
-    transform: translateX(100%);
+    100% {
+        transform: translateX(100%);
+    }
 }
+
+@media (max-width: 768px) {
+    .img-animation::before {
+        animation: img-animation 7s cubic-bezier(0.4, 0, 0.2, 1) forwards; // アニメーション
+        background: $lp-beige;
+    }
+
+    @keyframes img-animation {
+        100% {
+            transform: translateY(100%);
+        }
+    }
 }
