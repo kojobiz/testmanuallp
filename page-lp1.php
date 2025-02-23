@@ -60,7 +60,7 @@ get_header('servicemanuallp');
                                 </ul>
                             </li>
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人" class="img-ask">
                                 <h3 class="p-h3--ask">文章・デザインがイマイチ</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck"><span>今の取扱説明書がユーザーにとってわかりにくい気がする</span></li>
@@ -70,7 +70,7 @@ get_header('servicemanuallp');
                         </ul>
                         <ul class="l-listwrapper row">
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="情報の取り扱いが不明なイメージ">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="情報の取り扱いが不明なイメージ" class="img-ask">
                                 <h3 class="p-h3--ask">翻訳が正しいかわからない</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck">日本語、英語、中国語だけでなく、多言語展開したい
@@ -80,7 +80,7 @@ get_header('servicemanuallp');
                                 </ul>
                             </li>
                             <li class="l-listcenter col-md">
-                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="情報と向き合い不安な様子の人">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="情報と向き合い不安な様子の人" class="img-ask">
                                 <h3 class="p-h3--ask">法律に引っかからないか不安</h3>
                                 <ul>
                                     <li class="p-maintxt p-iconcheck">海外製品を輸入して国内展開するので、法律に問題ないかどうかをチェックしたい</li>

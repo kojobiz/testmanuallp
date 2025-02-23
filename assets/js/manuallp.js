@@ -57,3 +57,34 @@ entries.forEach((entry) => {
 images.forEach((image) => {
 observer.observe(image);
 });
+
+/////////////////
+//  お悩み画像
+/////////////////
+const items = document.querySelectorAll('.img-ask');
+
+const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        const index = Array.from(items).indexOf(entry.target); 
+        const keyframes = {
+            opacity: [0, 1] 
+        };
+        const options = {
+            duration: 1000,
+            delay: index * 1000, 
+            fill: 'forwards',
+        };
+
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible'); 
+            entry.target.animate(keyframes, options); 
+        } else {
+            entry.target.classList.remove('visible'); 
+            entry.target.style.opacity = 0; 
+        }
+    });
+});
+
+items.forEach((item) => {
+    observer2.observe(item);
+});

@@ -1430,4 +1430,7 @@ footer .l-footer .l-copy {
       transform: translateY(100%);
     }
   }
+}
+.img-ask {
+  opacity: 0;
 }/*# sourceMappingURL=smlp.css.map */
