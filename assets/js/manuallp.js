@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'heading03', duration: 3000, easing: 'ease' },
         { id: 'heading04', duration: 1500, easing: 'ease-in' }, 
         { id: 'heading05', duration: 1500, easing: 'ease-in' }, 
+        { id: 'heading06', duration: 1500, easing: 'ease-in' }, 
     ];
 
     headings.forEach(({ id, duration, easing }) => {
@@ -85,6 +86,6 @@ const observer2 = new IntersectionObserver((entries) => {
     });
 });
 
-items.forEach((item) => {
-    observer2.observe(item);
+items.forEach((items) => {
+    observer2.observe(items);
 });

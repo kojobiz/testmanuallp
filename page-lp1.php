@@ -50,7 +50,7 @@ get_header('servicemanuallp');
                     <h2 class="line-title">こんなお悩みは<br class="d-md-none">ありませんか？</h2>
                     <div class="container">
                         <ul class="l-listwrapper row">
-                            <li class="l-listcenter col-md">
+                            <li class="l-listcenter col-md" id="heading06">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人" class="img-ask">
                                 <h3 class="p-h3--ask">社内の人手が足りていない</h3>
                                 <ul>
