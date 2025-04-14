@@ -744,57 +744,13 @@ get_header('servicemanuallp');
             </div>
         </section> -->
         <!-- コンタクト -->
-        <!-- <section style="background-color:#F8F5F2;" id="contact">
-            <div class="l-section--tight lp-beige l-contact">
-                <h2 class="line-title">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
-                <p class="p-contact-introduction">下記の入力フォームに<span><br class="d-md-none">ご入力いただき、</span><span><br class="d-md-none">
-                    </span>「入力内容を確認する」を<span><br class="d-md-none">クリックしてご送信ください。</span></p>
-                <div class="l-contact-form">
-                    <dl class="mb-3 l-contact-wrapper form-box">
-                        <dt class="d-md-contents">
-                            <label for="exampleFormControlInput1" class="form-label">会社名</label>
-                            <p class="must reauired">必須</p>
-                        </dt>
-                        <dd class="form-control">[mwform_text name="company" class="form-control" placeholder="例）株式会社一向社"]</dd>
-                    </dl>
-                    <dl class="form-box">
-                        <dt>お名前<span class="required"></span></dt>
-                        <dd>[mwform_text name="onamae" class="form-control" placeholder="例）鈴木 太郎"]</dd>
-                    </dl>
-                    <dl class="mb-3 l-contact-wrapper form-box">
-                        <dt class="d-md-contents">
-                            <label for="exampleFormControlInput2" class="form-label">お名前</label>
-                            <p class="must required">必須</p>
-                        </dt>
-                        <dd class="form-control">[mwform_text name="onamae" class="form-control" placeholder="例）鈴木 太郎"]</dd>
-                    </dl>
 
-                    <p class="ta-center p-policy">当社のプライバシーポリシーに同意の上、送信してください。</p>
-                    <div class="submitcheck-wrapper">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <a href="https://ikkosha.co.jp/privacy-policy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
-                                に同意する
-                            </label>
-                        </div>
-                        <button class="submit">
-                            入力内容を確認する
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section> -->
     </div>
     <!-- テストフォーム -->
     <div class="form-area download-form">
         <p class="download-msg">2494ココカラクリックしてご送信ください</p>
         <?php echo do_shortcode('[mwform_formkey key="2494"]'); ?>
     </div>
-    <!-- <div class="form-area download-form">
-        <p class="download-msg">65ココカラフォームに必要事項をご記入いただくと、無料で資料ダウンロードが可能です。</p>
-        <?php echo do_shortcode('[mwform_formkey key="65"]'); ?>
-    </div> -->
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
