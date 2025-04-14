@@ -692,63 +692,57 @@ get_header('servicemanuallp');
         </section>
 
         <!-- コンタクト -->
-        <section style="background-color:#F8F5F2;" id="contact">
+        <?php echo do_shortcode('[mwform_formkey key="2494"]'); ?>
+        <!-- <section style="background-color:#F8F5F2;" id="contact">
             <div class="l-section--tight lp-beige l-contact">
                 <h2 class="line-title">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
                 <p class="p-contact-introduction">下記の入力フォームに<span><br class="d-md-none">ご入力いただき、</span><span><br class="d-md-none">
                     </span>「入力内容を確認する」を<span><br class="d-md-none">クリックしてご送信ください。</span></p>
-                <div class="l-contact-form">
-                    <div class="mb-3 l-contact-wrapper">
+
+                <div class="l-contact-form form-area form-horizon contact-form">
+
+                    <div class="mb-3 l-contact-wrapper form-box">
                         <div class="d-md-contents">
                             <label for="exampleFormControlInput1" class="form-label">会社名</label>
                             <p class="must">必須</p>
                         </div>
-
-                        <input type="comapny" class="form-control" id="exampleFormControlInput1" placeholder="例）株式会社一向社">
+                        <div>[mwform_text name="company" class="form-control" placeholder="例）株式会社一向社"]</div>
                     </div>
-                    <div class="mb-3 l-contact-wrapper">
+                    <div class="mb-3 l-contact-wrapper form-box">
                         <div class="d-md-contents">
                             <label for="exampleFormControlInput2" class="form-label">お名前</label>
                             <p class="must">必須</p>
                         </div>
-                        <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="例）鈴木 太郎">
+                        <div>[mwform_text name="onamae" class="form-control" placeholder="例）鈴木　太郎"]</div>
                     </div>
-                    <div class="mb-3 l-contact-wrapper">
+                    <div class="mb-3 l-contact-wrapper form-box">
                         <div class="d-md-contents">
                             <label for="exampleFormControlInput3" class="form-label">メールアドレス</label>
                             <p class="must">必須</p>
                         </div>
-                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="例）info@ikkosha.co.jp">
+                        <div>[mwform_email name="email" class="form-control" placeholder="例）info@ikkosha.co.jp"]</div>
                     </div>
-                    <div class="mb-3 l-contact-wrapper--textarea">
+                    <div class="mb-3 l-contact-wrapper--textarea form-box">
                         <div class="d-md-contents">
                             <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容</label>
                             <p class="must">必須</p>
                         </div>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="ご予算、納期、取扱説明書、マニュアル、課題感など"></textarea>
+                        <div>[mwform_textarea name="naiyou" class="form-control" placeholder="ご予算、納期、取扱説明書、課題感など"]</div>
                     </div>
-                    <p class="ta-center p-policy">当社のプライバシーポリシーに同意の上、送信してください。</p>
+                    <p class="ta-center p-policy">当社の<a href="https://ikkosha.co.jp/privacy-policy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>に同意の上、送信してください。</p>
                     <div class="submitcheck-wrapper">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <a href="https://ikkosha.co.jp/privacy-policy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
-                                に同意する
-                            </label>
+                            <div class="accept-box txt-center">
+                                <div class="checkbox">[mwform_checkbox name="doui" class="checkbox" children="プライバシーポリシーに同意する" separator=","]</div>
+                                [mwform_submitButton name="send" class="btn btn-01 btn-center submit" confirm_value="入力内容を確認する" submit_value="送信する"]
+                            </div>
                         </div>
-                        <button class="submit">
-                            入力内容を確認する
-                        </button>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
-    <!-- テストフォーム -->
-    <div class="form-area download-form">
-        <p class="download-msg">2494ココカラクリックしてご送信ください</p>
-        <?php echo do_shortcode('[mwform_formkey key="2494"]'); ?>
-    </div>
+
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
