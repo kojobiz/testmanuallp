@@ -1,0 +1,82 @@
+<div class="form-area form-horizon contact-form">
+    <dl class="form-box">
+         <dt>会社名<span class="required"></span></dt>
+         <dd>[mwform_text name="company" class="form-control" placeholder="例）株式会社一向社"]</dd>
+    </dl>
+    <dl class="form-box">
+         <dt>お名前<span class="required"></span></dt>
+         <dd>[mwform_text name="onamae" class="form-control" placeholder="例）鈴木　太郎"]</dd>
+    </dl>
+    <dl class="form-box">
+         <dt>メールアドレス<span class="required"></span></dt>
+         <dd>[mwform_email name="email" class="form-control" placeholder="例）info@ikkosha.co.jp"]</dd>
+    </dl>
+    <dl class="form-box">
+         <dt>お問い合わせ内容<span class="required"></span></dt>
+         <dd>[mwform_textarea name="naiyou" class="form-control" placeholder="ご予算、納期、取扱説明書･マニュアル、課題感など"]</dd>
+    </dl>
+    
+    <div class="ikk-manaul-pp-form txt-center">当社の<a href="/privacy-policy" target="_blank" rel="noopener noreferrer" class="underline">プライバシーポリシー</a>に同意の上、送信してください。</div>
+    
+    <div class="accept-box txt-center">
+    <div class="checkbox">[mwform_checkbox name="doui" class="checkbox" children="プライバシーポリシーに同意する" separator=","]</div>
+    </div>
+    [mwform_submitButton name="send" class="btn btn-01 btn-arw btn-center" confirm_value="入力内容を確認する" submit_value="送信する"]
+    
+    &nbsp;
+    
+    </div>
+
+
+     <!-- コンタクト -->
+     <section style="background-color:#F8F5F2;" id="contact">
+        <div class="l-section--tight lp-beige l-contact">
+            <h2 class="line-title">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
+            <p class="p-contact-introduction">下記の入力フォームに<span><br class="d-md-none">ご入力いただき、</span><span><br class="d-md-none">
+                </span>「入力内容を確認する」を<span><br class="d-md-none">クリックしてご送信ください。</span></p>
+            <div class="l-contact-form">
+                <div class="mb-3 l-contact-wrapper">
+                    <div class="d-md-contents">
+                        <label for="exampleFormControlInput1" class="form-label">会社名</label>
+                        <p class="must">必須</p>
+                    </div>
+
+                    <input type="comapny" class="form-control" id="exampleFormControlInput1" placeholder="例）株式会社一向社">
+                </div>
+                <div class="mb-3 l-contact-wrapper">
+                    <div class="d-md-contents">
+                        <label for="exampleFormControlInput2" class="form-label">お名前</label>
+                        <p class="must">必須</p>
+                    </div>
+                    <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="例）鈴木 太郎">
+                </div>
+                <div class="mb-3 l-contact-wrapper">
+                    <div class="d-md-contents">
+                        <label for="exampleFormControlInput3" class="form-label">メールアドレス</label>
+                        <p class="must">必須</p>
+                    </div>
+                    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="例）info@ikkosha.co.jp">
+                </div>
+                <div class="mb-3 l-contact-wrapper--textarea">
+                    <div class="d-md-contents">
+                        <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容</label>
+                        <p class="must">必須</p>
+                    </div>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="ご予算、納期、取扱説明書、マニュアル、課題感など"></textarea>
+                </div>
+                <p class="ta-center p-policy">当社のプライバシーポリシーに同意の上、送信してください。</p>
+                <div class="submitcheck-wrapper">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <a href="https://ikkosha.co.jp/privacy-policy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+                            に同意する
+                        </label>
+                    </div>
+                    <button class="submit">
+                        入力内容を確認する
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
