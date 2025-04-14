@@ -692,7 +692,7 @@ get_header('servicemanuallp');
         </section>
 
         <!-- コンタクト -->
-        <!-- <section style="background-color:#F8F5F2;" id="contact">
+        <section style="background-color:#F8F5F2;" id="contact">
             <div class="l-section--tight lp-beige l-contact">
                 <h2 class="line-title">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
                 <p class="p-contact-introduction">下記の入力フォームに<span><br class="d-md-none">ご入力いただき、</span><span><br class="d-md-none">
@@ -742,9 +742,7 @@ get_header('servicemanuallp');
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- コンタクト -->
-
+        </section>
     </div>
     <!-- テストフォーム -->
     <div class="form-area download-form">
