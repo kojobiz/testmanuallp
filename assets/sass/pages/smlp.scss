@@ -532,6 +532,11 @@ header {
                 top: 50%;
                 right: 2%;
                 transform: translateY(-50%);
+                .info-icon {
+                    max-width: 100%;
+                    border: 2.2px solid #a60200;
+                    border-radius: 90px;
+                }
             }
             padding-top: 71.5px;
         }

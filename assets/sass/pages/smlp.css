@@ -489,6 +489,11 @@ header {
   right: 2%;
   transform: translateY(-50%);
 }
+.l-smlp .l-hero2-wrapper--center .info-icon {
+  max-width: 100%;
+  border: 2.2px solid #a60200;
+  border-radius: 90px;
+}
 .l-smlp .l-hero2 .p-hero-cap {
   padding-top: 23px;
   padding-bottom: 30px;
