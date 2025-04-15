@@ -1750,3 +1750,38 @@ footer {
 .img-ask {
     opacity: 0;
 }
+// IKKOSHA update
+.contact-form {
+    padding: 2rem!important;
+    .form-box {
+        dt {
+            font-weight: 400!important;
+        }
+        .required {
+            background-color: #f8f5f2!important;
+            width: auto!important;
+            padding: 8px 20px!important;
+            color: #A20000!important;
+            font-weight: 500!important;
+            border: 3px solid #a20000!important;
+        }
+    }
+    .accept-box {
+        .mwform-checkbox-field {
+            font-size: 18px!important;
+            span {
+                display: flex!important;
+            }
+
+        }
+    }.btn-submit-lp {
+        color: white!important;
+        font-family: "Noto Sans JP", sans-serif!important;
+        background-color: #BC0101!important;
+        font-size: 23px!important;
+        border-radius: 0px!important;
+    }
+    .ikk-manual-pp-form {
+        font-size: 18px!important;
+    }
+}

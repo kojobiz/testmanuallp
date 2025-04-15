@@ -1561,4 +1561,35 @@ footer .l-footer .l-copy {
 }
 .img-ask {
   opacity: 0;
+}
+
+.contact-form {
+  padding: 2rem !important;
+}
+.contact-form .form-box dt {
+  font-weight: 400 !important;
+}
+.contact-form .form-box .required {
+  background-color: #f8f5f2 !important;
+  width: auto !important;
+  padding: 8px 20px !important;
+  color: #A20000 !important;
+  font-weight: 500 !important;
+  border: 3px solid #a20000 !important;
+}
+.contact-form .accept-box .mwform-checkbox-field {
+  font-size: 18px !important;
+}
+.contact-form .accept-box .mwform-checkbox-field span {
+  display: flex !important;
+}
+.contact-form .btn-submit-lp {
+  color: white !important;
+  font-family: "Noto Sans JP", sans-serif !important;
+  background-color: #BC0101 !important;
+  font-size: 23px !important;
+  border-radius: 0px !important;
+}
+.contact-form .ikk-manual-pp-form {
+  font-size: 18px !important;
 }/*# sourceMappingURL=smlp.css.map */
