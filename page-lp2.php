@@ -18,7 +18,7 @@ get_header('servicemanuallp');
                     <div></div>
                 </div>
                 <div class="l-hero2-wrapper--center">
-                    <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
+                    <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title2.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
                     <p class="p-hero-cap">制作の進行管理からリーガルチェックまでプロにご相談ください</p>
                     <ul class="l-featurewrapper">
                         <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero04.png" alt="アピール1、創業100年以上の信頼" width="158" class="info-icon" id="heading01"></li>

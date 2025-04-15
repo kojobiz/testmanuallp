@@ -543,7 +543,7 @@ header {
         .p-hero-cap {
             padding-top:23px;
             padding-bottom:30px;
-            color: $lp-white;
+            color: #032447;
             font-weight: 500;
             margin-bottom: 0px!important;
             letter-spacing:0.1rem;
@@ -592,6 +592,57 @@ header {
                 width: 100%;
                 padding-left: 8px;
                 padding-right: 8px;
+                h1 {
+                    width: 70%!important;
+                    display: inline-flex!important;
+                    justify-content: center!important;
+                }
+                .p-hero-cap {
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    font-size: clamp(12px, 3vw, 20px);
+                    letter-spacing: -0.11rem;
+
+                }
+                .l-featurewrapper {
+                    width: 90%!important;
+                    gap: 22px!important;
+                    justify-content: center!important;
+                }
+                .l-featurewrapper li img {
+                    box-sizing: border-box;
+                    border-radius: 90px;
+                    box-shadow: 2px 2px 2px 1px rgb(110 110 110 / 30%);
+                }
+            }
+            .img-left {
+                width: 180px;
+                max-width: 90%;
+            }
+            .img-right {
+                width: 180px;
+                max-width: 90%;
+            }
+        }
+        .l-hero2 {
+            height:575px;
+            background-image: url("https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg05.svg");
+        }
+        .l-hero2-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            align-items: flex-end;
+            padding-top: 40%;
+            height: 100%;
+            &--center {
+                transform:translate(-50%, 0%);
+                top: 6%;
+                width: 100%;
+                padding-left: 8px;
+                padding-right: 8px;
+                left: 50%;
                 h1 {
                     width: 70%!important;
                     display: inline-flex!important;
