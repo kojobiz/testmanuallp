@@ -24,9 +24,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css2/smlp.css">
-    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css2/smlp.css"> -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
 
@@ -42,10 +42,10 @@ if (is_home() && is_front_page()) {
 ?>
 
 <body <?php body_class($custom_body_class); ?>>
-	
+
 
 	<?php wp_body_open(); ?>
-	
+
 	<header id="header" class="site-header wh">
 		<div class="header-inner">
 			<h1 class="header-title">
@@ -107,6 +107,6 @@ if (is_home() && is_front_page()) {
 		</ul>
 	</div>
 
-	
+
 
 	<main class="site-container">
