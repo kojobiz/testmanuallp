@@ -500,6 +500,77 @@ header {
             }
         }
     }
+    .l-hero2 {
+        height:575px;
+        background-image: url("https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        left: -1px;
+        bottom: 0;
+        position: relative;
+        &-wrapper {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 0.5fr;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            align-items: end;
+            height: 100%;
+            .img-right {
+                text-align: end;
+            }
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-between;
+            &--center {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                padding-left: 20px;
+                padding-right: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            padding-top: 71.5px;
+        }
+        .p-hero-cap {
+            padding-top:23px;
+            padding-bottom:30px;
+            color: $lp-white;
+            font-weight: 500;
+            margin-bottom: 0px!important;
+            letter-spacing:0.1rem;
+            font-size:20px;
+        }
+        .p-cta-btn01 {
+            background-color: $lp-red;
+            width: 385px;
+            height: 125px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 37.2px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(0, 50%);
+            p {
+                font-size:19px;
+                font-weight:700;
+                color: $lp-white;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+            span {
+                font-size:29px;
+                font-weight:700;
+                color: $lp-white;
+            }
+        }
+    }
     // サイズ以下f594t768
     @media (max-width: 768px) { 
         .l-hero-wrapper {

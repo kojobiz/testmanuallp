@@ -13,7 +13,7 @@ get_header('servicemanuallp');
     <div class="l-smlp">
         <!-- ヒーロー画像２ -->
         <section class="lp-white section100">
-            <div class="l-hero">
+            <div class="l-hero2">
                 <div class="l-hero-wrapper">
                     <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="紙の説明書が表示されている" width="343" style="max-width: 100%;"></div>
                     <div></div>

@@ -456,6 +456,74 @@ header {
   font-weight: 700;
   color: #fff;
 }
+.l-smlp .l-hero2 {
+  height: 575px;
+  background-image: url("https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: -1px;
+  bottom: 0;
+  position: relative;
+}
+.l-smlp .l-hero2-wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  align-items: end;
+  height: 100%;
+  padding-top: 71.5px;
+}
+.l-smlp .l-hero2-wrapper .img-right {
+  text-align: end;
+}
+.l-smlp .l-hero2-wrapper--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.l-smlp .l-hero2 .p-hero-cap {
+  padding-top: 23px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px !important;
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+}
+.l-smlp .l-hero2 .p-cta-btn01 {
+  background-color: #BC0101;
+  width: 385px;
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 37.2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 50%);
+}
+.l-smlp .l-hero2 .p-cta-btn01 p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.l-smlp .l-hero2 .p-cta-btn01 span {
+  font-size: 29px;
+  font-weight: 700;
+  color: #fff;
+}
 @media (max-width: 768px) {
   .l-smlp .l-hero-wrapper {
     display: flex;
