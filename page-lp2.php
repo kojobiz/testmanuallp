@@ -15,9 +15,7 @@ get_header('servicemanuallp');
         <section class="lp-white section100">
             <div class="l-hero2">
                 <div class="l-hero-wrapper">
-                    <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="紙の説明書が表示されている" width="343" style="max-width: 100%;"></div>
                     <div></div>
-                    <div class="img-right" id="heading04"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="パソコンの画面の中にweb説明書が表示されている" height="445" style="max-width: 100%;"></div>
                 </div>
                 <div class="l-hero-wrapper--center">
                     <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
