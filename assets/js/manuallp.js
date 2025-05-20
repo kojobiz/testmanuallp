@@ -42,50 +42,50 @@ document.addEventListener('DOMContentLoaded', () => {
 ////////////////
 //  制作の流れ(表示：右→左)
 ////////////////
-const images = document.querySelectorAll('.img-wrap');
-const animationClassName = 'img-animation';
+// const images = document.querySelectorAll('.img-wrap');
+// const animationClassName = 'img-animation';
 
-const observer = new IntersectionObserver((entries) => {
-entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-    entry.target.classList.add(animationClassName);
-    } else {
-    entry.target.classList.remove(animationClassName);
-    }
-});
-});
+// const observer = new IntersectionObserver((entries) => {
+// entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//     entry.target.classList.add(animationClassName);
+//     } else {
+//     entry.target.classList.remove(animationClassName);
+//     }
+// });
+// });
 
-images.forEach((image) => {
-observer.observe(image);
-});
+// images.forEach((image) => {
+// observer.observe(image);
+// });
 
 /////////////////
 //  お悩み画像
 /////////////////
-const items = document.querySelectorAll('.img-ask');
+// const items = document.querySelectorAll('.img-ask');
 
-const observer2 = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        const index = Array.from(items).indexOf(entry.target); 
-        const keyframes = {
-            opacity: [0, 1] 
-        };
-        const options = {
-            duration: 1000,
-            delay: index * 1000, 
-            fill: 'forwards',
-        };
+// const observer2 = new IntersectionObserver((entries) => {
+//     entries.forEach((entry) => {
+//         const index = Array.from(items).indexOf(entry.target); 
+//         const keyframes = {
+//             opacity: [0, 1] 
+//         };
+//         const options = {
+//             duration: 1000,
+//             delay: index * 1000, 
+//             fill: 'forwards',
+//         };
 
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible'); 
-            entry.target.animate(keyframes, options); 
-        } else {
-            entry.target.classList.remove('visible'); 
-            entry.target.style.opacity = 0; 
-        }
-    });
-});
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add('visible'); 
+//             entry.target.animate(keyframes, options); 
+//         } else {
+//             entry.target.classList.remove('visible'); 
+//             entry.target.style.opacity = 0; 
+//         }
+//     });
+// });
 
-items.forEach((items) => {
-    observer2.observe(items);
-});
+// items.forEach((items) => {
+//     observer2.observe(items);
+// });
