@@ -1106,19 +1106,19 @@ header {
   padding-right: 7px;
 }
 .l-smlp .l-faq .accordion .accordion-button::after {
-  background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_open_red.png);
-  width: 32px;
-  height: 32px;
+  background-image: url(../../../../ikkosha_theme/images/service/manual/lp/icon_open_red.png);
+  width: 30px;
+  height: 30px;
   background-size: 100%;
 }
 .l-smlp .l-faq .accordion .accordion-button:not(.collapsed)::after {
-  background-image: url(../../../../themes/ikkosha_theme/images/service/manual/lp/icon_close_red.png);
+  background-image: url(../../../../ikkosha_theme/images/service/manual/lp/icon_close_red.png);
   transform: rotate(-180deg);
-  margin-top: -3px;
+  margin-top: -12px;
   margin-left: auto;
   background-size: 100%;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
 .l-smlp .l-faq .accordion button {
   font-size: 23px;
@@ -1516,7 +1516,7 @@ footer .l-footer .l-copy {
   }
 }
 .img-wrap {
-  opacity: 0;
+  opacity: 1;
 }
 
 .img-animation {
