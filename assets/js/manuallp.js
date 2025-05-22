@@ -1,7 +1,6 @@
-
 ////////////////
 //  トップ
-////////////////
+////////////////  
 // ページリロード時のアニメーション実行
 document.addEventListener('DOMContentLoaded', () => {
     const headings = [
@@ -38,6 +37,25 @@ document.addEventListener('DOMContentLoaded', () => {
         heading.animate(keyframes, options);
     });
 });
+
+/////////////////
+//  お悩み画像
+/////////////////
+// コンテンツが見えたら実行
+const animupItems = document.querySelectorAll('.animUp01, .animUp02');
+
+const observer = new IntersectionObserver((entries, obs) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      obs.unobserve(entry.target); // 一度だけアニメーション
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+animupItems.forEach(item => observer.observe(item));
 
 ////////////////
 //  制作の流れ(表示：右→左)
@@ -89,3 +107,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // items.forEach((items) => {
 //     observer2.observe(items);
 // });
+

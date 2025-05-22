@@ -31,6 +31,26 @@
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
 
 	<?php wp_head(); ?>
+	<style>
+		.animUp01 {
+			opacity: 0;
+			transform: translateY(80px);
+			transition: opacity 2s ease, transform 2s ease;
+		}
+		.animUp01.is-visible {
+			opacity: 1;	
+			transform: translateY(0);
+		}
+		.animUp02 {
+			opacity: 0;
+			transform: translateY(100px);
+			transition: opacity 2s ease, transform 2s ease;
+		}
+		.animUp02.is-visible {
+			opacity: 1;	
+			transform: translateY(0);
+		}
+	</style>
 </head>
 
 <?php

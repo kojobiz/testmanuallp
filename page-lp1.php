@@ -52,9 +52,8 @@ get_header('servicemanuallp');
                     <ul class="l-listwrapper row">
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人">
-                            <!-- <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人" class="img-ask"> -->
-                            <h3 class="p-h3--ask">社内の人手が足りていない</h3>
-                            <ul>
+                            <h3 class="p-h3--ask animUp01">社内の人手が足りていない</h3>
+                            <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck">プロにすべて丸投げしたい</li>
                                 <li class="p-maintxt p-iconcheck">製品がまだ開発段階なので、仕様の変更にも対応してほしい</li>
                                 <li class="p-maintxt p-iconcheck">製品のプロモーションも提案してほしい</li>
@@ -62,8 +61,8 @@ get_header('servicemanuallp');
                         </li>
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人">
-                            <h3 class="p-h3--ask">文章・デザインがイマイチ</h3>
-                            <ul>
+                            <h3 class="p-h3--ask animUp01">文章・デザインがイマイチ</h3>
+                            <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck"><span>今の取扱説明書がユーザーにとってわかりにくい気がする</span></li>
                                 <li class="p-maintxt p-iconcheck">プロの目で見た改善点を教えてほしい</li>
                             </ul>
