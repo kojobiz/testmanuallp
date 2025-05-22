@@ -2,6 +2,7 @@
 ////////////////
 //  トップ
 ////////////////
+// ページリロード時のアニメーション実行
 document.addEventListener('DOMContentLoaded', () => {
     const headings = [
         { id: 'heading01', duration: 2000, easing: 'ease' },
@@ -9,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'heading03', duration: 3000, easing: 'ease' },
         { id: 'heading04', duration: 1500, easing: 'ease-in' }, 
         { id: 'heading05', duration: 1500, easing: 'ease-in' }, 
-        { id: 'heading06', duration: 1500, easing: 'ease-in' }, 
     ];
 
     headings.forEach(({ id, duration, easing }) => {
