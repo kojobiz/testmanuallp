@@ -29,6 +29,8 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
+	<link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png">
+	<link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.png">
 
 	<?php wp_head(); ?>
 	<style>

@@ -557,7 +557,7 @@ get_header('servicemanuallp');
                     <!-- 1 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 費⽤はどのくらいかかりますか？
                             </button>
                         </h2>
@@ -572,7 +572,7 @@ get_header('servicemanuallp');
                     <!-- 2 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 急いで制作してほしいのですが可能でしょうか？
                             </button>
                         </h2>
@@ -587,7 +587,7 @@ get_header('servicemanuallp');
                     <!-- 3 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 ⽬次構成案や原稿の段階から作成してほしいのですが可能でしょうか？
                             </button>
                         </h2>
@@ -601,7 +601,7 @@ get_header('servicemanuallp');
                     <!-- 4 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 イラストも作成してほしいのですが、可能でしょうか？
                             </button>
                         </h2>
@@ -616,7 +616,7 @@ get_header('servicemanuallp');
                     <!-- 5 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 電⼦媒体・Web媒体の取扱説明書も制作可能でしょうか？
                             </button>
                         </h2>
@@ -631,7 +631,7 @@ get_header('servicemanuallp');
                     <!-- 6 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 紙の取扱説明書のページ数を減らしたいのですが、可能でしょうか？
                             </button>
                         </h2>
@@ -646,7 +646,7 @@ get_header('servicemanuallp');
                     <!-- 7 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 多⾔語対応は可能でしょうか？
                             </button>
                         </h2>
@@ -660,7 +660,7 @@ get_header('servicemanuallp');
                     <!-- 8 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 製造物責任法（PL法）、薬機法など、取扱説明書の内容が<br>
                                 法律上問題ないか確認することも可能でしょうか？
                         </h2>
@@ -674,7 +674,7 @@ get_header('servicemanuallp');
                     <!-- 9 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 ⼀般的な製品に添付する「取扱説明書」ではないのですが、<br>
                                 「ソフトウェアのマニュアル」や「社内⽤の業務マニュアル」等の制作も可能でしょうか？
                             </button>
