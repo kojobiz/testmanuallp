@@ -696,9 +696,6 @@ get_header('servicemanuallp');
         <section style="background-color:#F8F5F2;" id="contact">
             <div class="l-section--tight lp-beige l-contact">
                 <h2 class="line-title animUp01">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
-                <p class="p-contact-introduction">下記の入力フォームに<span><br class="d-md-none">ご入力いただき、</span><span><br class="d-md-none">
-                    </span>「入力内容を確認する」を<span><br class="d-md-none">クリックしてご送信ください。</span></p>
-
                 <div class="l-contact-form form-area form-horizon contact-form">
                     <?php echo do_shortcode('[mwform_formkey key="2494"]'); ?>
                 </div>
