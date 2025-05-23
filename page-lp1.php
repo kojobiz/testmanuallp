@@ -561,7 +561,7 @@ get_header('servicemanuallp');
                                 費⽤はどのくらいかかりますか？
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>お客さまのご要望や案件規模によって柔軟にお⾒積りします。</strong>
                                 <p>制作する媒体（紙媒体・電⼦媒体・Web媒体）や内容（企画・構成、原稿作成・編集、デザイン、DTP、コーディング、イラスト作成、リーガルチェックなど）の組み合わせによるため、まずはお気軽にお問い合わせをお願いいたします。
@@ -576,7 +576,7 @@ get_header('servicemanuallp');
                                 急いで制作してほしいのですが可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>納品予定⽇や、現状そろっている素材などをご共有いただけましたら、<br>
                                     現実的に可能なスケジュールをご提案します。</strong>
@@ -591,7 +591,7 @@ get_header('servicemanuallp');
                                 ⽬次構成案や原稿の段階から作成してほしいのですが可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>弊社では「TC（テクニカルコミュニケーション）検定」の資格を持ったスタッフが在籍していますので、必要な資料を⽀給いただければ⽬次構成案や原稿の段階からご提案させていただきます。</p>
@@ -605,7 +605,7 @@ get_header('servicemanuallp');
                                 イラストも作成してほしいのですが、可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>取扱説明書・マニュアルに記載するための「テクニカルイラスト」についても豊富な実績がございます。
@@ -620,7 +620,7 @@ get_header('servicemanuallp');
                                 電⼦媒体・Web媒体の取扱説明書も制作可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>弊社には、シャープ株式会社さまの液晶テレビ／有機ELテレビ「AQUOS」の電⼦取扱説明書をはじめ、電⼦媒体・Web媒体の取扱説明書でも豊富な実績がございます。
@@ -635,7 +635,7 @@ get_header('servicemanuallp');
                                 紙の取扱説明書のページ数を減らしたいのですが、可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>現⾏の取扱説明書を確認させていただき、構成から検討させていただきます。
@@ -650,7 +650,7 @@ get_header('servicemanuallp');
                                 多⾔語対応は可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseSeven" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>⽇本語の取扱説明書を多⾔語展開した事例もございます。まずはお気軽にお問い合せください。</p>
@@ -664,7 +664,7 @@ get_header('servicemanuallp');
                                 製造物責任法（PL法）、薬機法など、取扱説明書の内容が<br>
                                 法律上問題ないか確認することも可能でしょうか？
                         </h2>
-                        <div id="collapseEight" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>可能です。</strong>
                                 <p>リーガルチェックについても、ご要望に応じて対応させていただきます。まずはお気軽にお問い合わせください。</p>
@@ -679,7 +679,7 @@ get_header('servicemanuallp');
                                 「ソフトウェアのマニュアル」や「社内⽤の業務マニュアル」等の制作も可能でしょうか？
                             </button>
                         </h2>
-                        <div id="collapseNine" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>内容によっては可能です。</strong>
                                 <p>「マニュアル」という⾔葉は広義であり、どういった内容のマニュアル制作に対してどの⼯程をサポートさせていただくかによって、対応の可否がございます。まずはお気軽にお問い合わせください。</p>

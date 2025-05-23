@@ -101,6 +101,9 @@
 #spNavi ul li:first-child {
   border-top: none !important;
 }
+#spNavi ul li:last-child {
+  border-bottom: 4px solid #BC0000 !important;
+}
 
 .site-header {
   height: 64px !important;

@@ -146,6 +146,9 @@ $clamp-39-5-55:clamp(39px, 5vw, 55px);
         li:first-child {
             border-top: none!important;
         }
+        li:last-child {
+            border-bottom: 4px solid #BC0000 !important;
+        }
     }
     
 }
