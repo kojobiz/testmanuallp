@@ -83,6 +83,9 @@
   color: #0F2347 !important;
   line-height: 34px;
   vertical-align: bottom !important;
+  font-family: "Noto sans JP";
+  font-weight: 430;
+  letter-spacing: 0.15rem;
 }
 #spNavi ul li {
   padding: 0 !important;
