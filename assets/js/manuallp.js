@@ -1,3 +1,18 @@
+// ナビゲーションのクリックイベントを最優先で処理
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (link && link.href && !link.href.startsWith('#')) {
+        // クリックイベントを最優先で処理
+        e.stopPropagation();
+        e.preventDefault();
+        
+        // 即座に遷移
+        window.location.href = link.href;
+    }
+}, true); // キャプチャフェーズでイベントを処理
+
+
+
 ////////////////
 //  トップ
 ////////////////  
@@ -17,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (id === 'heading04') {
             keyframes = {
                 opacity: [0, 1],
-                translate: ['100px', '0'], // 右からシュッと現れる
+                translate: ['100px', '0'],
             };
         } else if (id === 'heading05') {
             keyframes = {
                 opacity: [0, 1],
-                translate: ['-100px', '0'], // 左からシュッと現れる
+                translate: ['-100px', '0'],
             };
         } else {
             keyframes = {
@@ -39,16 +54,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /////////////////
-//  お悩み画像
+//  コンテンツ表示スクロール発動
 /////////////////
-// コンテンツが見えたら実行
 const animupItems = document.querySelectorAll('.animUp01, .animUp02');
 
 const observer = new IntersectionObserver((entries, obs) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('is-visible');
-      obs.unobserve(entry.target); // 一度だけアニメーション
+      obs.unobserve(entry.target);
     }
   });
 }, {
@@ -57,54 +71,4 @@ const observer = new IntersectionObserver((entries, obs) => {
 
 animupItems.forEach(item => observer.observe(item));
 
-////////////////
-//  制作の流れ(表示：右→左)
-////////////////
-// const images = document.querySelectorAll('.img-wrap');
-// const animationClassName = 'img-animation';
-
-// const observer = new IntersectionObserver((entries) => {
-// entries.forEach((entry) => {
-//     if (entry.isIntersecting) {
-//     entry.target.classList.add(animationClassName);
-//     } else {
-//     entry.target.classList.remove(animationClassName);
-//     }
-// });
-// });
-
-// images.forEach((image) => {
-// observer.observe(image);
-// });
-
-/////////////////
-//  お悩み画像
-/////////////////
-// const items = document.querySelectorAll('.img-ask');
-
-// const observer2 = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//         const index = Array.from(items).indexOf(entry.target); 
-//         const keyframes = {
-//             opacity: [0, 1] 
-//         };
-//         const options = {
-//             duration: 1000,
-//             delay: index * 1000, 
-//             fill: 'forwards',
-//         };
-
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add('visible'); 
-//             entry.target.animate(keyframes, options); 
-//         } else {
-//             entry.target.classList.remove('visible'); 
-//             entry.target.style.opacity = 0; 
-//         }
-//     });
-// });
-
-// items.forEach((items) => {
-//     observer2.observe(items);
-// });
 
