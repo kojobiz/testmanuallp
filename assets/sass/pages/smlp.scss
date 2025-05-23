@@ -133,11 +133,19 @@ $clamp-39-5-55:clamp(39px, 5vw, 55px);
         font-weight: 430;
         letter-spacing: 0.15rem;
     }
-    ul li {
-        padding: 0!important;
-        border-top: 4px solid $lp-red2!important;
-        height: 64px;
-        align-content: end!important;
+    ul {
+        padding-top: 2rem!important;
+        li {
+            padding: 0!important;
+            height: 64px;
+            align-content: end!important;
+        }
+        li:not(:first-child) {
+            border-top: 4px solid $lp-red2!important;
+        }
+        li:first-child {
+            border-top: none!important;
+        }
     }
     
 }

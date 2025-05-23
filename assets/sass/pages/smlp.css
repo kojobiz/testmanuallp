@@ -87,11 +87,19 @@
   font-weight: 430;
   letter-spacing: 0.15rem;
 }
+#spNavi ul {
+  padding-top: 2rem !important;
+}
 #spNavi ul li {
   padding: 0 !important;
-  border-top: 4px solid #BC0000 !important;
   height: 64px;
   align-content: end !important;
+}
+#spNavi ul li:not(:first-child) {
+  border-top: 4px solid #BC0000 !important;
+}
+#spNavi ul li:first-child {
+  border-top: none !important;
 }
 
 .site-header {

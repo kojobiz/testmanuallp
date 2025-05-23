@@ -37,17 +37,20 @@
 			transform: translateY(80px);
 			transition: opacity 2s ease, transform 2s ease;
 		}
+
 		.animUp01.is-visible {
-			opacity: 1;	
+			opacity: 1;
 			transform: translateY(0);
 		}
+
 		.animUp02 {
 			opacity: 0;
 			transform: translateY(100px);
 			transition: opacity 2s ease, transform 2s ease;
 		}
+
 		.animUp02.is-visible {
-			opacity: 1;	
+			opacity: 1;
 			transform: translateY(0);
 		}
 	</style>
@@ -103,27 +106,34 @@ if (is_home() && is_front_page()) {
 
 	<div id="spNavi" class="tabOnly">
 		<ul class="navi-menu">
-			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a>
-			</li>
-			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a>
-			</li>
-			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a>
-			</li>
-			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#flow">制作の流れ</a>
-			</li>
-			<li>
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#faq">よくあるご質問</a>
-			</li>
-			<li class="navi-contact">
-				<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
-					<p>お見積り・制作について</p>
-					<p>無料相談する</p>
-				</a>
-			</li>
+			<ul>
+				<li>
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#solution">サービス紹介</a>
+				</li>
+				<li>
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#case">お悩み解決事例</a>
+				</li>
+				<li>
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#support">プラスαでおたすけ</a>
+				</li>
+				<li>
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#flow">制作の流れ</a>
+				</li>
+				<li>
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#faq">よくあるご質問</a>
+				</li>
+				<!-- <li class="navi-contact">
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
+						<p>お見積り・制作について</p>
+						<p>無料相談する</p>
+					</a>
+				</li> -->
+			</ul>
+			<ul style="padding-right: 4rem;width: 100%;padding-top: 36px!important;">
+				<li style="width: 80%; max-width: 460px; background-color: #bc0101; color: white; margin: 0 auto; height: 83px; display: flex; justify-content: center; align-items: center;">
+					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
+				</li>
+			</ul>
 		</ul>
 	</div>
 
