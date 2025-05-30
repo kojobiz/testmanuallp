@@ -1368,6 +1368,9 @@ header {
   .l-smlp .accordion-body {
     padding-left: 54px !important;
   }
+  .l-smlp .l-space-y--high4 {
+    height: 110px;
+  }
 }
 .l-smlp .one {
   width: 100%;
