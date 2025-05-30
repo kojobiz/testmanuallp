@@ -457,8 +457,8 @@ get_header('servicemanuallp');
 
 
         <!-- プラスお助け -->
-        <div style="margin-top:-90px;" id="support"></div>
-        <section style="background-color:#ffffff; margin-top: 90px;">
+        <div style="margin-top: -70px;" id="support"></div>
+        <section style="background-color:#ffffff; margin-top: 70px;">
             <div class="l-section--tight lp-white l-plus">
                 <div class="flex-row--aicenter animUp01" style="padding-bottom: 88px;">
                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_dialeft2_red.png" alt="" height="51" width="auto">
