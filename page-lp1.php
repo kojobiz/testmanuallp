@@ -99,8 +99,8 @@ get_header('servicemanuallp');
         </section>
 
         <!-- 解決 -->
-        <div style="margin-top: -30px;"></div>
-        <section style="background-color:#ffffff; margin-top: 30px;" id="solution">
+        <div style="margin-top: -90px;" id="solution"></div>
+        <section style="background-color:#ffffff; margin-top: 90px;">
             <div class="l-section--tight lp-white l-solution">
                 <h2 class="big-title ttl-solution animUp01">
                     <span class="border-accent txt-strong none680">トリセツまるごとサポート</span>
@@ -346,7 +346,8 @@ get_header('servicemanuallp');
         </section>
 
         <!--事例-->
-        <section style="background-color:#ffffff;" id="case"><!--事例-->
+        <div style="margin-top: -90px;" id="case"></div>
+        <section style="background-color:#ffffff; margin-top: 90px;">
             <div class="l-section--tight lp-white l-case">
                 <h2 class="line-title p-h2--case animUp01">お客さまの<br class="d-block d-md-none">お悩み解決事例</h2>
                 <p class="title-introduction">トリセツまるごとサポートでは、<br class="d-block d-md-none">シャープさまのAQUOSテレビをはじめ、<br>
@@ -456,7 +457,8 @@ get_header('servicemanuallp');
 
 
         <!-- プラスお助け -->
-        <section style="background-color:#ffffff;" id="support">
+        <div style="margin-top:-90px;" id="support"></div>
+        <section style="background-color:#ffffff; margin-top: 90px;">
             <div class="l-section--tight lp-white l-plus">
                 <div class="flex-row--aicenter animUp01" style="padding-bottom: 88px;">
                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_dialeft2_red.png" alt="" height="51" width="auto">
@@ -537,8 +539,9 @@ get_header('servicemanuallp');
         </section>
 
         <!-- flow -->
-        <section style="background-color:#F8F5F2;" id="flow">
-            <div class="l-section lp-beige l-flow">
+        <div style="margin-top:-100px;" id="flow"></div>
+        <section style="background-color:#F8F5F2; margin-top: 0px;">
+            <div class="l-section lp-beige l-flow" style="padding-top: 98px;">
                 <h2 class="line-title p-h2--flow animUp01">制作の流れ</h2>
                 <div class="l-flow-img img-wrap">
                     <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="1打ち合わせ、2お見積り、3企画・構成・表現設計、4原稿作成・編集、5イラスト作成、6デザイン、7実制作、8納品・アフターフォロー" width="1186" height="auto" class="img_mw100 d-none d-md-block">
@@ -551,7 +554,8 @@ get_header('servicemanuallp');
 
 
         <!-- FAQ -->
-        <section style="background-color:#F8F5F2; padding-top:62px;" id="faq">
+        <div style="margin-bottom: -20px; background-color: #F8F5F2;" id="faq"></div>
+        <section style="background-color:#F8F5F2; padding-top:110px;">
             <div class="l-section--tight lp-beige l-faq">
                 <h2 class="line-title p-h2--faq animUp01">よくあるご質問</h2>
                 <div class="accordion" id="accordionExample">
