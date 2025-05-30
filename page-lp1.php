@@ -27,7 +27,7 @@ get_header('servicemanuallp');
                         <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero03.png" alt="アピール3、大手家電メーカーと50年以上の取引実績" width="158" style="max-width: 100%;" id="heading03"></li>
                     </ul>
                 </div>
-                <a href="./#contact">
+                <a href="#contact">
                     <div class="p-cta-btn01">
                         <p>お見積り・制作について<br><span>無料相談する</span></p>
                         <div> <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="37.44"></div>
@@ -99,7 +99,8 @@ get_header('servicemanuallp');
         </section>
 
         <!-- 解決 -->
-        <section style="background-color:#ffffff;" id="solution"><!-- 解決 -->
+        <div style="margin-top: -30px;"></div>
+        <section style="background-color:#ffffff; margin-top: 30px;" id="solution">
             <div class="l-section--tight lp-white l-solution">
                 <h2 class="big-title ttl-solution animUp01">
                     <span class="border-accent txt-strong none680">トリセツまるごとサポート</span>
@@ -328,7 +329,7 @@ get_header('servicemanuallp');
                         <p class="dialine-txt">1分で簡単入力</p>
                         <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_diaright_red.png" width="11" alt="">
                     </div>
-                    <a href="./#contact">
+                    <a href="#contact">
                         <div class="p-cta-btn02 flex-row--aicenter">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto" class="d-none d-md-block">
                             <p class="p20 cta-txt">お見積り・制作について<br class="d-md-none"><span class="p30" style="padding-left: 9px;">無料相談する</span></p>
@@ -519,7 +520,7 @@ get_header('servicemanuallp');
                         <p class="dialine-txt">1分で簡単入力</p>
                         <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_diaright_red.png" width="11" alt="">
                     </div>
-                    <a href="./#contact">
+                    <a href="#contact">
                         <div class="p-cta-btn02 flex-row--aicenter">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto" class="d-none d-md-block">
                             <p class="p20 cta-txt">お見積り・制作について<br class="d-md-none"><span class="p30" style="padding-left: 9px;">無料相談する</span></p>
@@ -710,3 +711,12 @@ get_header('servicemanuallp');
 <?php
 get_footer('servicemanuallp');
 ?>
+<script>
+    $(window).scroll(function() {
+        var uriIkk = window.location.toString();
+        if (uriIkk.indexOf("#") > 0) {
+            uriIkk = uriIkk.substring(0, uriIkk.indexOf("#"));
+            window.history.replaceState({}, document.title, uriIkk);
+        }
+    });
+</script>
