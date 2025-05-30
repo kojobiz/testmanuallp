@@ -1769,18 +1769,13 @@ footer {
         }
     }
 }
-@media (max-width:833px) {
-    .contact-form {
-        padding-left: 0px!important;
-        padding-right: 0px!important;
-    }
-}
+
 .img-ask {
     opacity: 1;
 }
 // IKKOSHA update
 .contact-form {
-    padding: 2rem!important;
+    padding: 9.2rem 2rem;
     .form-box {
         dt {
             font-weight: 400!important;
@@ -1823,4 +1818,10 @@ footer {
         color: #A20000!important;
     }
 
+}
+@media (max-width:833px) {
+    .contact-form {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
 }
