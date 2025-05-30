@@ -93,7 +93,10 @@ $(function(){
     menuOpen();
   });
 
-
+  $('#spNavi a[href^="#"]').on('click', function() {
+    menuOpen();
+  });
+  
   // var windowWidth = $(window).width();
 	// var brakePoint = 833;
 
