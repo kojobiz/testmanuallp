@@ -698,7 +698,8 @@ get_header('servicemanuallp');
 
 
         <!-- コンタクト -->
-        <section style="background-color:#F8F5F2;" id="contact">
+        <div style="padding-top: 20px; background-color: #F8F5F2;" id="contact"></div>
+        <section style="background-color:#F8F5F2; margin-top: -5px;">
             <div class="l-section--tight lp-beige l-contact">
                 <h2 class="line-title animUp01">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
                 <div class="l-contact-form form-area form-horizon contact-form">

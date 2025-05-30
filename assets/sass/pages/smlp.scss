@@ -1221,6 +1221,7 @@ header {
                 padding-left: 0px!important;
                 padding-right: 0px!important;
                 align-items: flex-start;
+                gap: 2px;
                 &::before {
                     content: "Q. ";
                     margin-top: -2px;
@@ -1326,12 +1327,15 @@ header {
             text-align: center;
         }
         .p-contact-introduction {
+            line-height: 1.45!important;
             padding-top: 45px;
             padding-bottom: 45px;
             font-size: 18px;
         }
         .l-contact-form {
             width: 100%;
+            padding-left: 0px!important;
+            padding-right: 0px!important;
             .l-contact-wrapper {
                 display: grid;
                 grid-template-columns: 0.4fr 0.25fr 1.2fr;
@@ -1763,6 +1767,12 @@ footer {
         100% {
             transform: translateY(100%);
         }
+    }
+}
+@media (max-width:833px) {
+    .contact-form {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
 }
 .img-ask {
