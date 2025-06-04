@@ -1,34 +1,30 @@
-<!-- page-lp2 -->
+<!-- page-lp1 -->
 <?php
 
 /**
- * Template Name: page-lp2
+ * Template Name: page-lp1
  * Description: This is the template
  */
 
-get_header('servicemanuallp2');
+get_header('servicemanuallp');
 ?>
-
 <main>
-    <style>
-        .form-horizon .form-box > dt {
-            min-width:30%!important;
-        }
-    </style>
     <div class="l-smlp">
-        <!-- ヒーロー画像２ -->
+        <!-- ヒーロー -->
         <section class="lp-white section100">
-            <div class="l-hero2">
-                <div class="l-hero2-wrapper">
+            <div class="l-hero">
+                <div class="l-hero-wrapper">
+                    <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="紙の説明書が表示されている" width="343" style="max-width: 100%;"></div>
                     <div></div>
+                    <div class="img-right" id="heading04"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="パソコンの画面の中にweb説明書が表示されている" height="445" style="max-width: 100%;"></div>
                 </div>
-                <div class="l-hero2-wrapper--center">
-                    <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title2.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
+                <div class="l-hero-wrapper--center">
+                    <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
                     <p class="p-hero-cap">制作の進行管理からリーガルチェックまでプロにご相談ください</p>
                     <ul class="l-featurewrapper">
-                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero04.png" alt="アピール1、創業100年以上の信頼" width="158" class="info-icon" id="heading01"></li>
-                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero05.png" alt="アピール2、新製品PRのトータルサポート" width="158" class="info-icon" id="heading02"></li>
-                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero06.png" alt="アピール3、大手家電メーカーと50年以上の取引実績" width="158" class="info-icon" id="heading03"></li>
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero01.png" alt="アピール1、創業100年以上の信頼" width="158" style="max-width: 100%;" id="heading01"></li>
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero02.png" alt="アピール2、新製品PRのトータルサポート" width="158" style="max-width: 100%;" id="heading02"></li>
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero03.png" alt="アピール3、大手家電メーカーと50年以上の取引実績" width="158" style="max-width: 100%;" id="heading03"></li>
                     </ul>
                 </div>
                 <a href="#contact">
@@ -47,9 +43,9 @@ get_header('servicemanuallp2');
         </section>
 
 
-                <!-- お悩み -->
+        <!-- お悩み -->
 
-                <section style="background-color:#F8F5F2;">
+        <section style="background-color:#F8F5F2;">
             <div class="l-section--tight lp-beige l-ask">
                 <h2 class="line-title">こんなお悩みは<br class="d-md-none">ありませんか？</h2>
                 <div class="container">
@@ -102,7 +98,7 @@ get_header('servicemanuallp2');
             </div>
         </section>
 
-         <!-- 解決 -->
+        <!-- 解決 -->
         <div style="margin-top: -90px;" id="solution"></div>
         <section style="background-color:#ffffff; margin-top: 90px;">
             <div class="l-section--tight lp-white l-solution">

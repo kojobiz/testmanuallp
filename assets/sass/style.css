@@ -374,6 +374,10 @@ textarea:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #fff inset;
 }
 
+.form-horizon .form-box > dt {
+  min-width: 30% !important;
+}
+
 .radio-wrap.horizon {
   margin-bottom: -2rem;
   padding-top: 0.5em;

@@ -1116,7 +1116,7 @@ header {
   background-color: #F8F5F2;
 }
 .l-smlp .l-faq .accordion .accordion-button::before {
-  content: "Q.";
+  content: "Q. ";
   margin-top: -2px;
   padding-right: 7px;
 }
@@ -1151,7 +1151,7 @@ header {
   letter-spacing: 0;
 }
 .l-smlp .l-faq .accordion strong:before {
-  content: "A.";
+  content: "A. ";
   padding-right: 8px;
   position: absolute;
   top: 3px;
@@ -1218,7 +1218,7 @@ header {
 }
 .l-smlp .l-contact .p-contact-introduction {
   line-height: 1.45 !important;
-  padding-top: 45px;
+  padding-top: 145px;
   padding-bottom: 45px;
   font-size: 18px;
 }
@@ -1629,4 +1629,7 @@ footer .l-footer .l-copy {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+}
+.l-smlp .l-contact .l-contact-form form {
+  margin-top: -145px;
 }/*# sourceMappingURL=smlp.css.map */

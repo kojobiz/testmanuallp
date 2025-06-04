@@ -5,10 +5,14 @@
  * Template Name: page-lp1
  * Description: This is the template
  */
-
 get_header('servicemanuallp');
 ?>
 <main>
+    <style>
+        .form-horizon .form-box > dt {
+            min-width:30%!important;
+        }
+    </style>
     <div class="l-smlp">
         <!-- ヒーロー -->
         <section class="lp-white section100">

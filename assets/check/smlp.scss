@@ -1223,7 +1223,7 @@ header {
                 align-items: flex-start;
                 gap: 2px;
                 &::before {
-                    content: "Q.";
+                    content: "Q. ";
                     margin-top: -2px;
                     padding-right: 7px;
                 }
@@ -1260,7 +1260,7 @@ header {
                 letter-spacing: 0;
             }
             strong:before {
-                content:"A.";
+                content:"A. ";
                 padding-right: 8px;
                 position: absolute;
                 top: 3px;
@@ -1328,7 +1328,8 @@ header {
         }
         .p-contact-introduction {
             line-height: 1.45!important;
-            padding-top: 45px;
+            padding-top: 145px;
+            // padding-top: 45px;
             padding-bottom: 45px;
             font-size: 18px;
         }
@@ -1824,4 +1825,7 @@ footer {
         padding-left: 0px!important;
         padding-right: 0px!important;
     }
+}
+.l-smlp .l-contact .l-contact-form form {
+    margin-top: -145px;
 }
