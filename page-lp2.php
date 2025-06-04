@@ -18,7 +18,7 @@ get_header('servicemanuallp2');
     <div class="l-smlp">
         <!-- ヒーロー画像２ -->
         <section class="lp-white section100">
-            <div class="l-hero2">
+            <div class="l-hero2" loading="lazy">
                 <div class="l-hero2-wrapper">
                     <div></div>
                 </div>
