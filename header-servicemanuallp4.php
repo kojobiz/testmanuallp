@@ -24,18 +24,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <!-- style -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css2/smlp.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+
     <!-- main image -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
     <link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png">
     <link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.png">
-    <!-- script -->
-    <script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
+
 
     <?php wp_head(); ?>
     <style>
+        html {
+            scroll-behavior: auto !important;
+        }
+
         .animUp01 {
             opacity: 0;
             transform: translateY(80px);
@@ -56,6 +60,23 @@
         .animUp02.is-visible {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        /* Bootstrap navigation transition adjustments */
+        .navbar-collapse {
+            transition: all 0.2s ease-in-out !important;
+        }
+
+        .navbar-toggler {
+            transition: all 0.2s ease-in-out !important;
+        }
+
+        .nav-link {
+            transition: all 0.2s ease-in-out !important;
+        }
+
+        .dropdown-menu {
+            transition: all 0.2s ease-in-out !important;
         }
     </style>
 </head>
@@ -112,24 +133,24 @@ if (is_home() && is_front_page()) {
         <ul class="navi-menu">
             <ul>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#solution">サービス紹介</a>
+                    <a href="#solution">サービス紹介</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#case">お悩み解決事例</a>
+                    <a href="#case">お悩み解決事例</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#support">プラスαでおたすけ</a>
+                    <a href="#support">プラスαでおたすけ</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#flow">制作の流れ</a>
+                    <a href="#flow">制作の流れ</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#faq">よくあるご質問</a>
+                    <a href="#faq">よくあるご質問</a>
                 </li>
             </ul>
             <ul style="padding-right: 4rem;width: 100%;padding-top: 36px!important;">
                 <li style="width: 80%; max-width: 460px; background-color: #bc0101; color: white; margin: 0 auto; height: 83px; display: flex; justify-content: center; align-items: center;">
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
+                    <a href="#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
                 </li>
             </ul>
         </ul>

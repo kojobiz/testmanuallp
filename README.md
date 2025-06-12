@@ -15,3 +15,8 @@ lp1,lp2の画像loading lazy、画像de-ta
 ## bootstrapの競合
 jsは独自CSSを優先させるため、bootを上に、して
 アンカーリンクが2秒ほど遅れて移動する	Bootstrap CSSの scroll-behavior: smoothを、	html { scroll-behavior: auto !important; } をCSSに追加して上書きすること
+
+
+## header-~03,04でfix
+03はイージングを細かくしていない
+04はまとめてコンテンツでイージングしている
