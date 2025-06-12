@@ -112,30 +112,24 @@ if (is_home() && is_front_page()) {
         <ul class="navi-menu">
             <ul>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#solution">サービス紹介</a>
+                    <a href="#solution">サービス紹介</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#case">お悩み解決事例</a>
+                    <a href="#case">お悩み解決事例</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#support">プラスαでおたすけ</a>
+                    <a href="#support">プラスαでおたすけ</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#flow">制作の流れ</a>
+                    <a href="#flow">制作の流れ</a>
                 </li>
                 <li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#faq">よくあるご質問</a>
+                    <a href="#faq">よくあるご質問</a>
                 </li>
-                <!-- <li class="navi-contact">
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
-						<p>お見積り・制作について</p>
-						<p>無料相談する</p>
-					</a>
-				</li> -->
             </ul>
             <ul style="padding-right: 4rem;width: 100%;padding-top: 36px!important;">
                 <li style="width: 80%; max-width: 460px; background-color: #bc0101; color: white; margin: 0 auto; height: 83px; display: flex; justify-content: center; align-items: center;">
-                    <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
+                    <a href="#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
                 </li>
             </ul>
         </ul>
