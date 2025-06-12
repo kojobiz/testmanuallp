@@ -24,9 +24,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+	<!-- style -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+	<!-- main image -->
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
 	<link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png">
 	<link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.png">
@@ -81,13 +82,13 @@ if (is_home() && is_front_page()) {
 			<nav class="header-navi">
 				<ul class="navi-menu lp-navi-menu-ul p15">
 					<!-- navi -->
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#solution">サービス紹介</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#case">お悩み解決事例</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#support">プラスαでおたすけ</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#flow">制作の流れ</a></li>
-					<li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#faq">よくあるご質問</a></li>
+					<li><a href="#solution">サービス紹介</a></li>
+					<li><a href="#case">お悩み解決事例</a></li>
+					<li><a href="#support">プラスαでおたすけ</a></li>
+					<li><a href="#flow">制作の流れ</a></li>
+					<li><a href="#faq">よくあるご質問</a></li>
 					<li class="btn-contact" data-color="white">
-						<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#contact">
+						<a href="#contact">
 							<p>お見積り・制作について</p>
 							<p>無料相談する</p>
 						</a>
@@ -109,24 +110,24 @@ if (is_home() && is_front_page()) {
 		<ul class="navi-menu">
 			<ul>
 				<li>
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#solution">サービス紹介</a>
+					<a href="#solution">サービス紹介</a>
 				</li>
 				<li>
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#case">お悩み解決事例</a>
+					<a href="#case">お悩み解決事例</a>
 				</li>
 				<li>
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#support">プラスαでおたすけ</a>
+					<a href="#support">プラスαでおたすけ</a>
 				</li>
 				<li>
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#flow">制作の流れ</a>
+					<a href="#flow">制作の流れ</a>
 				</li>
 				<li>
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#faq">よくあるご質問</a>
+					<a href="#faq">よくあるご質問</a>
 				</li>
 			</ul>
 			<ul style="padding-right: 4rem;width: 100%;padding-top: 36px!important;">
 				<li style="width: 80%; max-width: 460px; background-color: #bc0101; color: white; margin: 0 auto; height: 83px; display: flex; justify-content: center; align-items: center;">
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp2#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
+					<a href="#contact" style="color: white!important; font-size: 14px;">お見積もり・制作について<br><span style="font-size:28px;">無料相談する</span></a>
 				</li>
 			</ul>
 		</ul>
