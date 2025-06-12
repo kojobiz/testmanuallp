@@ -6,7 +6,7 @@
  * Description: This is the template
  */
 
-get_header('servicemanuallp2');
+get_header('servicemanuallp4');
 ?>
 
 <main>
