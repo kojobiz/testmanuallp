@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css2/smlp.css"> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
     <!-- main image -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
     <link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png">
@@ -84,13 +84,13 @@ if (is_home() && is_front_page()) {
             <nav class="header-navi">
                 <ul class="navi-menu lp-navi-menu-ul p15">
                     <!-- navi -->
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#solution">サービス紹介</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#case">お悩み解決事例</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#support">プラスαでおたすけ</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#flow">制作の流れ</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#faq">よくあるご質問</a></li>
+                    <li><a href="#solution">サービス紹介</a></li>
+                    <li><a href="#case">お悩み解決事例</a></li>
+                    <li><a href="#support">プラスαでおたすけ</a></li>
+                    <li><a href="#flow">制作の流れ</a></li>
+                    <li><a href="#faq">よくあるご質問</a></li>
                     <li class="btn-contact" data-color="white">
-                        <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#contact">
+                        <a href="#contact">
                             <p>お見積り・制作について</p>
                             <p>無料相談する</p>
                         </a>

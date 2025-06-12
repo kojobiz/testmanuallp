@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css2/smlp.css"> -->
+    <!-- style -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- main image -->
@@ -126,12 +126,6 @@ if (is_home() && is_front_page()) {
                 <li>
                     <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#faq">よくあるご質問</a>
                 </li>
-                <!-- <li class="navi-contact">
-					<a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp1#contact">
-						<p>お見積り・制作について</p>
-						<p>無料相談する</p>
-					</a>
-				</li> -->
             </ul>
             <ul style="padding-right: 4rem;width: 100%;padding-top: 36px!important;">
                 <li style="width: 80%; max-width: 460px; background-color: #bc0101; color: white; margin: 0 auto; height: 83px; display: flex; justify-content: center; align-items: center;">

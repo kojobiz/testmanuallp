@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The header for our theme
+ * The header for our theme servicemanuallp
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -19,13 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <style>
+    <!-- <style>
         :root {
             --base-font-color: #333;
             --bg-color: #fff;
             --main-width: 120.0rem;
             --primary-color: #f0353c;
-            /* Swiper Setting */
             --swiper-pagination-bullet-height: 1.2rem;
             --swiper-pagination-bullet-horizontal-gap: .6rem;
             --swiper-pagination-bullet-width: 1.2rem;
@@ -44,15 +43,25 @@
         [data-color="white"] {
             --txt-color: #fff;
         }
-    </style>
+    </style> -->
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
-
+    <!-- icon -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
+    <!-- style -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/sass/pages/smlp.css">
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <!-- heroimage -->
+    <link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg01.png">
+    <link rel="preload" as="image" href="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_bg03.png">
+    <!-- script -->
+    <script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
+
 
     <?php wp_head(); ?>
 </head>
