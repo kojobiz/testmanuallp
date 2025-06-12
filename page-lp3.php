@@ -717,11 +717,11 @@ get_header('servicemanuallp3');
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
+<script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
 <?php
 get_footer('servicemanuallp');
 ?>
-<script>
+<!-- <script>
     $(window).scroll(function() {
         var uriIkk = window.location.toString();
         if (uriIkk.indexOf("#") > 0) {
@@ -729,4 +729,4 @@ get_footer('servicemanuallp');
             window.history.replaceState({}, document.title, uriIkk);
         }
     });
-</script>
+</script> -->
