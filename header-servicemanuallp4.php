@@ -84,13 +84,13 @@ if (is_home() && is_front_page()) {
             <nav class="header-navi">
                 <ul class="navi-menu lp-navi-menu-ul p15">
                     <!-- navi -->
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#solution">サービス紹介</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#case">お悩み解決事例</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#support">プラスαでおたすけ</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#flow">制作の流れ</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#faq">よくあるご質問</a></li>
+                    <li><a href="#solution">サービス紹介</a></li>
+                    <li><a href="#case">お悩み解決事例</a></li>
+                    <li><a href="#support">プラスαでおたすけ</a></li>
+                    <li><a href="#flow">制作の流れ</a></li>
+                    <li><a href="#faq">よくあるご質問</a></li>
                     <li class="btn-contact" data-color="white">
-                        <a href="<?php echo esc_url(home_url('/service')); ?>/manual/lp3#contact">
+                        <a href="#contact">
                             <p>お見積り・制作について</p>
                             <p>無料相談する</p>
                         </a>
