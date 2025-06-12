@@ -43,7 +43,7 @@
         .animUp01 {
             opacity: 0;
             transform: translateY(80px);
-            transition: opacity 2s ease, transform 2s ease;
+            transition: opacity 2s ease-in, transform 2s ease-out;
         }
 
         .animUp01.is-visible {
@@ -53,8 +53,8 @@
 
         .animUp02 {
             opacity: 0;
-            transform: translateY(100px);
-            transition: opacity 2s ease, transform 2s ease;
+            transform: translateY(200px);
+            transition: opacity 1s ease-in, transform 1.8s ease-out;
         }
 
         .animUp02.is-visible {
