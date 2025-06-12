@@ -721,7 +721,7 @@ get_header('servicemanuallp3');
 <?php
 get_footer('servicemanuallp');
 ?>
-<!-- <script>
+<script>
     $(window).scroll(function() {
         var uriIkk = window.location.toString();
         if (uriIkk.indexOf("#") > 0) {
@@ -729,4 +729,4 @@ get_footer('servicemanuallp');
             window.history.replaceState({}, document.title, uriIkk);
         }
     });
-</script> -->
+</script>
