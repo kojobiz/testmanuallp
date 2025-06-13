@@ -13,6 +13,9 @@ get_header('servicemanuallp3');
         .form-horizon .form-box>dt {
             min-width: 30% !important;
         }
+        .recommend-wrapper--two {
+            margin-top:1.5rem;
+        }
         @media (max-width: 768px) {
             .recommend-wrapper--two {
                 padding-bottom:0px!important;
@@ -278,7 +281,7 @@ get_header('servicemanuallp3');
                                 <li class="p20 recommend-item">日本語から多言語対応したい</li>
                                 <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
                             </ul>
-                            <ul class="recommend-wrapper recommend-wrapper--two" style="margin-top:1.5rem!important;">
+                            <ul class="recommend-wrapper recommend-wrapper--two">
                                 <li class="p20 recommend-item">翻訳が正しいかをネイティブチェックしたい</li>
                             </ul>
                         </div>
