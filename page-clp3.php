@@ -1,303 +1,731 @@
+<!-- page-lp1 -->
 <?php
+
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package ikkosha_theme
+ * Template Name: page-lp1
+ * Description: This is the template
  */
-
-get_header();
+get_header('servicemanuallp4');
 ?>
+<main>
+    <style>
+        .form-horizon .form-box>dt {
+            min-width: 30% !important;
+        }
+    </style>
+    <div class="l-smlp">
+        <!-- ヒーロー -->
+        <section class="lp-white section100">
+            <div class="l-hero">
+                <div class="l-hero-wrapper">
+                    <div class="img-left" id="heading05"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_hero_manual.png" alt="紙の説明書が表示されている" width="343" style="max-width: 100%;"></div>
+                    <div></div>
+                    <div class="img-right" id="heading04"><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/mv2.svg" alt="パソコンの画面の中にweb説明書が表示されている" height="445" style="max-width: 100%;"></div>
+                </div>
+                <div class="l-hero-wrapper--center">
+                    <h1><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_title.png" alt="取説のタイトル文字列" style="max-width: 100%; max-height: 212px;"></h1>
+                    <p class="p-hero-cap">制作の進行管理からリーガルチェックまでプロにご相談ください</p>
+                    <ul class="l-featurewrapper">
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero01.png" alt="アピール1、創業100年以上の信頼" width="158" style="max-width: 100%;" id="heading01"></li>
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero02.png" alt="アピール2、新製品PRのトータルサポート" width="158" style="max-width: 100%;" id="heading02"></li>
+                        <li><img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_hero03.png" alt="アピール3、大手家電メーカーと50年以上の取引実績" width="158" style="max-width: 100%;" id="heading03"></li>
+                    </ul>
+                </div>
+                <a href="#contact">
+                    <div class="p-cta-btn01">
+                        <p>お見積り・制作について<br><span>無料相談する</span></p>
+                        <div> <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="37.44"></div>
+                    </div>
+                </a>
 
-	<div class="lower-headline lh-service">
-		<div class="inner page-width">
-			<h1 class="headline-01 txt-center">
-				<span class="main">COMPANY</span>
-				<span class="sub">会社案内</span>
-			</h1>
-			<figure class="icon">
-				<img src="<?php echo get_template_directory_uri() ?>/images/common/kaeru05a.png" width="220" height="164">
-			</figure>
-		</div>
-	</div>
+            </div>
+        </section>
 
-	<div class="breadcrumbs page-width" typeof="BreadcrumbList" vocab="https://schema.org/">
-		<?php if(function_exists('bcn_display')) {
-			bcn_display();
-		}?>
-	</div>
+        <!-- area -->
+        <section style="background-color:#F8F5F2;">
+            <div class="l-section--tight lp-beige l-space-y--high4 "></div>
+        </section>
 
-	<nav class="page-navi page-width">
-		<ul>
-			<li><a href="#message" class="btn btn-01 btn-arw btn-border" data-color="red">代表挨拶</a></li>
-			<li><a href="#outline" class="btn btn-01 btn-arw btn-border" data-color="red">会社概要</a></li>
-			<li><a href="#access" class="btn btn-01 btn-arw btn-border" data-color="red">アクセスマップ</a></li>
-			<li><a href="#history" class="btn btn-01 btn-arw btn-border" data-color="red">100年の歩み</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/staff' ) ); ?>" class="btn btn-01 btn-arw btn-border" data-color="red">スタッフ紹介</a></li>
-		</ul>
-	</nav>
 
-	<article id="message" class="section-block">
-		<section class="content page-width">
-			<h2 class="headline-01 txt-center">
-				<span class="main">MESSAGE</span>
-				<span class="sub">代表挨拶</span>
-			</h2>
-			<div class="message-column">
-				<figure class="pic">
-					<img src="<?php echo get_template_directory_uri() ?>/images/company/ceo.jpg" width="329" height="467" alt="岩田 雄仁">
-					<figcaption class="name txt-serif">
-						代表取締役<span>岩田 雄仁</span>
-					</figcaption>
-				</figure>
-				<div class="txt">
-					<h3 class="headline-02" data-color="red">時代が求めるリーディング・プロモーション・カンパニー<br>それが私たち一向社です！</h3>
-					<p>一向社が創業した1922年は折しも大正デモクラシー期。政治・社会・文化の各方面で起こった民主主義・自由主義的な風潮が日本中に満ちあふれていた頃のこと。そんな時代のムードを追い風に、印刷は文化であるという信念のもと「印刷を通して文化の一端を担う」ことを旗印に掲げ、力強い一歩を踏み出しました。<br>当時の会社案内には「文化の使命を完全に果たす業」とあり、創業当初から、印刷とはインキで紙を汚すことではなく、文化の媒体そのものであるという強い信念をもって営業してきたことが分かります。それから、はや100年。</p>
-					<p>当時の活版印刷はオフセット印刷、そしてオンデマンド印刷やWebサイトへ、新聞はSNSへと変化し、あらゆる多様性が氾濫する情報中心の社会へと大きく様変わりし、もはや文化を映す媒介は印刷だけではなくなってしまいました。今や誰もが簡単に情報発信をすることができるようになり、毎日数PB（ペタバイト）もの情報がインデックスされるという、情報の玉石混淆が進む時代に突入しています。おびただしい情報の波にうまく乗れた者は一躍世界中の注目を浴びることができますが、溺れてしまう者、押し流されてしまう者の数の比ではありません。</p>
-					<p>私たちはいついかなる時も文化の担い手として常に時代の半歩先を見据えながら、お客さまの、何をどのようにプロモーションすべきかを考え続けることで、一向社“らしい”オンリーワンの情報発信スキルと創造力を磨き続けてまいりました。「全てはお客さまのために」その姿勢は、この先も変わりようがありません。「100年企業」となった今こそ初心に帰る（カエル）と共に、これからはより広域なプロモーションを提案できるエージェンシーとして、これまで以上に頓智の利いた創発型アイデア・サービスをご提供してまいります。<br>変わらぬご愛顧のほど、どうぞ宜しくお願い申し上げます。</p>
-				</div>
-			</div>
-		</section>
+        <!-- お悩み -->
 
-		<section id="outline" class="content page-width">
-			<h2 class="headline-01 txt-center">
-				<span class="main">OUTLINE</span>
-				<span class="sub">会社概要</span>
-			</h2>
-			<div class="dl-table">
-				<dl>
-					<dt>会社名</dt>
-					<dd>株式会社一向社</dd>
-				</dl>
-				<dl>
-					<dt>創業年月</dt>
-					<dd>大正11年（1922年）9月</dd>
-				</dl>
-				<dl>
-					<dt>設立年月日</dt>
-					<dd>昭和9年（1934年）8月18日</dd>
-				</dl>
-				<dl>
-					<dt>所在地</dt>
-					<dd>〒553-0001 大阪市福島区海老江5-5-7</dd>
-				</dl>
-				<dl>
-					<dt>電話番号</dt>
-					<dd>TEL.0120-150-<span class="lastnum-tel">585</span></dd>
-				</dl>
-				<dl>
-					<dt>資本金</dt>
-					<dd>15,000千円</dd>
-				</dl>
-				<dl>
-					<dt>代表者</dt>
-					<dd>代表取締役 岩田 雄仁</dd>
-				</dl>
-				<dl>
-					<dt>従業員</dt>
-					<dd>10名（2023年1月現在）</dd>
-				</dl>
-				<dl>
-					<dt>取引銀行</dt>
-					<dd>三井住友銀行 西野田支店／三菱UFJ銀行 野田支店</dd>
-				</dl>
-			</div>
-		</section>
+        <section style="background-color:#F8F5F2;">
+            <div class="l-section--tight lp-beige l-ask">
+                <h2 class="line-title">こんなお悩みは<br class="d-md-none">ありませんか？</h2>
+                <div class="container">
+                    <ul class="l-listwrapper row">
+                        <li class="l-listcenter col-md">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人">
+                            <h3 class="p-h3--ask animUp01">社内の人手が足りていない</h3>
+                            <ul class="animUp02">
+                                <li class="p-maintxt p-iconcheck">プロにすべて丸投げしたい</li>
+                                <li class="p-maintxt p-iconcheck">製品がまだ開発段階なので、仕様の変更にも対応してほしい</li>
+                                <li class="p-maintxt p-iconcheck">製品のプロモーションも提案してほしい</li>
+                            </ul>
+                        </li>
+                        <li class="l-listcenter col-md">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人">
+                            <h3 class="p-h3--ask animUp01">文章・デザインがイマイチ</h3>
+                            <ul class="animUp02">
+                                <li class="p-maintxt p-iconcheck"><span>今の取扱説明書がユーザーにとってわかりにくい気がする</span></li>
+                                <li class="p-maintxt p-iconcheck">プロの目で見た改善点を教えてほしい</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="l-listwrapper row">
+                        <li class="l-listcenter col-md">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="情報の取り扱いが不明なイメージ">
+                            <h3 class="p-h3--ask animUp01">翻訳が正しいかわからない</h3>
+                            <ul class="animUp02">
+                                <li class="p-maintxt p-iconcheck">日本語、英語、中国語だけでなく、多言語展開したい
+                                </li>
+                                <li class="p-maintxt p-iconcheck">ネイティブレベルの自然な表現で翻訳したい</li>
+                                <li class="p-maintxt p-iconcheck">専門用語があるので正しく翻訳されているか不安</li>
+                            </ul>
+                        </li>
+                        <li class="l-listcenter col-md">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="情報と向き合い不安な様子の人">
+                            <h3 class="p-h3--ask animUp01">法律に引っかからないか不安</h3>
+                            <ul class="animUp02">
+                                <li class="p-maintxt p-iconcheck">海外製品を輸入して国内展開するので、法律に問題ないかどうかをチェックしたい</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-		<section id="history" class="content page-width">
-			<h2 class="headline-01 txt-center">
-				<span class="main">HISTORY</span>
-				<span class="sub">100年の歩み</span>
-			</h2>
-			<div class="timeline">
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1922年</dt>
-							<dd>
-								<h3 class="ttl">大正デモクラシーの時代1922年に起業</h3>
-								<p>一向社の創業は明治維新後、日清戦争（1894-1895年）と日露戦争（1904-1905年）の勝利を経て日本が西欧列強の仲間入りを果たした時代でした。1918年に第1次世界大戦が終結し、1920年3月に「戦後恐慌」を迎えます。一方で、経済の急速な発展や近代化で目覚めた自由主義や民主主義の思潮、市民文化や大衆文化の流れは止まらず、いわゆる「大正デモクラシー」と呼ばれる時代でした。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history01.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1934年</dt>
-							<dd>
-								<h3 class="ttl">株式会社を設立 社員も倍増</h3>
-								<p>時代は昭和になり、一向社は活版印刷を生業とする会社として発展しました。1934年に株式会社一向社としてスタート。社員も増えて営業に奮闘していた頃ですが、1941年に太平洋戦争が始まることに。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history02.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1960年</dt>
-							<dd>
-								<h3 class="ttl">戦後復興からドイツ製印刷機の導入</h3>
-								<p>ハイデルベルグ社の「プラテン」というドイツ製の活版印刷機をいち早く導入し、ポーラー断裁機が関西で最初に導入されました。また、半透明用紙のトレーシングペーパーに印刷する特殊な「VQインキ」を自社開発。「製図用紙」として製品化し、商品開発を行う大手メーカーに多数納入しました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history03.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1965年</dt>
-							<dd>
-								<h3 class="ttl">現在でも毎年作成 現在の手帳は当時から</h3>
-								<p>活版印刷とオフセット印刷を使用して作成した「メモランダム」という手帳を、前期・後期の年2回作成して皆様にお届けしていました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history04.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1970年</dt>
-							<dd>
-								<h3 class="ttl">ハイデルベルグ社のオフセット印刷機導入</h3>
-								<p>1970年頃にオフセット印刷機を導入。家電メーカーから、液晶になった電卓の初号機の取扱説明書などを受注しました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history05.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1980年</dt>
-							<dd>
-								<h3 class="ttl">家電メーカーのパソコン販売をサポートした時代</h3>
-								<p>1978年に開発された8bitパソコンの「MZシリーズ」やワープロの「書院」の取扱説明書の印刷や原稿のライティングも行いました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history06.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>1990年</dt>
-							<dd>
-								<h3 class="ttl">紙のデザイン·写植·版下からDTPの時代へ</h3>
-								<p>90年代からMacintoshシリーズのIIfx（ツーエフエックス）とIIci（ツーシー アイ）を導入し、本格的にDTP（デスクトップパブリッシング）がスタートしました。同時期に印刷事業を縮小し、広告代理店へと転向。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history07.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>2000年</dt>
-							<dd>
-								<h3 class="ttl">本格的なインターネット時代への取り組み</h3>
-								<p>インターネット端末も開発する家電メーカーのヒット商品ZaurusやMebius、液晶テレビAQUOSの店頭プロモーション動画などの作成も初号機段階から携わり、徐々に紙からデジタルへと事業を転換して行きました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history08.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>2008年</dt>
-							<dd>
-								<h3 class="ttl">全国カレンダー展において映えある<br>経済産業大臣賞受賞</h3>
-								<p>東京のIT系商社の配布用カレンダーを8年連続で制作。2008年制作のカレンダーはドイツのカレンダー展でも銀賞を受賞しました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history09.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>2015年</dt>
-							<dd>
-								<h3 class="ttl">新事務所9年振りに海老江にカエル</h3>
-								<p>国道2号線沿いの海老江の地に社屋が建ち、大阪福島（2007年-）から移転しました。翌年東京事務所も新宿から原宿に移転。脱印刷営業を推進するべく、創発型アイデアサービス企業として変革しました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history10.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<div class="timeline-box">
-					<div class="txt-area">
-						<dl>
-							<dt>2020年</dt>
-							<dd>
-								<h3 class="ttl">新たにMAツールを導入し<br>「プロマケ」サービスを開始</h3>
-								<p>「顧客とのコミュニケーションの非対面化」がコロナ禍で急増。プロモーションとマーケティングをMA（マーケティングオートメーション）ツールで構築する、「会わずして見込み客と接触してセールスを行う仕組み」の提供を始めました。</p>
-							</dd>
-						</dl>
-					</div>
-					<figure class="pic">
-						<img src="<?php echo get_template_directory_uri() ?>/images/company/history11.jpg" width="538" height="454" alt="">
-					</figure>
-				</div>
-				<dl class="timeline-now">
-					<dt>2022年</dt>
-					<dd>創業100周年</dd>
-				</dl>
-			</div>
-		</section>
+        <!-- area -->
+        <section style="background-color:#ffffff;">
+            <div class="l-section--tight lp-white l-space-y--high2">
+                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_beige.png" alt="" height="32" class="iconarrowbeige">
+            </div>
+        </section>
 
-		<section id="access" class="content page-width">
-			<h2 class="headline-01 txt-center">
-				<span class="main">ACCESS</span>
-				<span class="sub">アクセスマップ</span>
-			</h2>
-			<div class="access-box">
-				<dl>
-					<dt>本社</dt>
-					<dd>〒553-0001 大阪市福島区海老江5-5-7</dd>
-				</dl>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3461161644304!2d135.46987111148815!3d34.69644908332789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e66222b8f343%3A0x47168739956f0e86!2z5qCq5byP5Lya56S-5LiA5ZCR56S-!5e0!3m2!1sja!2sjp!4v1690970105996!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</div>
-			<div class="access-box">
-				<dl>
-					<dt>東京オフィス</dt>
-					<dd>〒108-0075 東京都港区港南2-3-1 大信秋山ビル3F #321</dd>
-				</dl>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.9385014906156!2d139.74039171283457!3d35.629242572489844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188a453a574ba9%3A0xdb27a9dc25dbe648!2z44CSMTA4LTAwNzUg5p2x5Lqs6YO95riv5Yy65riv5Y2X77yS5LiB55uu77yT4oiS77yRIOWkp-S_oeeni-WxseODk-ODqw!5e0!3m2!1sja!2sjp!4v1719463788473!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</div>
-		</section>
-	</article>
+        <!-- 解決 -->
+        <div style="margin-top: -90px;" id="solution"></div>
+        <section style="background-color:#ffffff; margin-top: 90px;">
+            <div class="l-section--tight lp-white l-solution">
+                <h2 class="big-title ttl-solution animUp01">
+                    <span class="border-accent txt-strong none680">トリセツまるごとサポート</span>
+                    <span class="border-accent txt-strong none681 d-none">トリセツ</span>
+                    <br class="none681 d-none">
+                    <span class="border-accent txt-strong none681 d-none">まるごとサポート</span>
+                    <span class="txt-normal">なら</span>
+                    <br>
+                    <span class="txt-strong none680">これらのお悩みをすべて解決できます！</span>
+                    <span class="txt-normal d-none none681">これらのお悩みを</span>
+                    <br class="none681 d-none">
+                    <span class="txt-strong d-none none681">すべて解決できます！</span>
+                </h2>
+                <div> <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_red.png" alt="" width="59" class="p-h2--solution"></div>
+                <!-- POINT WRAPPER -->
+                <ul class="l-listwrapper--solution">
+                    <!-- POINT1 -->
+                    <li class="l-list-item">
+                        <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
+                            <!-- 1 -->
+                            <div class="flex-col--tastart item-order-one">
+                                <div class="flex-row--aiend line-title-solution--itemtitle">
+                                    <div class="flex-col--center animUp01">
+                                        <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">1</p>
+                                    </div>
+                                    <h3 class="p36 p-h3--solution animUp01">進行管理も<br>
+                                        ご相談ください！</h3>
+                                </div>
+                                <div>
+                                    <p class="p18 item-txt-introduction" style="padding-top:28px;">「何から始めていいかわからない」方もご安心ください！
+                                        ヒアリング後は豊富な実績を持つテクニカルライターが
+                                        セクションやトピックをリストアップして構成案を制作します。見やすいイラストや図表もご提案します！</p>
+                                </div>
+                            </div>
+                            <!-- 2 sp 3 -->
+                            <div style="width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="図解や注意事項の改善を促している人" width="auto" height="323" class=" item-order d-none d-md-block" style="max-width: 100%;">
+                            </div>
+                        </div>
+                        <!-- 3 sp 2 -->
+                        <div class="item-order">
+                            <div class="flex-row--aicenter recommend-attention">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="solution-recommend-ttl">こんなお悩みの方におすすめ！</span>
+                            </div>
+                            <ul class="flex-row--aicenter recommend-wrapper">
+                                <li class="p20 recommend-item">とりあえず丸投げしたい</li>
+                                <li class="p20 recommend-item">取説をゼロベースからつくりたい</li>
+                                <li class="p20 recommend-item">どこを改善して良いかわからない</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/5.svg" alt="図解や注意表記の改善を提案している人" width="auto" height="323" class=" item-order-three d-block d-md-none img-solution--sp">
+                        </div>
+                    </li>
 
+
+
+                    <!-- POINT2 -->
+                    <li class="l-list-item">
+                        <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
+                            <!-- 1 -->
+                            <div class="flex-col--tastart item-order-one">
+                                <div class="flex-row--aiend line-title-solution--itemtitle">
+                                    <div class="flex-col--center animUp01">
+                                        <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">2</p>
+                                    </div>
+                                    <h3 class="p36 p-h3--solution animUp01">見やすいレイアウト
+                                        <br>ページデザインの作成
+                                    </h3>
+                                </div>
+                                <div>
+                                    <p class="p18 item-txt-introduction" style="padding-top:28px;">文字が多くなってしまうページは、ページ分割やセクションを分けることで見やすいデザインになります。
+                                        ユーザーにとって取説が見やすくなることで、製品への信頼感にもつながります。</p>
+                                </div>
+                            </div>
+                            <!-- 2 sp 3 -->
+                            <div style="width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/6.svg" alt="レイアウトのビフォアアフターを提案している人" width="auto" height="323" class="d-none d-md-block" style="max-width:100%" ;>
+                            </div>
+                        </div>
+                        <!-- 3 sp 2 -->
+                        <div>
+                            <div class="flex-row--aicenter recommend-attention">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
+                            </div>
+                            <ul class="flex-row--aicenter recommend-wrapper">
+                                <li class="p20 recommend-item">文字が多くごちゃごちゃしている</li>
+                                <li class="p20 recommend-item">ページ数を減らしたい</li>
+                                <li class="p20 recommend-item">見やすいデザインにしたい</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/6.svg" alt="" width="auto" height="323" class="d-md-none d-block item-order-three img-solution--sp">
+                        </div>
+                    </li>
+
+                    <!-- POINT3 -->
+                    <li class="l-list-item">
+                        <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
+                            <!-- 1 -->
+                            <div class="flex-col--tastart item-order-one">
+                                <div class="flex-row--aiend line-title-solution--itemtitle">
+                                    <div class="flex-col--center animUp01">
+                                        <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">3</p>
+                                    </div>
+                                    <h3 class="p36 p-h3--solution animUp01">テクニカル
+                                        <br>
+                                        イラストの作成
+                                    </h3>
+                                </div>
+                                <div>
+                                    <p class="p18 item-txt-introduction" style="padding-top:28px;">3Dデータや実物の写真をご共有いただけましたら、ユーザーにとって直感的にわかりやすいイラストを作成します。</p>
+                                </div>
+                            </div>
+                            <!-- 2 sp 3 -->
+                            <div style="width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/7.svg" alt="ビフォアアフターのイラストを提案している人" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                            </div>
+                        </div>
+                        <!-- 3 sp 2 -->
+                        <div>
+                            <div class="flex-row--aicenter recommend-attention">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
+                            </div>
+                            <ul class="flex-row--aicenter recommend-wrapper">
+                                <li class="p20 recommend-item">イラスト作成に時間をかけたくない</li>
+                                <li class="p20 recommend-item">イラストがわかりにくい</li>
+                                <li class="p20 recommend-item">イラストが更新されていない</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/7.svg" alt="" width="auto" height="323" class="d-block d-md-none item-order-three img-solution--sp">
+                        </div>
+                    </li>
+                    <!-- POINT4 -->
+                    <li class="l-list-item">
+                        <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
+                            <!-- 1 -->
+                            <div class="flex-col--tastart item-order-one">
+                                <div class="flex-row--aiend line-title-solution--itemtitle">
+                                    <div class="flex-col--center animUp01">
+                                        <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">4</p>
+                                    </div>
+                                    <h3 class="p36 p-h3--solution animUp01">翻訳対応</h3>
+                                </div>
+                                <div>
+                                    <p class="p18 item-txt-introduction" style="padding-top:28px;">取扱説明書の翻訳対応もできます。海外製品を輸入する場合の日本語翻訳、または海外展開する場合の多言語対応のどちらも対応可能です。
+                                        すでに日本語翻訳されている海外の説明書についても、専門のテクニカルライターによる正しい日本語チェックを実施します。</p>
+                                </div>
+                            </div>
+                            <!-- 2 sp 3 -->
+                            <div style="width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/8.svg" alt="翻訳のビフォアアフターを提案している人とその資料" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                            </div>
+                        </div>
+                        <!-- 3 sp 2 -->
+                        <div>
+                            <div class="flex-row--aicenter recommend-attention">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
+                            </div>
+                            <ul class="flex-row--aicenter recommend-wrapper">
+                                <li class="p20 recommend-item">日本語から多言語対応したい</li>
+                                <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
+                            </ul>
+                            <ul class="recommend-wrapper recommend-wrapper--two">
+                                <li class="p20 recommend-item">翻訳が正しいかをネイティブチェックしたい</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/8.svg" alt="" width="auto" height="323" class="d-block d-md-none item-order-three img-solution--sp">
+                        </div>
+                    </li>
+
+                    <!-- POINT5 -->
+                    <li class="l-list-item">
+                        <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
+                            <!-- 1 -->
+                            <div class="flex-col--tastart item-order-one">
+                                <div class="flex-row--aiend line-title-solution--itemtitle">
+                                    <div class="flex-col--center animUp01">
+                                        <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">5</p>
+                                    </div>
+                                    <h3 class="p36 p-h3--solution animUp01">リーガルチェック</h3>
+                                </div>
+                                <div>
+                                    <p class="p18 item-txt-introduction" style="padding-top:28px;">新製品や海外からの輸入製品を展開する場合、適切な法律に則っているのかどうかを確認する必要があります。
+                                        トリセツまるごとサポートでは、専門の弁護士による法律確認や記載方法などのリーガルチェックもご依頼いただけます。</p>
+                                </div>
+                            </div>
+                            <!-- 2 sp 3 -->
+                            <div style="width: 100%;">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/9.svg" alt="LP法、家庭用品品質表示法、薬機法、景品表示法などをチェクしている人" width="auto" height="323" class="d-none d-md-block" style="max-width: 100%;">
+                            </div>
+                        </div>
+                        <!-- 3 sp 2 -->
+                        <div>
+                            <div class="flex-row--aicenter recommend-attention">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
+                            </div>
+                            <ul class="flex-row--aicenter recommend-wrapper">
+                                <li class="p20 recommend-item">法律に触れていないか不安</li>
+                                <li class="p20 recommend-item">確認すべき法律がわからない</li>
+                                <li class="p20 recommend-item">確認する時間がない</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/9.svg" alt="" width="auto" height="323" class="d-block d-md-none item-order-three img-solution--sp">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section style="background-color:#ffffff;"><!-- CTA -->
+            <div class="l-section--wide lp-white l-cta">
+                <div class="cta-inner flex-col--center">
+                    <h2 class="animUp01">まずはどんなお悩みでも<span><br class="d-md-none">ご相談ください</span></h2>
+                    <div class="flex-row--aicenter animUp02">
+                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_dialeft_red.png" width="11" alt="">
+                        <p class="dialine-txt">1分で簡単入力</p>
+                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_diaright_red.png" width="11" alt="">
+                    </div>
+                    <a href="#contact">
+                        <div class="p-cta-btn02 flex-row--aicenter">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto" class="d-none d-md-block">
+                            <p class="p20 cta-txt">お見積り・制作について<br class="d-md-none"><span class="p30" style="padding-left: 9px;">無料相談する</span></p>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- area -->
+        <section style="background-color:#ffffff;"><!-- area -->
+            <div class="l-section--tight lp-white l-space-y--high2"></div>
+        </section>
+
+        <!--事例-->
+        <div style="margin-top: -90px;" id="case"></div>
+        <section style="background-color:#ffffff; margin-top: 90px;">
+            <div class="l-section--tight lp-white l-case">
+                <h2 class="line-title p-h2--case animUp01">お客さまの<br class="d-block d-md-none">お悩み解決事例</h2>
+                <p class="title-introduction">トリセツまるごとサポートでは、<br class="d-block d-md-none">シャープさまのAQUOSテレビをはじめ、<br>
+                    さまざまな取扱説明書を<br class="d-block d-md-none">担当させていただきました。
+                    <br>
+                    お客さまのお悩み解決事例を<br class="d-block d-md-none">ご紹介します。
+                </p>
+                <ul class="l-case-lists">
+                    <!-- 会社A -->
+                    <li class="container" id="l-case-test">
+                        <div class="row">
+                            <div class="col-12 col-md-9" style="background-color: #ffffff;">
+                                <div class="l-wantleft--one">
+                                    <div class="item-want">
+                                        <div class="line-title-case--itemtitle">
+                                            <p class="tag-company">A社さま</p>
+                                            <h3 class="p-h3--case animUp01">もっと見やすく改善したい</h3>
+                                        </div>
+                                        <p class="p-maintxt--case">以前からユーザーにとって読みにくいことは認識していたのですが、どこをどう改善すれば良いのかわかりませんでした。</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                                    </div>
+                                </div>
+                                <div class="l-wantleft--two">
+                                    <div class="item-solution">
+                                        <p class="p-maintxt--case-solution">全体的なレイアウトだけでなく、挿絵イラストもすべて改善していただき、とても読みやすくなりました！</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show_sp.png" alt="" width="auto" height="66" class="img-show-sp d-md-none">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
+                                <div style="background-color: rgb(255, 255, 255); width: 100%;">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/10.svg" alt="紙面取説資料と喜んでいる人" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/26.svg" alt="紙面取説資料と喜んでいる人" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 会社B -->
+                    <li class="container" id="l-case-test">
+                        <div class="row">
+                            <div class="col-12 col-md-9" style="background-color: #ffffff;">
+                                <div class="l-wantleft--one">
+                                    <div class="item-want">
+                                        <div class="line-title-case--itemtitle">
+                                            <p class="tag-company">B社さま</p>
+                                            <h3 class="p-h3--case animUp01">日本で海外製品を販売したい</h3>
+                                        </div>
+                                        <p class="p-maintxt--case">中国製品を日本で販売したいのですが、日本の法律に合っているのかどうかわかりません。翻訳だけでなく、リーガルチェックもしてほしいです。</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                                    </div>
+                                </div>
+                                <div class="l-wantleft--two">
+                                    <div class="item-solution">
+                                        <p class="p-maintxt--case-solution">専門の弁護士さんのお墨付きをいただき、さらにテクニカルライターさんによる日本語チェックまでしてくださり、大変満足しています。</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show_sp.png" alt="" width="auto" height="66" class="img-show-sp d-md-none">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
+                                <div style="background-color: rgb(255, 255, 255); width: 100%;">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/11.svg" alt="資料をチェックしている人" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/27.svg" alt="資料をチェックしている人" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- C社 -->
+                    <li class="container" id="l-case-test">
+                        <div class="row">
+                            <div class="col-12 col-md-9" style="background-color: #ffffff;">
+                                <div class="l-wantleft--one">
+                                    <div class="item-want">
+                                        <div class="line-title-case--itemtitle">
+                                            <p class="tag-company">C社さま</p>
+                                            <h3 class="p-h3--case animUp01">紙の印刷を減らしたい</h3>
+                                        </div>
+                                        <p class="p-maintxt--case">印刷手配に費用や時間、在庫管理コストがかかるので、Webに切り替えたいです。さらに、Webでも見やすいようにレイアウトを調整してほしいです。</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
+                                    </div>
+                                </div>
+                                <div class="l-wantleft--two">
+                                    <div class="item-solution">
+                                        <p class="p-maintxt--case-solution">社内のコスト削減につながり、またWebで見やすくなったのでお客さまにもたいへん喜んでいただけました。</p>
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_solution_big.png" alt="" width="113" height="113" class="img-solution">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show.png" alt="" width="66" height="auto" class="img-show d-none d-md-block">
+                                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_show_sp.png" alt="" width="auto" height="66" class="img-show-sp d-md-none">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3" style="background-color: rgb(255, 255, 255);">
+                                <div style="background-color: rgb(255, 255, 255); width: 100%;">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/12.svg" alt="紙面取説からWebで確認できる取説へと変更したイメージ、パソコンのイメージ" height="auto" width="auto" style="max-width: 100%;" class="d-none d-md-block">
+                                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/28.svg" alt="紙面取説からWebで確認できる取説へと変更したイメージ、パソコンのイメージ" height="auto" width="auto" style="max-width: 100%; margin-top: 20px;" class="d-md-none d-block mx-auto">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- プラスお助け -->
+        <div style="margin-top: -70px;" id="support"></div>
+        <section style="background-color:#ffffff; margin-top: 70px;">
+            <div class="l-section--tight lp-white l-plus">
+                <div class="flex-row--aicenter animUp01" style="padding-bottom: 88px;">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_dialeft2_red.png" alt="" height="51" width="auto">
+                    <h2 class="p-h2--plus">プラスαで<br class="d-md-none d-block">おたすけ!</h2>
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_diaright2_red.png" alt="" height="51" width="auto">
+                </div>
+                <div class="container text-center">
+                    <ul class="row" style="gap:76px;">
+                        <li class="col-md l-plus-item">
+                            <div class="item-wrapper">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_pc.png" alt="パソコンと実装のイメージ">
+                                <h3 class="p-h3--plus animUp01">製品紹介LP制作</h3>
+                                <p class="p-txt--plus animUp02">取扱説明書だけでなく、製品紹介のLP（ランディングページ）もあわせて制作いたします！
+                                    プロモーションもまるごとおまかせいただくことで、発注の手間を一元化でき、制作コストも削減できます。</p>
+                            </div>
+                        </li>
+
+                        <li class="col-md l-plus-item">
+                            <div class="item-wrapper">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_support.png" alt="前に立って活動している人">
+                                <h3 class="p-h3--plus animUp01">展示会まるごとサポート</h3>
+                                <p class="p-txt--plus animUp02">新製品をリリースする場合は、展示会出展でのPRも効果的です。弊社の「展示会まるごとサポート」では、製品を最大限に魅せるためのブース作りからスタッフの手配、チラシやパンフレット制作も対応いたします。</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="margin-top: 76px;"></div>
+                    <ul class="row" style="gap:76px;">
+
+                        <li class="col-md l-plus-item">
+                            <div class="item-wrapper">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_movie.png" alt="動画のイメージ">
+                                <h3 class="p-h3--plus animUp01">動画マニュアル制作</h3>
+                                <p class="p-txt--plus animUp02">ユーザーの世代によっては文章よりも動画で説明した方がわかりやすい場合があり、どちらも用意することで満足度も上がります。
+                                    実際に撮影したり、イラストを使用した動画も制作可能です。</p>
+                            </div>
+
+                        </li>
+
+                        <li class="col-md l-plus-item">
+                            <div class="item-wrapper">
+                                <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_graphic.png" alt="イラストやパレットのイメージ">
+                                <h3 class="p-h3--plus animUp01">イメージキャラクター作成</h3>
+                                <p class="p-txt--plus animUp02">オリジナルキャラクターや、内容を解説している人物イラストなども作成できます。
+                                    文章が多く印象に残りにくい説明も、キャラクターを活用することで読んでもらいやすくなります。</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA -->
+        <section style="background-color:#ffffff;"><!-- CTA -->
+            <div class="l-section--wide lp-white l-cta">
+                <div class="cta-inner flex-col--center">
+                    <h2 class="animUp01">まずはどんなお悩みでも<span><br class="d-md-none">ご相談ください</span></h2>
+                    <div class="flex-row--aicenter animUp02">
+                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_dialeft_red.png" width="11" alt="">
+                        <p class="dialine-txt">1分で簡単入力</p>
+                        <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_line_diaright_red.png" width="11" alt="">
+                    </div>
+                    <a href="#contact">
+                        <div class="p-cta-btn02 flex-row--aicenter">
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto" class="d-none d-md-block">
+                            <p class="p20 cta-txt">お見積り・制作について<br class="d-md-none"><span class="p30" style="padding-left: 9px;">無料相談する</span></p>
+                            <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_arrow_down_white.png" alt="" width="38" height="auto">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- area -->
+        <section style="background-color:#ffffff;">
+            <div class="l-section--tight lp-white l-space-y--high3"></div>
+        </section>
+
+        <!-- flow -->
+        <div style="margin-top:-100px;" id="flow"></div>
+        <section style="background-color:#F8F5F2; margin-top: 0px;">
+            <div class="l-section lp-beige l-flow" style="padding-top: 98px;">
+                <h2 class="line-title p-h2--flow animUp01">制作の流れ</h2>
+                <div class="l-flow-img img-wrap">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow.png" alt="1打ち合わせ、2お見積り、3企画・構成・表現設計、4原稿作成・編集、5イラスト作成、6デザイン、7実制作、8納品・アフターフォロー" width="1186" height="auto" class="img_mw100 d-none d-md-block">
+                    <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/img_flow_sp.png" alt="1打ち合わせ、2お見積り、3企画・構成・表現設計、4原稿作成・編集、5イラスト作成、6デザイン、7実制作、8納品・アフターフォロー" width="302" height="auto" class="img_mw100 d-md-none">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- FAQ -->
+        <div style="margin-bottom: -20px; background-color: #F8F5F2;" id="faq"></div>
+        <section style="background-color:#F8F5F2; padding-top:110px;">
+            <div class="l-section--tight lp-beige l-faq">
+                <h2 class="line-title p-h2--faq animUp01">よくあるご質問</h2>
+                <div class="accordion" id="accordionExample">
+                    <!-- 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                費⽤はどのくらいかかりますか？
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>お客さまのご要望や案件規模によって柔軟にお⾒積りします。</strong>
+                                <p>制作する媒体（紙媒体・電⼦媒体・Web媒体）や内容（企画・構成、原稿作成・編集、デザイン、DTP、コーディング、イラスト作成、リーガルチェックなど）の組み合わせによるため、まずはお気軽にお問い合わせをお願いいたします。
+                                    内容をヒアリングしたうえで、お客さまのご予算に最⼤限寄り添ったお⾒積りをさせていただきます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                急いで制作してほしいのですが可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>納品予定⽇や、現状そろっている素材などをご共有いただけましたら、<br>
+                                    現実的に可能なスケジュールをご提案します。</strong>
+                                <p>お客さまとしっかり協議した上で、「イラストのみ素材がそろっているので先に進⾏する」「紙媒体で必須の情報のみ先⾏して作成し、追ってWeb媒体を作成・更新する」など、媒体や製品の⽣産スケジュールによって柔軟に対応させていただきます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ⽬次構成案や原稿の段階から作成してほしいのですが可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>弊社では「TC（テクニカルコミュニケーション）検定」の資格を持ったスタッフが在籍していますので、必要な資料を⽀給いただければ⽬次構成案や原稿の段階からご提案させていただきます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                イラストも作成してほしいのですが、可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>取扱説明書・マニュアルに記載するための「テクニカルイラスト」についても豊富な実績がございます。
+                                    現物の写真からでも、3Dデータからでも作成することが可能です。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                電⼦媒体・Web媒体の取扱説明書も制作可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>弊社には、シャープ株式会社さまの液晶テレビ／有機ELテレビ「AQUOS」の電⼦取扱説明書をはじめ、電⼦媒体・Web媒体の取扱説明書でも豊富な実績がございます。
+                                    紙の取扱説明書を電⼦媒体・Web媒体に移⾏する案件も実績がございますので、まずはお気軽にお問い合わせください。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                紙の取扱説明書のページ数を減らしたいのですが、可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>現⾏の取扱説明書を確認させていただき、構成から検討させていただきます。
+                                    紙媒体のみでページ数を削減する、紙媒体とWeb媒体を併⽤した構成にするなど、製品仕様や取扱説明書の内容に応じた改善案をご提案させていただきます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                多⾔語対応は可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>⽇本語の取扱説明書を多⾔語展開した事例もございます。まずはお気軽にお問い合せください。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                製造物責任法（PL法）、薬機法など、取扱説明書の内容が<br>
+                                法律上問題ないか確認することも可能でしょうか？
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>可能です。</strong>
+                                <p>リーガルチェックについても、ご要望に応じて対応させていただきます。まずはお気軽にお問い合わせください。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                ⼀般的な製品に添付する「取扱説明書」ではないのですが、<br>
+                                「ソフトウェアのマニュアル」や「社内⽤の業務マニュアル」等の制作も可能でしょうか？
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>内容によっては可能です。</strong>
+                                <p>「マニュアル」という⾔葉は広義であり、どういった内容のマニュアル制作に対してどの⼯程をサポートさせていただくかによって、対応の可否がございます。まずはお気軽にお問い合わせください。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- コンタクト -->
+        <div style="padding-top: 20px; background-color: #F8F5F2;" id="contact"></div>
+        <section style="background-color:#F8F5F2; margin-top: -5px;">
+            <div class="l-section--tight lp-beige l-contact">
+                <h2 class="line-title animUp01">まずは、お気軽に<span><br class="d-md-none">ご相談ください !</span></h2>
+                <div class="l-contact-form form-area form-horizon contact-form">
+                    <?php echo do_shortcode('[mwform_formkey key="2494"]'); ?>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://ikkosha.co.jp/cms/wp-content/themes/ikkosha_theme/assets/js/manuallp.js"></script>
 <?php
-get_footer();
+get_footer('servicemanuallp');
+?>
+<script>
+    $(window).scroll(function() {
+        var uriIkk = window.location.toString();
+        if (uriIkk.indexOf("#") > 0) {
+            uriIkk = uriIkk.substring(0, uriIkk.indexOf("#"));
+            window.history.replaceState({}, document.title, uriIkk);
+        }
+    });
+</script>

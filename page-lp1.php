@@ -5,12 +5,27 @@
  * Template Name: page-lp1
  * Description: This is the template
  */
-get_header('servicemanuallp4');
+get_header('servicemanuallp3');
 ?>
 <main>
     <style>
         .form-horizon .form-box>dt {
             min-width: 30% !important;
+        }
+        .recommend-wrapper--two {
+            margin-top:1.5rem;
+        }
+        @media (max-width: 768px) {
+            .recommend-wrapper--two {
+                padding-bottom:0px!important;
+            }
+        }
+        .l-smlp .l-contact .p-contact-introduction {
+            padding-top:0px!important;
+            padding-bottom:0px!important;
+        }
+        .contact-form .btn-submit-lp {
+            font-size:20px!important;
         }
     </style>
     <div class="l-smlp">
@@ -56,7 +71,7 @@ get_header('servicemanuallp4');
                     <ul class="l-listwrapper row">
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/1.svg" alt="人手が足らず困惑している人">
-                            <h3 class="p-h3--ask animUp01">社内の人手が足りていない</h3>
+                            <h3 class="p-h3--ask animUp02">社内の人手が足りていない</h3>
                             <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck">プロにすべて丸投げしたい</li>
                                 <li class="p-maintxt p-iconcheck">製品がまだ開発段階なので、仕様の変更にも対応してほしい</li>
@@ -65,7 +80,7 @@ get_header('servicemanuallp4');
                         </li>
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/2.svg" alt="情報を精査し眺めている人">
-                            <h3 class="p-h3--ask animUp01">文章・デザインがイマイチ</h3>
+                            <h3 class="p-h3--ask animUp02">文章・デザインがイマイチ</h3>
                             <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck"><span>今の取扱説明書がユーザーにとってわかりにくい気がする</span></li>
                                 <li class="p-maintxt p-iconcheck">プロの目で見た改善点を教えてほしい</li>
@@ -75,7 +90,7 @@ get_header('servicemanuallp4');
                     <ul class="l-listwrapper row">
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/3.svg" alt="情報の取り扱いが不明なイメージ">
-                            <h3 class="p-h3--ask animUp01">翻訳が正しいかわからない</h3>
+                            <h3 class="p-h3--ask animUp02">翻訳が正しいかわからない</h3>
                             <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck">日本語、英語、中国語だけでなく、多言語展開したい
                                 </li>
@@ -85,7 +100,7 @@ get_header('servicemanuallp4');
                         </li>
                         <li class="l-listcenter col-md">
                             <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/4.svg" alt="情報と向き合い不安な様子の人">
-                            <h3 class="p-h3--ask animUp01">法律に引っかからないか不安</h3>
+                            <h3 class="p-h3--ask animUp02">法律に引っかからないか不安</h3>
                             <ul class="animUp02">
                                 <li class="p-maintxt p-iconcheck">海外製品を輸入して国内展開するので、法律に問題ないかどうかをチェックしたい</li>
                             </ul>
@@ -122,16 +137,16 @@ get_header('servicemanuallp4');
                 <!-- POINT WRAPPER -->
                 <ul class="l-listwrapper--solution">
                     <!-- POINT1 -->
-                    <li class="l-list-item">
+                    <li class="l-list-item animUp02">
                         <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
                             <!-- 1 -->
                             <div class="flex-col--tastart item-order-one">
                                 <div class="flex-row--aiend line-title-solution--itemtitle">
-                                    <div class="flex-col--center animUp01">
+                                    <div class="flex-col--center ">
                                         <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
-                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">1</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution">1</p>
                                     </div>
-                                    <h3 class="p36 p-h3--solution animUp01">進行管理も<br>
+                                    <h3 class="p36 p-h3--solution">進行管理も<br>
                                         ご相談ください！</h3>
                                 </div>
                                 <div>
@@ -147,7 +162,7 @@ get_header('servicemanuallp4');
                         </div>
                         <!-- 3 sp 2 -->
                         <div class="item-order">
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="solution-recommend-ttl">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -162,18 +177,17 @@ get_header('servicemanuallp4');
                     </li>
 
 
-
                     <!-- POINT2 -->
-                    <li class="l-list-item">
+                    <li class="l-list-item animUp02">
                         <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
                             <!-- 1 -->
                             <div class="flex-col--tastart item-order-one">
                                 <div class="flex-row--aiend line-title-solution--itemtitle">
-                                    <div class="flex-col--center animUp01">
+                                    <div class="flex-col--center">
                                         <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
-                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">2</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution">2</p>
                                     </div>
-                                    <h3 class="p36 p-h3--solution animUp01">見やすいレイアウト
+                                    <h3 class="p36 p-h3--solution">見やすいレイアウト
                                         <br>ページデザインの作成
                                     </h3>
                                 </div>
@@ -189,7 +203,7 @@ get_header('servicemanuallp4');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -204,16 +218,16 @@ get_header('servicemanuallp4');
                     </li>
 
                     <!-- POINT3 -->
-                    <li class="l-list-item">
+                    <li class="l-list-item  animUp02">
                         <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
                             <!-- 1 -->
                             <div class="flex-col--tastart item-order-one">
                                 <div class="flex-row--aiend line-title-solution--itemtitle">
-                                    <div class="flex-col--center animUp01">
+                                    <div class="flex-col--center">
                                         <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
-                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">3</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution">3</p>
                                     </div>
-                                    <h3 class="p36 p-h3--solution animUp01">テクニカル
+                                    <h3 class="p36 p-h3--solution">テクニカル
                                         <br>
                                         イラストの作成
                                     </h3>
@@ -229,7 +243,7 @@ get_header('servicemanuallp4');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -243,16 +257,16 @@ get_header('servicemanuallp4');
                         </div>
                     </li>
                     <!-- POINT4 -->
-                    <li class="l-list-item">
+                    <li class="l-list-item animUp02">
                         <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
                             <!-- 1 -->
                             <div class="flex-col--tastart item-order-one">
                                 <div class="flex-row--aiend line-title-solution--itemtitle">
-                                    <div class="flex-col--center animUp01">
+                                    <div class="flex-col--center">
                                         <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
-                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">4</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution">4</p>
                                     </div>
-                                    <h3 class="p36 p-h3--solution animUp01">翻訳対応</h3>
+                                    <h3 class="p36 p-h3--solution">翻訳対応</h3>
                                 </div>
                                 <div>
                                     <p class="p18 item-txt-introduction" style="padding-top:28px;">取扱説明書の翻訳対応もできます。海外製品を輸入する場合の日本語翻訳、または海外展開する場合の多言語対応のどちらも対応可能です。
@@ -266,10 +280,10 @@ get_header('servicemanuallp4');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
-                            <ul class="flex-row--aicenter recommend-wrapper">
+                            <ul class="flex-row--aicenter recommend-wrapper none-bottom">
                                 <li class="p20 recommend-item">日本語から多言語対応したい</li>
                                 <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
                             </ul>
@@ -283,16 +297,16 @@ get_header('servicemanuallp4');
                     </li>
 
                     <!-- POINT5 -->
-                    <li class="l-list-item">
+                    <li class="l-list-item animUp02">
                         <div class="flex-row sp-none-wrapper" style="display: flex; justify-content: space-between;">
                             <!-- 1 -->
                             <div class="flex-col--tastart item-order-one">
                                 <div class="flex-row--aiend line-title-solution--itemtitle">
-                                    <div class="flex-col--center animUp01">
+                                    <div class="flex-col--center">
                                         <p class="p23 d-inline-flex boldmore point-solution">POINT</p>
-                                        <p class="p55 mt--15 d-inline-flex number-solution animUp01">5</p>
+                                        <p class="p55 mt--15 d-inline-flex number-solution">5</p>
                                     </div>
-                                    <h3 class="p36 p-h3--solution animUp01">リーガルチェック</h3>
+                                    <h3 class="p36 p-h3--solution">リーガルチェック</h3>
                                 </div>
                                 <div>
                                     <p class="p18 item-txt-introduction" style="padding-top:28px;">新製品や海外からの輸入製品を展開する場合、適切な法律に則っているのかどうかを確認する必要があります。
@@ -306,7 +320,7 @@ get_header('servicemanuallp4');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -361,14 +375,14 @@ get_header('servicemanuallp4');
                 </p>
                 <ul class="l-case-lists">
                     <!-- 会社A -->
-                    <li class="container" id="l-case-test">
+                    <li class="container animUp02" id="l-case-test">
                         <div class="row">
                             <div class="col-12 col-md-9" style="background-color: #ffffff;">
                                 <div class="l-wantleft--one">
                                     <div class="item-want">
                                         <div class="line-title-case--itemtitle">
                                             <p class="tag-company">A社さま</p>
-                                            <h3 class="p-h3--case animUp01">もっと見やすく改善したい</h3>
+                                            <h3 class="p-h3--case">もっと見やすく改善したい</h3>
                                         </div>
                                         <p class="p-maintxt--case">以前からユーザーにとって読みにくいことは認識していたのですが、どこをどう改善すれば良いのかわかりませんでした。</p>
                                         <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
@@ -393,14 +407,14 @@ get_header('servicemanuallp4');
                     </li>
 
                     <!-- 会社B -->
-                    <li class="container" id="l-case-test">
+                    <li class="container animUp02" id="l-case-test">
                         <div class="row">
                             <div class="col-12 col-md-9" style="background-color: #ffffff;">
                                 <div class="l-wantleft--one">
                                     <div class="item-want">
                                         <div class="line-title-case--itemtitle">
                                             <p class="tag-company">B社さま</p>
-                                            <h3 class="p-h3--case animUp01">日本で海外製品を販売したい</h3>
+                                            <h3 class="p-h3--case">日本で海外製品を販売したい</h3>
                                         </div>
                                         <p class="p-maintxt--case">中国製品を日本で販売したいのですが、日本の法律に合っているのかどうかわかりません。翻訳だけでなく、リーガルチェックもしてほしいです。</p>
                                         <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
@@ -425,14 +439,14 @@ get_header('servicemanuallp4');
                     </li>
 
                     <!-- C社 -->
-                    <li class="container" id="l-case-test">
+                    <li class="container animUp01" id="l-case-test">
                         <div class="row">
                             <div class="col-12 col-md-9" style="background-color: #ffffff;">
                                 <div class="l-wantleft--one">
                                     <div class="item-want">
                                         <div class="line-title-case--itemtitle">
                                             <p class="tag-company">C社さま</p>
-                                            <h3 class="p-h3--case animUp01">紙の印刷を減らしたい</h3>
+                                            <h3 class="p-h3--case">紙の印刷を減らしたい</h3>
                                         </div>
                                         <p class="p-maintxt--case">印刷手配に費用や時間、在庫管理コストがかかるので、Webに切り替えたいです。さらに、Webでも見やすいようにレイアウトを調整してほしいです。</p>
                                         <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_ballon_beige.png" alt="" class="img-ballon" width="75">
@@ -471,41 +485,41 @@ get_header('servicemanuallp4');
                 </div>
                 <div class="container text-center">
                     <ul class="row" style="gap:76px;">
-                        <li class="col-md l-plus-item">
+                        <li class="col-md l-plus-item animUp02">
                             <div class="item-wrapper">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_pc.png" alt="パソコンと実装のイメージ">
-                                <h3 class="p-h3--plus animUp01">製品紹介LP制作</h3>
-                                <p class="p-txt--plus animUp02">取扱説明書だけでなく、製品紹介のLP（ランディングページ）もあわせて制作いたします！
+                                <h3 class="p-h3--plus">製品紹介LP制作</h3>
+                                <p class="p-txt--plus">取扱説明書だけでなく、製品紹介のLP（ランディングページ）もあわせて制作いたします！
                                     プロモーションもまるごとおまかせいただくことで、発注の手間を一元化でき、制作コストも削減できます。</p>
                             </div>
                         </li>
 
-                        <li class="col-md l-plus-item">
+                        <li class="col-md l-plus-item animUp02">
                             <div class="item-wrapper">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_support.png" alt="前に立って活動している人">
-                                <h3 class="p-h3--plus animUp01">展示会まるごとサポート</h3>
-                                <p class="p-txt--plus animUp02">新製品をリリースする場合は、展示会出展でのPRも効果的です。弊社の「展示会まるごとサポート」では、製品を最大限に魅せるためのブース作りからスタッフの手配、チラシやパンフレット制作も対応いたします。</p>
+                                <h3 class="p-h3--plus">展示会まるごとサポート</h3>
+                                <p class="p-txt--plus">新製品をリリースする場合は、展示会出展でのPRも効果的です。弊社の「展示会まるごとサポート」では、製品を最大限に魅せるためのブース作りからスタッフの手配、チラシやパンフレット制作も対応いたします。</p>
                             </div>
                         </li>
                     </ul>
                     <div style="margin-top: 76px;"></div>
                     <ul class="row" style="gap:76px;">
 
-                        <li class="col-md l-plus-item">
+                        <li class="col-md l-plus-item animUp02">
                             <div class="item-wrapper">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_movie.png" alt="動画のイメージ">
-                                <h3 class="p-h3--plus animUp01">動画マニュアル制作</h3>
-                                <p class="p-txt--plus animUp02">ユーザーの世代によっては文章よりも動画で説明した方がわかりやすい場合があり、どちらも用意することで満足度も上がります。
+                                <h3 class="p-h3--plus">動画マニュアル制作</h3>
+                                <p class="p-txt--plus">ユーザーの世代によっては文章よりも動画で説明した方がわかりやすい場合があり、どちらも用意することで満足度も上がります。
                                     実際に撮影したり、イラストを使用した動画も制作可能です。</p>
                             </div>
 
                         </li>
 
-                        <li class="col-md l-plus-item">
+                        <li class="col-md l-plus-item animUp02">
                             <div class="item-wrapper">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_plus_graphic.png" alt="イラストやパレットのイメージ">
-                                <h3 class="p-h3--plus animUp01">イメージキャラクター作成</h3>
-                                <p class="p-txt--plus animUp02">オリジナルキャラクターや、内容を解説している人物イラストなども作成できます。
+                                <h3 class="p-h3--plus">イメージキャラクター作成</h3>
+                                <p class="p-txt--plus">オリジナルキャラクターや、内容を解説している人物イラストなども作成できます。
                                     文章が多く印象に残りにくい説明も、キャラクターを活用することで読んでもらいやすくなります。</p>
                             </div>
 

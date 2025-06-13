@@ -25,6 +25,9 @@ get_header('servicemanuallp3');
             padding-top:0px!important;
             padding-bottom:0px!important;
         }
+        .contact-form .btn-submit-lp {
+            font-size:20px!important;
+        }
     </style>
     <div class="l-smlp">
         <!-- ヒーロー -->
