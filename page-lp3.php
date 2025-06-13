@@ -13,6 +13,11 @@ get_header('servicemanuallp3');
         .form-horizon .form-box>dt {
             min-width: 30% !important;
         }
+        @media (max-width: 768px) {
+            .recommend-wrapper--two {
+                padding-bottom:0px!important;
+            }
+        }
     </style>
     <div class="l-smlp">
         <!-- ヒーロー -->
@@ -269,11 +274,11 @@ get_header('servicemanuallp3');
                             <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
-                            <ul class="flex-row--aicenter recommend-wrapper">
+                            <ul class="flex-row--aicenter recommend-wrapper none-bottom">
                                 <li class="p20 recommend-item">日本語から多言語対応したい</li>
                                 <li class="p20 recommend-item">海外の取扱説明書を日本語に翻訳したい</li>
                             </ul>
-                            <ul class="recommend-wrapper recommend-wrapper--two">
+                            <ul class="recommend-wrapper recommend-wrapper--two" style="margin-top:1.5rem!important;">
                                 <li class="p20 recommend-item">翻訳が正しいかをネイティブチェックしたい</li>
                             </ul>
                         </div>
