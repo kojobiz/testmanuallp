@@ -21,6 +21,10 @@ get_header('servicemanuallp3');
                 padding-bottom:0px!important;
             }
         }
+        .l-smlp .l-contact .p-contact-introduction {
+            padding-top:0px!important;
+            padding-bottom:0px!important;
+        }
     </style>
     <div class="l-smlp">
         <!-- ヒーロー -->
