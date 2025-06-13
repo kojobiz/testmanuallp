@@ -148,7 +148,7 @@ get_header('servicemanuallp3');
                         </div>
                         <!-- 3 sp 2 -->
                         <div class="item-order">
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="solution-recommend-ttl">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -189,7 +189,7 @@ get_header('servicemanuallp3');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -229,7 +229,7 @@ get_header('servicemanuallp3');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -266,7 +266,7 @@ get_header('servicemanuallp3');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
@@ -306,7 +306,7 @@ get_header('servicemanuallp3');
                         </div>
                         <!-- 3 sp 2 -->
                         <div>
-                            <div class="flex-row--aicenter recommend-attention">
+                            <div class="flex-row--aicenter recommend-attention" style="margin-bottom:1rem!important;">
                                 <img src="../../../cms/wp-content/themes/ikkosha_theme/images/service/manual/lp/icon_dia_red.png" alt="" width="17" class="p-icon--diared"><span class="p24" style="font-weight: 500;">こんなお悩みの方におすすめ！</span>
                             </div>
                             <ul class="flex-row--aicenter recommend-wrapper">
